@@ -1,2 +1,44 @@
 # IF-Animation-Workflows
 This are a series of ComfyUI workflows that work together to create and repurpose animation
+ _ _____    _____ _____ _ _____ _____ _____ _____ _____ 
+| |   __|  |  _  |   | | |     |  _  |_   _|     | __  |
+| |   __|  |     | | | | | | | |     | | | |  |  |    -|
+|_|__|     |__|__|_|___|_|_|_|_|__|__| |_| |_____|__|__|
+                                                        
+--------------------------------------------------------
+
+to watch tutorials
+https://www.youtube.com/@impactframes
+
+to support and find more info
+https://ko-fi.com/impactframes
+
+github 
+https://github.com/if-ai/IF-Animation-Workflows
+
+--------------------------------------------------------
+This are a series of workflows that work together to create and repurpose animation 
+
+IF_Animator (This workflow)
+IF_KeyAnimation_Helper (has a lite and SMPL version is workflow to extract keys redraw them on a external app)
+IF_Inbetweeners (You can select a few frames create the inbetween)
+
+Bring your animation you want to use as base on the source Load video 
+
+I like to prep my image to a square format and set the FPS beforehand in Premiere pro or Blender. 
+
+Anime and animation in general works at 12FPS but even 8 is enough the VFI nodes can interpolate or you can use a program called flowframes.
+
+Animated diff works on chunks of 8Frames 2Second length Animation we don't need to be limited by that but is a good consideration, the best scenario is to work at 8FPS for a length of 2 seconds 16frames or the second best are multiples of 8, 16,24,32,48
+
+
+The target is the character we want to transfer the animation to.
+
+We could use the key animation helper to extract the keyframes round trip processed frames on an external app like TV paint, Krita etc then use this workflow to get better consistency draw frames.
+
+You could even create your own 3 keyframes from scratch and use the IF_Inbetweeners WF to get some original animation with in-betweens you could also extract some keyframes from an animation with the IF_Animation_Helper 
+
+Anyone is welcome to contribute to this workflow for the enjoyment of the animation and ai enthusiast community.
+
+Thanks.
+ImpactFrames
