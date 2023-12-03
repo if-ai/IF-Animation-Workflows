@@ -40,13 +40,21 @@ ImpactFrames
 If I miss a repo 😢 please let me know an I will add it here
 
 https://github.com/jojkaart/ComfyUI-sampler-lcm-alternative/tree/main
+
 https://github.com/comfyanonymous/ComfyUI_experiments
+
 https://github.com/Fannovel16/ComfyUI-MotionDiff
+
 https://github.com/Fannovel16/ComfyUI-Frame-Interpolation
+
 https://github.com/cubiq/ComfyUI_IPAdapter_plus
-https://github.com/Kosinkadink/ComfyUI-Advanced-ControlNet
+
+https://github.com/Kosinkadink/ComfyUI-Advanced-ControlNe
+
 https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved
+
 https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite
+
 https://github.com/peteromallet/Steerable-Motion
 
 Special AD motion controlnet Model
