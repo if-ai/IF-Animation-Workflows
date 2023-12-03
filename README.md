@@ -6,7 +6,7 @@ This are a series of ComfyUI workflows that work together to create and repurpos
 to watch tutorials
 https://www.youtube.com/@impactframes
 
-to support and find more info
+Blogs/support
 https://ko-fi.com/impactframes
 
 github 
