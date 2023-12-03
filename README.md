@@ -33,7 +33,7 @@ We could use the key animation helper to extract the keyframes round trip proces
 
 You could even create your own 3 keyframes from scratch and use the IF_Inbetweeners WF to get some original animation with in-betweens you could also extract some keyframes from an animation with the IF_Animation_Helper 
 
-Anyone is welcome to contribute to this workflow for the enjoyment of the animation and ai enthusiast community.
+Anyone is welcome to contribute to this workflow for the enjoyment of the animation and ai enthusiast community, Also if I make any mistake on my explanations please correct me I am learning too.
 
 Thanks.
 ImpactFrames
@@ -49,10 +49,10 @@ https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved
 https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite
 https://github.com/peteromallet/Steerable-Motion
 
-Secret model AD controlnet Model
+Special AD motion controlnet Model
 https://huggingface.co/crishhh/animatediff_controlnet/tree/main
 
-Special thanks to thks to Kijai from banodoco and Elriel from LCM discords
+Special thanks to thanks to Kijai, banodoco discord, Elriel, LCM discord.
 
     
 
