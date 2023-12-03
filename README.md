@@ -1,10 +1,6 @@
 # IF-Animation-Workflows
 This are a series of ComfyUI workflows that work together to create and repurpose animation
- _ _____    _____ _____ _ _____ _____ _____ _____ _____ 
-| |   __|  |  _  |   | | |     |  _  |_   _|     | __  |
-| |   __|  |     | | | | | | | |     | | | |  |  |    -|
-|_|__|     |__|__|_|___|_|_|_|_|__|__| |_| |_____|__|__|
-                                                        
+<span style='font-family: "Lucida Console";line-height: 14px;font-size: 14px;display: inline-block;'>&nbsp;_&nbsp;_____&nbsp;&nbsp;&nbsp;&nbsp;_____&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_&nbsp;&nbsp;&nbsp;_&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_&nbsp;_&nbsp;_&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_&nbsp;&nbsp;&nbsp;___&nbsp;_&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>|&nbsp;|&nbsp;&nbsp;&nbsp;__|&nbsp;&nbsp;|&nbsp;&nbsp;_&nbsp;&nbsp;|___|_|_____&nbsp;&nbsp;__|&nbsp;|_|_|___&nbsp;___&nbsp;&nbsp;&nbsp;|&nbsp;|&nbsp;|&nbsp;|___&nbsp;___|&nbsp;|_|&nbsp;&nbsp;_|&nbsp;|___&nbsp;_&nbsp;_&nbsp;_&nbsp;___&nbsp;<br>|&nbsp;|&nbsp;&nbsp;&nbsp;__|&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;||.&nbsp;|&nbsp;&nbsp;_|&nbsp;|&nbsp;.&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;.&nbsp;|&nbsp;&nbsp;_|&nbsp;'_|&nbsp;&nbsp;_|&nbsp;|&nbsp;.&nbsp;|&nbsp;|&nbsp;|&nbsp;|_&nbsp;-|<br>|_|__|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|__|__|_|_|_|_|_|_|___|&nbsp;|&nbsp;|_|___|_|_|&nbsp;&nbsp;|_____|___|_|&nbsp;|_|_|_|&nbsp;|_|___|_____|___|<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|__|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br></span>                                                
 --------------------------------------------------------
 
 to watch tutorials
@@ -19,7 +15,7 @@ https://github.com/if-ai/IF-Animation-Workflows
 --------------------------------------------------------
 This are a series of workflows that work together to create and repurpose animation 
 
-IF_Animator (This workflow)
+IF_Animator (Main workflow )
 IF_KeyAnimation_Helper (has a lite and SMPL version is workflow to extract keys redraw them on a external app)
 IF_Inbetweeners (You can select a few frames create the inbetween)
 
@@ -31,7 +27,6 @@ Anime and animation in general works at 12FPS but even 8 is enough the VFI nodes
 
 Animated diff works on chunks of 8Frames 2Second length Animation we don't need to be limited by that but is a good consideration, the best scenario is to work at 8FPS for a length of 2 seconds 16frames or the second best are multiples of 8, 16,24,32,48
 
-
 The target is the character we want to transfer the animation to.
 
 We could use the key animation helper to extract the keyframes round trip processed frames on an external app like TV paint, Krita etc then use this workflow to get better consistency draw frames.
@@ -42,3 +37,22 @@ Anyone is welcome to contribute to this workflow for the enjoyment of the animat
 
 Thanks.
 ImpactFrames
+If I miss a repo 😢 please let me know an I will add it here
+
+https://github.com/jojkaart/ComfyUI-sampler-lcm-alternative/tree/main
+https://github.com/comfyanonymous/ComfyUI_experiments
+https://github.com/Fannovel16/ComfyUI-MotionDiff
+https://github.com/Fannovel16/ComfyUI-Frame-Interpolation
+https://github.com/cubiq/ComfyUI_IPAdapter_plus
+https://github.com/Kosinkadink/ComfyUI-Advanced-ControlNet
+https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved
+https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite
+https://github.com/peteromallet/Steerable-Motion
+
+Secret model AD controlnet Model
+https://huggingface.co/crishhh/animatediff_controlnet/tree/main
+
+Special thanks to thks to Kijai from banodoco and Elriel from LCM discords
+
+    
+
