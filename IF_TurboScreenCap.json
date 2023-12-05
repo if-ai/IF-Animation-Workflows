@@ -1,13 +1,13 @@
 {
-  "last_node_id": 140,
-  "last_link_id": 218,
+  "last_node_id": 149,
+  "last_link_id": 239,
   "nodes": [
     {
       "id": 91,
       "type": "SetNode",
       "pos": [
-        540,
-        140
+        320,
+        160
       ],
       "size": {
         "0": 210,
@@ -16,13 +16,13 @@
       "flags": {
         "collapsed": true
       },
-      "order": 23,
+      "order": 35,
       "mode": 0,
       "inputs": [
         {
           "name": "CLIP",
           "type": "CLIP",
-          "link": 149,
+          "link": 237,
           "slot_index": 0
         }
       ],
@@ -44,201 +44,11 @@
       "bgcolor": "#653"
     },
     {
-      "id": 113,
-      "type": "GetNode",
-      "pos": [
-        1149,
-        341
-      ],
-      "size": {
-        "0": 210,
-        "1": 58
-      },
-      "flags": {
-        "collapsed": true
-      },
-      "order": 0,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [],
-          "slot_index": 0
-        }
-      ],
-      "title": "Get_IMG",
-      "properties": {},
-      "widgets_values": [
-        "IMG"
-      ],
-      "color": "#2a363b",
-      "bgcolor": "#3f5159"
-    },
-    {
-      "id": 74,
-      "type": "VAELoader",
-      "pos": [
-        160,
-        240
-      ],
-      "size": {
-        "0": 357.79998779296875,
-        "1": 58
-      },
-      "flags": {},
-      "order": 1,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "VAE",
-          "type": "VAE",
-          "links": [],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "VAELoader"
-      },
-      "widgets_values": [
-        "taesdxl"
-      ],
-      "color": "#393939",
-      "bgcolor": "#4d4d4d"
-    },
-    {
-      "id": 64,
-      "type": "VAEDecode",
-      "pos": [
-        1910,
-        920
-      ],
-      "size": {
-        "0": 234.6910858154297,
-        "1": 46
-      },
-      "flags": {
-        "pinned": false
-      },
-      "order": 36,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "samples",
-          "type": "LATENT",
-          "link": 216
-        },
-        {
-          "name": "vae",
-          "type": "VAE",
-          "link": 141,
-          "slot_index": 1
-        }
-      ],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            155
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "VAEDecode"
-      },
-      "color": "#393939",
-      "bgcolor": "#4d4d4d"
-    },
-    {
-      "id": 80,
-      "type": "SetNode",
-      "pos": [
-        550,
-        200
-      ],
-      "size": {
-        "0": 210,
-        "1": 58
-      },
-      "flags": {
-        "collapsed": true
-      },
-      "order": 24,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "VAE",
-          "type": "VAE",
-          "link": 202
-        }
-      ],
-      "outputs": [
-        {
-          "name": "*",
-          "type": "*",
-          "links": null
-        }
-      ],
-      "title": "Set_VAE",
-      "properties": {
-        "previousName": "VAE"
-      },
-      "widgets_values": [
-        "VAE"
-      ],
-      "color": "#322",
-      "bgcolor": "#533"
-    },
-    {
-      "id": 79,
-      "type": "SetNode",
-      "pos": [
-        550,
-        80
-      ],
-      "size": {
-        "0": 210,
-        "1": 58
-      },
-      "flags": {
-        "collapsed": true
-      },
-      "order": 22,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "MODEL",
-          "type": "MODEL",
-          "link": 139
-        }
-      ],
-      "outputs": [
-        {
-          "name": "*",
-          "type": "*",
-          "links": null
-        }
-      ],
-      "title": "Set_MODEL",
-      "properties": {
-        "previousName": "MODEL"
-      },
-      "widgets_values": [
-        "MODEL"
-      ],
-      "color": "#223",
-      "bgcolor": "#335"
-    },
-    {
       "id": 134,
       "type": "SetNode",
       "pos": [
-        1130,
-        80
+        990,
+        90
       ],
       "size": {
         "0": 210,
@@ -278,8 +88,8 @@
       "id": 135,
       "type": "SetNode",
       "pos": [
-        1380,
-        80
+        1240,
+        90
       ],
       "size": {
         "0": 210,
@@ -288,7 +98,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 28,
+      "order": 26,
       "mode": 0,
       "inputs": [
         {
@@ -316,119 +126,11 @@
       "bgcolor": "#29699c"
     },
     {
-      "id": 138,
-      "type": "GetNode",
-      "pos": [
-        937,
-        405
-      ],
-      "size": {
-        "0": 210,
-        "1": 58
-      },
-      "flags": {
-        "collapsed": true
-      },
-      "order": 2,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "INT",
-          "type": "INT",
-          "links": [
-            211
-          ],
-          "slot_index": 0
-        }
-      ],
-      "title": "Get_RES_WIDTH",
-      "properties": {},
-      "widgets_values": [
-        "RES_WIDTH"
-      ],
-      "color": "#1b4669",
-      "bgcolor": "#29699c"
-    },
-    {
-      "id": 137,
-      "type": "GetNode",
-      "pos": [
-        938,
-        371
-      ],
-      "size": {
-        "0": 210,
-        "1": 58
-      },
-      "flags": {
-        "collapsed": true
-      },
-      "order": 3,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "INT",
-          "type": "INT",
-          "links": [
-            210
-          ],
-          "slot_index": 0
-        }
-      ],
-      "title": "Get_RES_HEIGHT",
-      "properties": {},
-      "widgets_values": [
-        "RES_HEIGHT"
-      ],
-      "color": "#1b4669",
-      "bgcolor": "#29699c"
-    },
-    {
-      "id": 112,
-      "type": "SetNode",
-      "pos": [
-        1297,
-        554
-      ],
-      "size": {
-        "0": 210,
-        "1": 58
-      },
-      "flags": {
-        "collapsed": true
-      },
-      "order": 32,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "link": 196
-        }
-      ],
-      "outputs": [
-        {
-          "name": "*",
-          "type": "*",
-          "links": null
-        }
-      ],
-      "title": "Set_IMG",
-      "properties": {
-        "previousName": "IMG"
-      },
-      "widgets_values": [
-        "IMG"
-      ],
-      "color": "#2a363b",
-      "bgcolor": "#3f5159"
-    },
-    {
       "id": 139,
       "type": "GetNode",
       "pos": [
-        1286,
-        649
+        1150,
+        660
       ],
       "size": {
         "0": 210,
@@ -437,7 +139,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 4,
+      "order": 0,
       "mode": 0,
       "outputs": [
         {
@@ -458,79 +160,11 @@
       "bgcolor": "#3f5159"
     },
     {
-      "id": 136,
-      "type": "GetNode",
-      "pos": [
-        1644,
-        89
-      ],
-      "size": {
-        "0": 210,
-        "1": 58
-      },
-      "flags": {
-        "collapsed": true
-      },
-      "order": 5,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "MODEL",
-          "type": "MODEL",
-          "links": [
-            208
-          ],
-          "slot_index": 0
-        }
-      ],
-      "title": "Get_MODEL",
-      "properties": {},
-      "widgets_values": [
-        "MODEL"
-      ],
-      "color": "#223",
-      "bgcolor": "#335"
-    },
-    {
-      "id": 82,
-      "type": "GetNode",
-      "pos": [
-        1776,
-        970
-      ],
-      "size": {
-        "0": 210,
-        "1": 58
-      },
-      "flags": {
-        "collapsed": true
-      },
-      "order": 6,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "VAE",
-          "type": "VAE",
-          "links": [
-            141
-          ],
-          "slot_index": 0
-        }
-      ],
-      "title": "Get_VAE",
-      "properties": {},
-      "widgets_values": [
-        "VAE"
-      ],
-      "color": "#322",
-      "bgcolor": "#533"
-    },
-    {
       "id": 96,
       "type": "GetNode",
       "pos": [
-        951,
-        121
+        810,
+        140
       ],
       "size": {
         "0": 210,
@@ -539,7 +173,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 7,
+      "order": 1,
       "mode": 0,
       "outputs": [
         {
@@ -560,72 +194,370 @@
       "bgcolor": "#533"
     },
     {
-      "id": 93,
-      "type": "EmptyLatentImage",
+      "id": 71,
+      "type": "SamplerLCMCycle",
       "pos": [
-        972,
-        285
+        1520,
+        310
       ],
       "size": {
-        "0": 315,
-        "1": 106
+        "0": 241.75228881835938,
+        "1": 130
       },
-      "flags": {
-        "collapsed": true
-      },
-      "order": 8,
+      "flags": {},
+      "order": 2,
       "mode": 0,
       "outputs": [
         {
-          "name": "LATENT",
-          "type": "LATENT",
+          "name": "SAMPLER",
+          "type": "SAMPLER",
           "links": [
-            188
+            133
           ],
           "shape": 3,
           "slot_index": 0
         }
       ],
       "properties": {
-        "Node name for S&R": "EmptyLatentImage"
+        "Node name for S&R": "SamplerLCMCycle"
       },
       "widgets_values": [
-        512,
-        512,
+        2,
+        2,
+        true,
         1
       ]
     },
     {
-      "id": 97,
-      "type": "FloatingVideo",
+      "id": 92,
+      "type": "GetNode",
       "pos": [
-        1918,
-        488
+        610,
+        240
       ],
-      "size": [
-        296.03753662109375,
-        58
+      "size": {
+        "0": 210,
+        "1": 58
+      },
+      "flags": {
+        "collapsed": true
+      },
+      "order": 3,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": [
+            150,
+            180
+          ],
+          "slot_index": 0
+        }
       ],
-      "flags": {},
-      "order": 37,
+      "title": "Get_CLIP",
+      "properties": {},
+      "widgets_values": [
+        "CLIP"
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 102,
+      "type": "ControlNetLoaderAdvanced",
+      "pos": [
+        1150,
+        840
+      ],
+      "size": {
+        "0": 355.3140563964844,
+        "1": 58.9211540222168
+      },
+      "flags": {
+        "pinned": false
+      },
+      "order": 4,
       "mode": 0,
       "inputs": [
         {
-          "name": "images",
-          "type": "IMAGE",
-          "link": 155
+          "name": "timestep_keyframe",
+          "type": "TIMESTEP_KEYFRAME",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONTROL_NET",
+          "type": "CONTROL_NET",
+          "links": [
+            169
+          ],
+          "shape": 3,
+          "slot_index": 0
         }
       ],
       "properties": {
-        "Node name for S&R": "FloatingVideo"
-      }
+        "Node name for S&R": "ControlNetLoaderAdvanced"
+      },
+      "widgets_values": [
+        "control_v11p_sd15_canny_fp16.safetensors"
+      ],
+      "color": "#393939",
+      "bgcolor": "#4d4d4d"
+    },
+    {
+      "id": 67,
+      "type": "SplitSigmas",
+      "pos": [
+        1520,
+        180
+      ],
+      "size": {
+        "0": 240.29710388183594,
+        "1": 78
+      },
+      "flags": {
+        "pinned": false
+      },
+      "order": 28,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "sigmas",
+          "type": "SIGMAS",
+          "link": 132
+        }
+      ],
+      "outputs": [
+        {
+          "name": "SIGMAS",
+          "type": "SIGMAS",
+          "links": [],
+          "shape": 3
+        },
+        {
+          "name": "SIGMAS",
+          "type": "SIGMAS",
+          "links": [
+            218
+          ],
+          "shape": 3,
+          "slot_index": 1
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "SplitSigmas"
+      },
+      "widgets_values": [
+        1
+      ],
+      "color": "#393939",
+      "bgcolor": "#4d4d4d"
+    },
+    {
+      "id": 115,
+      "type": "CLIPTextEncode",
+      "pos": [
+        530,
+        260
+      ],
+      "size": {
+        "0": 347.084228515625,
+        "1": 54
+      },
+      "flags": {
+        "pinned": false,
+        "collapsed": true
+      },
+      "order": 25,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 180,
+          "slot_index": 0
+        },
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 179,
+          "widget": {
+            "name": "text"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            181
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "title": "Negative (Prompt)",
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode"
+      },
+      "widgets_values": [
+        ""
+      ],
+      "color": "#393939",
+      "bgcolor": "#4d4d4d"
+    },
+    {
+      "id": 89,
+      "type": "ConcatStringSingle",
+      "pos": [
+        540,
+        230
+      ],
+      "size": {
+        "0": 306.1265563964844,
+        "1": 54
+      },
+      "flags": {
+        "collapsed": true
+      },
+      "order": 24,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "string_a",
+          "type": "STRING",
+          "link": 229,
+          "widget": {
+            "name": "string_a"
+          }
+        },
+        {
+          "name": "string_b",
+          "type": "STRING",
+          "link": 228,
+          "widget": {
+            "name": "string_b"
+          },
+          "slot_index": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            222
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ConcatStringSingle"
+      },
+      "widgets_values": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 145,
+      "type": "VAELoader",
+      "pos": [
+        20,
+        310
+      ],
+      "size": {
+        "0": 357.79998779296875,
+        "1": 58
+      },
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "VAE",
+          "type": "VAE",
+          "links": [],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VAELoader"
+      },
+      "widgets_values": [
+        "taesdxl"
+      ],
+      "color": "#393939",
+      "bgcolor": "#4d4d4d"
+    },
+    {
+      "id": 147,
+      "type": "CR LoRA Stack",
+      "pos": [
+        20,
+        530
+      ],
+      "size": [
+        359.42495650903334,
+        368.68087173886124
+      ],
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "lora_stack",
+          "type": "LORA_STACK",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "LORA_STACK",
+          "type": "LORA_STACK",
+          "links": [
+            232
+          ],
+          "shape": 3
+        },
+        {
+          "name": "show_help",
+          "type": "STRING",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CR LoRA Stack"
+      },
+      "widgets_values": [
+        "Off",
+        "None",
+        1,
+        1,
+        "Off",
+        "None",
+        1,
+        1,
+        "Off",
+        "None",
+        1,
+        1
+      ],
+      "color": "#393939",
+      "bgcolor": "#4d4d4d"
     },
     {
       "id": 65,
       "type": "SamplerCustom",
       "pos": [
-        1660,
-        480
+        1520,
+        490
       ],
       "size": {
         "0": 236.8000030517578,
@@ -634,13 +566,14 @@
       "flags": {
         "pinned": false
       },
-      "order": 35,
+      "order": 37,
       "mode": 0,
       "inputs": [
         {
           "name": "model",
           "type": "MODEL",
-          "link": 192
+          "link": 236,
+          "slot_index": 0
         },
         {
           "name": "positive",
@@ -702,90 +635,11 @@
       "bgcolor": "#4d4d4d"
     },
     {
-      "id": 90,
-      "type": "ScreenShare",
-      "pos": [
-        543,
-        366
-      ],
-      "size": {
-        "0": 396.8237609863281,
-        "1": 130
-      },
-      "flags": {},
-      "order": 9,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            153,
-            194
-          ],
-          "shape": 3,
-          "slot_index": 0
-        },
-        {
-          "name": "MASK",
-          "type": "MASK",
-          "links": null,
-          "shape": 3
-        },
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            147
-          ],
-          "shape": 3
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "ScreenShare"
-      }
-    },
-    {
-      "id": 71,
-      "type": "SamplerLCMCycle",
-      "pos": [
-        1660,
-        300
-      ],
-      "size": {
-        "0": 241.75228881835938,
-        "1": 130
-      },
-      "flags": {},
-      "order": 10,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "SAMPLER",
-          "type": "SAMPLER",
-          "links": [
-            133
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "SamplerLCMCycle"
-      },
-      "widgets_values": [
-        2,
-        2,
-        true,
-        1
-      ]
-    },
-    {
-      "id": 92,
+      "id": 136,
       "type": "GetNode",
       "pos": [
-        742,
-        221
+        1490,
+        80
       ],
       "size": {
         "0": 210,
@@ -794,218 +648,33 @@
       "flags": {
         "collapsed": true
       },
-      "order": 11,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "CLIP",
-          "type": "CLIP",
-          "links": [
-            150,
-            180
-          ],
-          "slot_index": 0
-        }
-      ],
-      "title": "Get_CLIP",
-      "properties": {},
-      "widgets_values": [
-        "CLIP"
-      ],
-      "color": "#432",
-      "bgcolor": "#653"
-    },
-    {
-      "id": 72,
-      "type": "CheckpointLoaderSimple",
-      "pos": [
-        160,
-        90
-      ],
-      "size": {
-        "0": 362.0516052246094,
-        "1": 98
-      },
-      "flags": {
-        "pinned": false
-      },
-      "order": 12,
+      "order": 7,
       "mode": 0,
       "outputs": [
         {
           "name": "MODEL",
           "type": "MODEL",
           "links": [
-            139,
-            192
+            208,
+            236
           ],
-          "shape": 3,
           "slot_index": 0
-        },
-        {
-          "name": "CLIP",
-          "type": "CLIP",
-          "links": [
-            149
-          ],
-          "shape": 3,
-          "slot_index": 1
-        },
-        {
-          "name": "VAE",
-          "type": "VAE",
-          "links": [
-            202
-          ],
-          "shape": 3,
-          "slot_index": 2
         }
       ],
-      "properties": {
-        "Node name for S&R": "CheckpointLoaderSimple"
-      },
+      "title": "Get_MODEL",
+      "properties": {},
       "widgets_values": [
-        "ComfyUI_00001_.safetensors"
+        "MODEL"
       ],
-      "color": "#393939",
-      "bgcolor": "#4d4d4d"
-    },
-    {
-      "id": 125,
-      "type": "CannyEdgePreprocessor",
-      "pos": [
-        1281,
-        660
-      ],
-      "size": [
-        353.2278942651333,
-        106
-      ],
-      "flags": {},
-      "order": 18,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "image",
-          "type": "IMAGE",
-          "link": 213,
-          "slot_index": 0
-        }
-      ],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            214
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "CannyEdgePreprocessor"
-      },
-      "widgets_values": [
-        80,
-        180,
-        768
-      ]
-    },
-    {
-      "id": 102,
-      "type": "ControlNetLoaderAdvanced",
-      "pos": [
-        1285,
-        821
-      ],
-      "size": {
-        "0": 355.3140563964844,
-        "1": 58.9211540222168
-      },
-      "flags": {
-        "pinned": false
-      },
-      "order": 13,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "timestep_keyframe",
-          "type": "TIMESTEP_KEYFRAME",
-          "link": null
-        }
-      ],
-      "outputs": [
-        {
-          "name": "CONTROL_NET",
-          "type": "CONTROL_NET",
-          "links": [
-            169
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "ControlNetLoaderAdvanced"
-      },
-      "widgets_values": [
-        "control_v11p_sd15_canny_fp16.safetensors"
-      ],
-      "color": "#393939",
-      "bgcolor": "#4d4d4d"
-    },
-    {
-      "id": 85,
-      "type": "SDXLPromptStyler",
-      "pos": [
-        538,
-        88
-      ],
-      "size": {
-        "0": 400,
-        "1": 218
-      },
-      "flags": {},
-      "order": 14,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "positive_prompt_text_g",
-          "type": "STRING",
-          "links": [
-            145
-          ],
-          "shape": 3,
-          "slot_index": 0
-        },
-        {
-          "name": "negative_prompt_text_g",
-          "type": "STRING",
-          "links": [
-            179
-          ],
-          "shape": 3,
-          "slot_index": 1
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "SDXLPromptStyler"
-      },
-      "widgets_values": [
-        "Beautiful girl dancing",
-        "",
-        "futuristic-retro futurism",
-        "No",
-        ""
-      ]
+      "color": "#223",
+      "bgcolor": "#335"
     },
     {
       "id": 70,
       "type": "SDTurboScheduler",
       "pos": [
-        1657,
-        65
+        1520,
+        90
       ],
       "size": {
         "0": 248.43226623535156,
@@ -1040,296 +709,318 @@
       ]
     },
     {
-      "id": 67,
-      "type": "SplitSigmas",
+      "id": 146,
+      "type": "CR Apply LoRA Stack",
       "pos": [
-        1660,
-        170
+        20,
+        410
       ],
       "size": {
-        "0": 240.29710388183594,
-        "1": 78
+        "0": 358.2171630859375,
+        "1": 68.1851577758789
+      },
+      "flags": {},
+      "order": 20,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 235
+        },
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 231
+        },
+        {
+          "name": "lora_stack",
+          "type": "LORA_STACK",
+          "link": 232,
+          "slot_index": 2
+        }
+      ],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            238
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": [
+            230
+          ],
+          "shape": 3,
+          "slot_index": 1
+        },
+        {
+          "name": "show_help",
+          "type": "STRING",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CR Apply LoRA Stack"
+      },
+      "color": "#393939",
+      "bgcolor": "#4d4d4d"
+    },
+    {
+      "id": 143,
+      "type": "CheckpointLoaderSimple",
+      "pos": [
+        20,
+        180
+      ],
+      "size": {
+        "0": 362.0516052246094,
+        "1": 98
       },
       "flags": {
         "pinned": false
+      },
+      "order": 8,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            235
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": [
+            231
+          ],
+          "shape": 3,
+          "slot_index": 1
+        },
+        {
+          "name": "VAE",
+          "type": "VAE",
+          "links": [
+            239
+          ],
+          "shape": 3,
+          "slot_index": 2
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CheckpointLoaderSimple"
+      },
+      "widgets_values": [
+        "ComfyUI_00001_.safetensors"
+      ],
+      "color": "#393939",
+      "bgcolor": "#4d4d4d"
+    },
+    {
+      "id": 79,
+      "type": "SetNode",
+      "pos": [
+        330,
+        100
+      ],
+      "size": {
+        "0": 210,
+        "1": 58
+      },
+      "flags": {
+        "collapsed": true
       },
       "order": 29,
       "mode": 0,
       "inputs": [
         {
-          "name": "sigmas",
-          "type": "SIGMAS",
-          "link": 132
+          "name": "MODEL",
+          "type": "MODEL",
+          "link": 238
         }
       ],
       "outputs": [
         {
-          "name": "SIGMAS",
-          "type": "SIGMAS",
-          "links": [],
-          "shape": 3
-        },
-        {
-          "name": "SIGMAS",
-          "type": "SIGMAS",
-          "links": [
-            218
-          ],
-          "shape": 3,
-          "slot_index": 1
+          "name": "*",
+          "type": "*",
+          "links": null
         }
       ],
+      "title": "Set_MODEL",
       "properties": {
-        "Node name for S&R": "SplitSigmas"
+        "previousName": "MODEL"
       },
       "widgets_values": [
-        1
+        "MODEL"
       ],
-      "color": "#393939",
-      "bgcolor": "#4d4d4d"
+      "color": "#223",
+      "bgcolor": "#335"
     },
     {
-      "id": 132,
-      "type": "INTConstant",
+      "id": 144,
+      "type": "CLIPSetLastLayer",
       "pos": [
-        976,
-        85
-      ],
-      "size": [
-        243.9053955078125,
-        58
-      ],
-      "flags": {
-        "pinned": false
-      },
-      "order": 15,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "value",
-          "type": "INT",
-          "links": [
-            206
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "title": "RES_WIDTH",
-      "properties": {
-        "Node name for S&R": "INTConstant"
-      },
-      "widgets_values": [
-        1024
-      ],
-      "color": "#393939",
-      "bgcolor": "#4d4d4d"
-    },
-    {
-      "id": 133,
-      "type": "INTConstant",
-      "pos": [
-        1252,
-        84
-      ],
-      "size": [
-        243.9053955078125,
-        58
-      ],
-      "flags": {
-        "pinned": false
-      },
-      "order": 16,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "value",
-          "type": "INT",
-          "links": [
-            207
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "title": "RES_HEIGHT",
-      "properties": {
-        "Node name for S&R": "INTConstant"
-      },
-      "widgets_values": [
-        1024
-      ],
-      "color": "#393939",
-      "bgcolor": "#4d4d4d"
-    },
-    {
-      "id": 115,
-      "type": "CLIPTextEncode",
-      "pos": [
-        977,
-        256
+        20,
+        90
       ],
       "size": {
-        "0": 347.084228515625,
-        "1": 54
+        "0": 362.4689025878906,
+        "1": 59.383453369140625
       },
       "flags": {
-        "pinned": false,
-        "collapsed": true
+        "pinned": false
       },
-      "order": 26,
+      "order": 30,
       "mode": 0,
       "inputs": [
         {
           "name": "clip",
           "type": "CLIP",
-          "link": 180,
-          "slot_index": 0
-        },
-        {
-          "name": "text",
-          "type": "STRING",
-          "link": 179,
-          "widget": {
-            "name": "text"
-          }
+          "link": 230
         }
       ],
       "outputs": [
         {
-          "name": "CONDITIONING",
-          "type": "CONDITIONING",
+          "name": "CLIP",
+          "type": "CLIP",
           "links": [
-            181
+            237
           ],
           "shape": 3,
           "slot_index": 0
         }
       ],
-      "title": "Negative (Prompt)",
       "properties": {
-        "Node name for S&R": "CLIPTextEncode"
+        "Node name for S&R": "CLIPSetLastLayer"
       },
       "widgets_values": [
-        ""
+        -2
       ],
       "color": "#393939",
       "bgcolor": "#4d4d4d"
     },
     {
-      "id": 89,
-      "type": "ConcatStringSingle",
+      "id": 122,
+      "type": "Note",
       "pos": [
-        961,
-        232
+        -360,
+        90
+      ],
+      "size": {
+        "0": 373.0601806640625,
+        "1": 599.7230224609375
+      },
+      "flags": {
+        "pinned": false
+      },
+      "order": 9,
+      "mode": 0,
+      "properties": {
+        "text": ""
+      },
+      "widgets_values": [
+        " \n _ _____    _____         _       _____                     \n| |   __|  |_   _|_ _ ___| |_ ___|   __|___ ___ ___ ___ ___ \n| |   __|    | | | | |  _| . | . |__   |  _|  _| -_| -_|   |\n|_|__|       |_| |___|_| |___|___|_____|___|_| |___|___|_|_|\n                                                        \n------------------------------------------------------------\n\nto watch tutorials\nhttps://www.youtube.com/@impactframes\n\nto support and find more info\nhttps://ko-fi.com/impactframes\n\n------------------------------------------------------------\n Works better with LCM or LCM-TURBO MERGES                                                   \n          .  .\n          |\\_|\\\n          | a_a\\\n          | | \"]\n      ____| '-\\___\n     /.----.___.-'\\\n    //        _    \\\n   //   .-. (~v~) /|\n  |'|  /\\:  .--  / \\\n // |-/  \\_/____/\\/~|\n|/  \\ |  []_|_|_] \\ |\n| \\  | \\ |___   _\\ ]_}\n| |  '-' /   '.'  |\n| |     /    /|:  | \n| |     |   / |:  /\\\n| |     /  /  |  /  \\\n| |    |  /  /  |    \\\n\\ |    |/\\/  |/|/\\    \\\n \\|\\ |\\|  |  | / /\\/\\__\\\n  \\ \\| | /   | |__\n       / |   |____)\n       |_/\n\nSuper Heroes star the repos bellow.\n\n\nhttps://github.com/shadowcz007/comfyui-mixlab-nodes/tree/main\n\nhttps://github.com/jojkaart/ComfyUI-sampler-lcm-alternative/tree/main\n\nhttps://github.com/FizzleDorf/ComfyUI_FizzNodes\n\nhttps://github.com/kijai/ComfyUI-KJNodes\n\nhttps://github.com/if-ai/IF-Animation-Workflows\n\nThanks to kijai at banodoco and original mixlab from whom I stealed most of this ideas! \n\nModel/Dancer @natsuminchan\nhttps://www.youtube.com/shorts/EYcQ1JSOocc\n\nThanks \nImpactFrames\n\n"
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 141,
+      "type": "ScreenShare",
+      "pos": [
+        410,
+        390
       ],
       "size": [
-        306.1265654943845,
-        54
+        396.0025288226316,
+        327.12653019042955
       ],
-      "flags": {
-        "collapsed": true
-      },
-      "order": 25,
+      "flags": {},
+      "order": 10,
       "mode": 0,
-      "inputs": [
-        {
-          "name": "string_a",
-          "type": "STRING",
-          "link": 145,
-          "widget": {
-            "name": "string_a"
-          }
-        },
-        {
-          "name": "string_b",
-          "type": "STRING",
-          "link": 147,
-          "widget": {
-            "name": "string_b"
-          },
-          "slot_index": 1
-        }
-      ],
       "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            219,
+            220
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
         {
           "name": "STRING",
           "type": "STRING",
           "links": [
-            148
+            228
           ],
           "shape": 3,
-          "slot_index": 0
+          "slot_index": 1
         }
       ],
       "properties": {
-        "Node name for S&R": "ConcatStringSingle"
-      },
-      "widgets_values": [
-        "",
-        ""
-      ]
+        "Node name for S&R": "ScreenShare"
+      }
     },
     {
-      "id": 84,
-      "type": "CLIPTextEncode",
+      "id": 125,
+      "type": "CannyEdgePreprocessor",
       "pos": [
-        967,
-        191
+        1150,
+        690
       ],
-      "size": [
-        317.5695036621091,
-        61.076624450683425
-      ],
-      "flags": {
-        "pinned": false,
-        "collapsed": true
+      "size": {
+        "0": 353.2279052734375,
+        "1": 106
       },
-      "order": 33,
+      "flags": {},
+      "order": 18,
       "mode": 0,
       "inputs": [
         {
-          "name": "clip",
-          "type": "CLIP",
-          "link": 150,
+          "name": "image",
+          "type": "IMAGE",
+          "link": 213,
           "slot_index": 0
-        },
-        {
-          "name": "text",
-          "type": "STRING",
-          "link": 148,
-          "widget": {
-            "name": "text"
-          }
         }
       ],
       "outputs": [
         {
-          "name": "CONDITIONING",
-          "type": "CONDITIONING",
+          "name": "IMAGE",
+          "type": "IMAGE",
           "links": [
-            178
+            214
           ],
           "shape": 3,
           "slot_index": 0
         }
       ],
-      "title": "Positive (Prompt)",
       "properties": {
-        "Node name for S&R": "CLIPTextEncode"
+        "Node name for S&R": "CannyEdgePreprocessor"
       },
       "widgets_values": [
-        ""
-      ],
-      "color": "#393939",
-      "bgcolor": "#4d4d4d"
+        80,
+        180,
+        768
+      ]
     },
     {
       "id": 105,
       "type": "ACN_AdvancedControlNetApply",
       "pos": [
-        1292,
-        350
+        1150,
+        390
       ],
       "size": {
         "0": 358.52423095703125,
@@ -1338,7 +1029,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 34,
+      "order": 36,
       "mode": 0,
       "inputs": [
         {
@@ -1417,8 +1108,8 @@
       "id": 119,
       "type": "LatentBlend",
       "pos": [
-        1276,
-        218
+        1140,
+        260
       ],
       "size": {
         "0": 371.63177490234375,
@@ -1427,7 +1118,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 30,
+      "order": 31,
       "mode": 0,
       "inputs": [
         {
@@ -1464,68 +1155,134 @@
       "bgcolor": "#4d4d4d"
     },
     {
-      "id": 95,
-      "type": "VAEEncode",
+      "id": 112,
+      "type": "SetNode",
       "pos": [
-        970,
-        239
+        1010,
+        340
       ],
       "size": {
-        "0": 267.7113342285156,
-        "1": 46
+        "0": 210,
+        "1": 58
       },
-      "flags": {},
-      "order": 20,
+      "flags": {
+        "collapsed": true
+      },
+      "order": 33,
       "mode": 0,
       "inputs": [
         {
-          "name": "pixels",
+          "name": "IMAGE",
           "type": "IMAGE",
-          "link": 153
-        },
-        {
-          "name": "vae",
-          "type": "VAE",
-          "link": 154,
-          "slot_index": 1
+          "link": 196
         }
       ],
       "outputs": [
         {
-          "name": "LATENT",
-          "type": "LATENT",
+          "name": "*",
+          "type": "*",
+          "links": null
+        }
+      ],
+      "title": "Set_IMG",
+      "properties": {
+        "previousName": "IMG"
+      },
+      "widgets_values": [
+        "IMG"
+      ],
+      "color": "#2a363b",
+      "bgcolor": "#3f5159"
+    },
+    {
+      "id": 138,
+      "type": "GetNode",
+      "pos": [
+        830,
+        450
+      ],
+      "size": {
+        "0": 210,
+        "1": 58
+      },
+      "flags": {
+        "collapsed": true
+      },
+      "order": 11,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "INT",
+          "type": "INT",
           "links": [
-            189
+            211
           ],
-          "shape": 3,
           "slot_index": 0
         }
       ],
-      "properties": {
-        "Node name for S&R": "VAEEncode"
-      }
+      "title": "Get_RES_WIDTH",
+      "properties": {},
+      "widgets_values": [
+        "RES_WIDTH"
+      ],
+      "color": "#1b4669",
+      "bgcolor": "#29699c"
+    },
+    {
+      "id": 137,
+      "type": "GetNode",
+      "pos": [
+        830,
+        420
+      ],
+      "size": {
+        "0": 210,
+        "1": 58
+      },
+      "flags": {
+        "collapsed": true
+      },
+      "order": 12,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "INT",
+          "type": "INT",
+          "links": [
+            210
+          ],
+          "slot_index": 0
+        }
+      ],
+      "title": "Get_RES_HEIGHT",
+      "properties": {},
+      "widgets_values": [
+        "RES_HEIGHT"
+      ],
+      "color": "#1b4669",
+      "bgcolor": "#29699c"
     },
     {
       "id": 124,
       "type": "ImageCrop+",
       "pos": [
-        959,
-        347
+        840,
+        390
       ],
-      "size": [
-        315,
-        194
-      ],
+      "size": {
+        "0": 315,
+        "1": 194
+      },
       "flags": {
         "collapsed": true
       },
-      "order": 21,
+      "order": 23,
       "mode": 0,
       "inputs": [
         {
           "name": "image",
           "type": "IMAGE",
-          "link": 194
+          "link": 219
         },
         {
           "name": "width",
@@ -1584,15 +1341,15 @@
       "id": 94,
       "type": "PreviewImage",
       "pos": [
-        959,
-        348
+        820,
+        420
       ],
       "size": {
         "0": 308.7284240722656,
         "1": 497.35205078125
       },
       "flags": {},
-      "order": 31,
+      "order": 32,
       "mode": 0,
       "inputs": [
         {
@@ -1606,27 +1363,400 @@
       }
     },
     {
-      "id": 122,
-      "type": "Note",
+      "id": 84,
+      "type": "CLIPTextEncode",
       "pos": [
-        160,
-        360
+        540,
+        200
+      ],
+      "size": {
+        "0": 317.5694885253906,
+        "1": 61.07662582397461
+      },
+      "flags": {
+        "pinned": false,
+        "collapsed": true
+      },
+      "order": 34,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 150,
+          "slot_index": 0
+        },
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 222,
+          "widget": {
+            "name": "text"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            178
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "title": "Positive (Prompt)",
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode"
+      },
+      "widgets_values": [
+        ""
+      ],
+      "color": "#393939",
+      "bgcolor": "#4d4d4d"
+    },
+    {
+      "id": 93,
+      "type": "EmptyLatentImage",
+      "pos": [
+        840,
+        290
+      ],
+      "size": {
+        "0": 315,
+        "1": 106
+      },
+      "flags": {
+        "collapsed": true
+      },
+      "order": 13,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            188
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "EmptyLatentImage"
+      },
+      "widgets_values": [
+        512,
+        512,
+        1
+      ]
+    },
+    {
+      "id": 82,
+      "type": "GetNode",
+      "pos": [
+        1650,
+        980
+      ],
+      "size": {
+        "0": 210,
+        "1": 58
+      },
+      "flags": {
+        "collapsed": true
+      },
+      "order": 14,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "VAE",
+          "type": "VAE",
+          "links": [
+            141
+          ],
+          "slot_index": 0
+        }
+      ],
+      "title": "Get_VAE",
+      "properties": {},
+      "widgets_values": [
+        "VAE"
+      ],
+      "color": "#322",
+      "bgcolor": "#533"
+    },
+    {
+      "id": 64,
+      "type": "VAEDecode",
+      "pos": [
+        1530,
+        910
+      ],
+      "size": {
+        "0": 234.6910858154297,
+        "1": 46
+      },
+      "flags": {
+        "pinned": false
+      },
+      "order": 38,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "samples",
+          "type": "LATENT",
+          "link": 216
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": 141,
+          "slot_index": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            155
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VAEDecode"
+      },
+      "color": "#393939",
+      "bgcolor": "#4d4d4d"
+    },
+    {
+      "id": 97,
+      "type": "FloatingVideo",
+      "pos": [
+        1780,
+        390
       ],
       "size": [
-        373.06017134556214,
-        599.7230163495353
+        296.03753662109375,
+        58
       ],
+      "flags": {},
+      "order": 39,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 155
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "FloatingVideo"
+      }
+    },
+    {
+      "id": 85,
+      "type": "SDXLPromptStyler",
+      "pos": [
+        410,
+        90
+      ],
+      "size": {
+        "0": 400,
+        "1": 218
+      },
+      "flags": {},
+      "order": 15,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "positive_prompt_text_g",
+          "type": "STRING",
+          "links": [
+            229
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "negative_prompt_text_g",
+          "type": "STRING",
+          "links": [
+            179
+          ],
+          "shape": 3,
+          "slot_index": 1
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "SDXLPromptStyler"
+      },
+      "widgets_values": [
+        "Beautiful girl dancing",
+        "",
+        "futuristic-retro futurism",
+        "No",
+        ""
+      ]
+    },
+    {
+      "id": 133,
+      "type": "INTConstant",
+      "pos": [
+        1165,
+        118
+      ],
+      "size": {
+        "0": 243.9053955078125,
+        "1": 58
+      },
       "flags": {
-        "pinned": true
+        "pinned": false
+      },
+      "order": 16,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "value",
+          "type": "INT",
+          "links": [
+            207
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "title": "RES_HEIGHT",
+      "properties": {
+        "Node name for S&R": "INTConstant"
+      },
+      "widgets_values": [
+        1024
+      ],
+      "color": "#393939",
+      "bgcolor": "#4d4d4d"
+    },
+    {
+      "id": 95,
+      "type": "VAEEncode",
+      "pos": [
+        839,
+        213
+      ],
+      "size": {
+        "0": 267.7113342285156,
+        "1": 46
+      },
+      "flags": {},
+      "order": 22,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "pixels",
+          "type": "IMAGE",
+          "link": 220
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": 154,
+          "slot_index": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            189
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VAEEncode"
+      }
+    },
+    {
+      "id": 132,
+      "type": "INTConstant",
+      "pos": [
+        837,
+        116
+      ],
+      "size": {
+        "0": 243.9053955078125,
+        "1": 58
+      },
+      "flags": {
+        "pinned": false
       },
       "order": 17,
       "mode": 0,
+      "outputs": [
+        {
+          "name": "value",
+          "type": "INT",
+          "links": [
+            206
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "title": "RES_WIDTH",
       "properties": {
-        "text": ""
+        "Node name for S&R": "INTConstant"
       },
       "widgets_values": [
-        " \n _ _____    _____         _       _____                     \n| |   __|  |_   _|_ _ ___| |_ ___|   __|___ ___ ___ ___ ___ \n| |   __|    | | | | |  _| . | . |__   |  _|  _| -_| -_|   |\n|_|__|       |_| |___|_| |___|___|_____|___|_| |___|___|_|_|\n                                                        \n------------------------------------------------------------\n\nto watch tutorials\nhttps://www.youtube.com/@impactframes\n\nto support and find more info\nhttps://ko-fi.com/impactframes\n\n------------------------------------------------------------\n Works better with LCM or LCM-TURBO MERGES                                                   \n          .  .\n          |\\_|\\\n          | a_a\\\n          | | \"]\n      ____| '-\\___\n     /.----.___.-'\\\n    //        _    \\\n   //   .-. (~v~) /|\n  |'|  /\\:  .--  / \\\n // |-/  \\_/____/\\/~|\n|/  \\ |  []_|_|_] \\ |\n| \\  | \\ |___   _\\ ]_}\n| |  '-' /   '.'  |\n| |     /    /|:  | \n| |     |   / |:  /\\\n| |     /  /  |  /  \\\n| |    |  /  /  |    \\\n\\ |    |/\\/  |/|/\\    \\\n \\|\\ |\\|  |  | / /\\/\\__\\\n  \\ \\| | /   | |__\n       / |   |____)\n       |_/\n\nSuper Heroes star the repos bellow.\n\nhttps://github.com/jojkaart/ComfyUI-sampler-lcm-alternative/tree/main\n\nhttps://github.com/shadowcz007/comfyui-mixlab-nodes/tree/main\n\nhttps://github.com/kijai/ComfyUI-KJNodes\n\nhttps://github.com/if-ai/IF-Animation-Workflows\n\nThanks to kijai at banodoco and original mixlab from whom I stealed most of this ideas! \n\nModel/Dancer @natsuminchan\nhttps://www.youtube.com/shorts/EYcQ1JSOocc\n\nThanks \nImpactFrames\n\n"
-      ]
+        1024
+      ],
+      "color": "#393939",
+      "bgcolor": "#4d4d4d"
+    },
+    {
+      "id": 80,
+      "type": "SetNode",
+      "pos": [
+        404,
+        345
+      ],
+      "size": {
+        "0": 210,
+        "1": 58
+      },
+      "flags": {
+        "collapsed": true
+      },
+      "order": 21,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "VAE",
+          "type": "VAE",
+          "link": 239
+        }
+      ],
+      "outputs": [
+        {
+          "name": "*",
+          "type": "*",
+          "links": null
+        }
+      ],
+      "title": "Set_VAE",
+      "properties": {
+        "previousName": "VAE"
+      },
+      "widgets_values": [
+        "VAE"
+      ],
+      "color": "#322",
+      "bgcolor": "#533"
     }
   ],
   "links": [
@@ -1647,14 +1777,6 @@
       "SAMPLER"
     ],
     [
-      139,
-      72,
-      0,
-      79,
-      0,
-      "*"
-    ],
-    [
       141,
       82,
       0,
@@ -1663,52 +1785,12 @@
       "VAE"
     ],
     [
-      145,
-      85,
-      0,
-      89,
-      0,
-      "STRING"
-    ],
-    [
-      147,
-      90,
-      2,
-      89,
-      1,
-      "STRING"
-    ],
-    [
-      148,
-      89,
-      0,
-      84,
-      1,
-      "STRING"
-    ],
-    [
-      149,
-      72,
-      1,
-      91,
-      0,
-      "*"
-    ],
-    [
       150,
       92,
       0,
       84,
       0,
       "CLIP"
-    ],
-    [
-      153,
-      90,
-      0,
-      95,
-      0,
-      "IMAGE"
     ],
     [
       154,
@@ -1807,22 +1889,6 @@
       "LATENT"
     ],
     [
-      192,
-      72,
-      0,
-      65,
-      0,
-      "MODEL"
-    ],
-    [
-      194,
-      90,
-      0,
-      124,
-      0,
-      "IMAGE"
-    ],
-    [
       195,
       124,
       0,
@@ -1837,14 +1903,6 @@
       112,
       0,
       "IMAGE"
-    ],
-    [
-      202,
-      72,
-      2,
-      80,
-      0,
-      "VAE"
     ],
     [
       206,
@@ -1917,6 +1975,110 @@
       65,
       4,
       "SIGMAS"
+    ],
+    [
+      219,
+      141,
+      0,
+      124,
+      0,
+      "IMAGE"
+    ],
+    [
+      220,
+      141,
+      0,
+      95,
+      0,
+      "IMAGE"
+    ],
+    [
+      222,
+      89,
+      0,
+      84,
+      1,
+      "STRING"
+    ],
+    [
+      228,
+      141,
+      1,
+      89,
+      1,
+      "STRING"
+    ],
+    [
+      229,
+      85,
+      0,
+      89,
+      0,
+      "STRING"
+    ],
+    [
+      230,
+      146,
+      1,
+      144,
+      0,
+      "CLIP"
+    ],
+    [
+      231,
+      143,
+      1,
+      146,
+      1,
+      "CLIP"
+    ],
+    [
+      232,
+      147,
+      0,
+      146,
+      2,
+      "LORA_STACK"
+    ],
+    [
+      235,
+      143,
+      0,
+      146,
+      0,
+      "MODEL"
+    ],
+    [
+      236,
+      136,
+      0,
+      65,
+      0,
+      "MODEL"
+    ],
+    [
+      237,
+      144,
+      0,
+      91,
+      0,
+      "CLIP"
+    ],
+    [
+      238,
+      146,
+      0,
+      79,
+      0,
+      "MODEL"
+    ],
+    [
+      239,
+      143,
+      2,
+      80,
+      0,
+      "VAE"
     ]
   ],
   "groups": [],
