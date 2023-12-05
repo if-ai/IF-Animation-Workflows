@@ -57,6 +57,8 @@ https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite
 
 https://github.com/peteromallet/Steerable-Motion
 
+https://github.com/FizzleDorf/ComfyUI_FizzNodes
+
 https://github.com/shadowcz007/comfyui-mixlab-nodes/tree/main
 
 Special AD motion controlnet Model
