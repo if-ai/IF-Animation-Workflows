@@ -53,6 +53,8 @@ https://github.com/Kosinkadink/ComfyUI-Advanced-ControlNet
 
 https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved
 
+https://github.com/if-ai/ComfyUI-Iterative-Mixer
+
 https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite
 
 https://github.com/peteromallet/Steerable-Motion
