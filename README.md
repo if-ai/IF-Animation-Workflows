@@ -37,7 +37,7 @@ Anyone is welcome to contribute to this workflow for the enjoyment of the animat
 
 Thanks.
 ImpactFrames
-If I miss a repo 😢 please let me know an I will add it here
+If I miss a repo please let me know an I will add it here
 
 https://github.com/jojkaart/ComfyUI-sampler-lcm-alternative/tree/main
 
