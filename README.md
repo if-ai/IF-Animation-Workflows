@@ -15,6 +15,8 @@ https://github.com/if-ai/IF-Animation-Workflows
 --------------------------------------------------------
 This are a series of workflows that work together to create and repurpose animation 
 
+|[CD_FLUX_LORA](workflows/Flux_LoRA.json.json)|[![Try CD_FLUX_LORA](https://beta.app.comfydeploy.com/button)](https://beta.app.comfydeploy.com/home?nodes=cubiq%2FComfyUI_essentials%4033ff89f&workflowLink=https%3A%2F%2Fgithub.com%2Fif-ai%2FIF-Animation-Workflows%2Fblob%2Fmain%2FFlux_LoRA.json&comfyui_version=a7fe0a94dee08754f97b0171e15c1f2271aa37be)|
+
 IF_Animator (Main workflow )
 IF_KeyAnimation_Helper (has a lite and SMPL version is workflow to extract keys redraw them on a external app)
 IF_Inbetweeners (You can select a few frames create the inbetween)
