@@ -160,7 +160,7 @@
         "Node name for S&R": "VAELoader"
       },
       "widgets_values": [
-        "ae.safetensors"
+        "ae.sft"
       ]
     },
     {
