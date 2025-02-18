@@ -18,6 +18,8 @@ This are a series of workflows that work together to create and repurpose animat
 
 |[CD_FLUX_LoRA](workflows/CD_FLUX_LoRA.json)|[![Try CD_FLUX_LoRA](https://beta.app.comfydeploy.com/button)](https://beta.app.comfydeploy.com/home?gpu=A10G&comfyui_version=a7fe0a94dee08754f97b0171e15c1f2271aa37be&timeout=15&nodes=&workflowLink=https%3A%2F%2Fraw.githubusercontent.com%2Fif-ai%2FIF-Animation-Workflows%2Frefs%2Fheads%2Fmain%2FCD_FLUX_LoRA.json)|
 
+|[CD_FLUX_CANNY_LORA](workflows/CD_FLUX_CANNY_LORA.json)|[![Try CD_FLUX_CANNY_LORA](https://beta.app.comfydeploy.com/button)](https://beta.app.comfydeploy.com/home?gpu=A10G&comfyui_version=a7fe0a94dee08754f97b0171e15c1f2271aa37be&timeout=15&nodes=&workflowLink=https%3A%2F%2Fraw.githubusercontent.com%2Fif-ai%2FIF-Animation-Workflows%2Frefs%2Fheads%2Fmain%2FCD_FLUX_CANNY_LORA.json)|
+
 |[CD_FLUX_IMPAINTING](workflows/CD_FLUX_IMPAINTING.json)|[![Try CD_FLUX_IMPAINTING](https://beta.app.comfydeploy.com/button)](https://beta.app.comfydeploy.com/home?gpu=A10G&comfyui_version=a7fe0a94dee08754f97b0171e15c1f2271aa37be&timeout=15&nodes=&workflowLink=https%3A%2F%2Fraw.githubusercontent.com%2Fif-ai%2FIF-Animation-Workflows%2Frefs%2Fheads%2Fmain%2FCD_FLUX_IMPAINTING.json)|
 
 IF_Animator (Main workflow )
