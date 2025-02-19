@@ -6,8 +6,8 @@
       "id": 4,
       "type": "BasicGuider",
       "pos": [
-        1014.9232177734375,
-        -164.92315673828125
+        1035.124267578125,
+        -82.57125091552734
       ],
       "size": [
         260,
@@ -55,8 +55,8 @@
       "id": 14,
       "type": "VAEDecode",
       "pos": [
-        1124.9232177734375,
-        495.07684326171875
+        1145.124267578125,
+        577.4286499023438
       ],
       "size": [
         140,
@@ -99,8 +99,8 @@
       "id": 3,
       "type": "RandomNoise",
       "pos": [
-        1014.9232177734375,
-        -294.92315673828125
+        1035.124267578125,
+        -212.57127380371094
       ],
       "size": [
         260,
@@ -133,8 +133,8 @@
       "id": 1,
       "type": "VAELoader",
       "pos": [
-        1034.9232177734375,
-        215.07684326171875
+        1055.124267578125,
+        297.4286193847656
       ],
       "size": [
         230,
@@ -197,8 +197,8 @@
       "id": 5,
       "type": "KSamplerSelect",
       "pos": [
-        1024.9232177734375,
-        -54.92316436767578
+        1045.124267578125,
+        27.428726196289062
       ],
       "size": [
         260,
@@ -230,8 +230,8 @@
       "id": 7,
       "type": "FluxGuidance",
       "pos": [
-        682.2156982421875,
-        262.5517578125
+        693.3822631835938,
+        222.4203338623047
       ],
       "size": [
         247.91534423828125,
@@ -271,8 +271,8 @@
       "id": 6,
       "type": "BasicScheduler",
       "pos": [
-        1014.9232177734375,
-        55.07683563232422
+        1035.124267578125,
+        137.42872619628906
       ],
       "size": [
         260,
@@ -314,8 +314,8 @@
       "id": 2,
       "type": "SamplerCustomAdvanced",
       "pos": [
-        1024.9232177734375,
-        335.07684326171875
+        1045.124267578125,
+        417.4285888671875
       ],
       "size": [
         240,
@@ -389,8 +389,8 @@
       "id": 17,
       "type": "EmptyLatentImage",
       "pos": [
-        260.0321350097656,
-        411.9395446777344
+        269.50396728515625,
+        376.5904541015625
       ],
       "size": [
         315,
@@ -439,8 +439,8 @@
       "id": 8,
       "type": "ModelSamplingFlux",
       "pos": [
-        279.0629577636719,
-        221.78895568847656
+        288.5347900390625,
+        186.43968200683594
       ],
       "size": [
         296.6366271972656,
@@ -573,95 +573,11 @@
       ]
     },
     {
-      "id": 12,
-      "type": "LoraLoaderModelOnly",
-      "pos": [
-        274.518310546875,
-        -42.1259880065918
-      ],
-      "size": [
-        310,
-        82
-      ],
-      "flags": {},
-      "order": 9,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "model",
-          "type": "MODEL",
-          "link": 14,
-          "label": "model"
-        }
-      ],
-      "outputs": [
-        {
-          "name": "MODEL",
-          "type": "MODEL",
-          "links": [
-            18
-          ],
-          "slot_index": 0,
-          "label": "MODEL",
-          "shape": 3
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "LoraLoaderModelOnly"
-      },
-      "widgets_values": [
-        "albrtnstn.safetensors",
-        1.1
-      ]
-    },
-    {
-      "id": 16,
-      "type": "LoraLoaderModelOnly",
-      "pos": [
-        273.42413330078125,
-        92.41069030761719
-      ],
-      "size": [
-        310,
-        82
-      ],
-      "flags": {},
-      "order": 11,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "model",
-          "type": "MODEL",
-          "link": 18,
-          "label": "model"
-        }
-      ],
-      "outputs": [
-        {
-          "name": "MODEL",
-          "type": "MODEL",
-          "links": [
-            19
-          ],
-          "slot_index": 0,
-          "label": "MODEL",
-          "shape": 3
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "LoraLoaderModelOnly"
-      },
-      "widgets_values": [
-        "ARCANE_STYLE_FADOO-FLUX.safetensors",
-        0.86
-      ]
-    },
-    {
       "id": 10,
       "type": "DualCLIPLoader",
       "pos": [
-        652.2156982421875,
-        -167.44822692871094
+        663.3822631835938,
+        -207.57965087890625
       ],
       "size": [
         320,
@@ -697,8 +613,8 @@
       "id": 13,
       "type": "UNETLoader",
       "pos": [
-        264.51824951171875,
-        -172.12588500976562
+        273.9900817871094,
+        -207.47515869140625
       ],
       "size": [
         320,
@@ -732,8 +648,8 @@
       "id": 11,
       "type": "CLIPTextEncode",
       "pos": [
-        632.2156982421875,
-        2.551769495010376
+        643.3822631835938,
+        -37.57957458496094
       ],
       "size": [
         329.34429931640625,
@@ -767,7 +683,91 @@
         "Node name for S&R": "CLIPTextEncode"
       },
       "widgets_values": [
-        "Albert Einstein, he is writing \"E=mc²\" on a chalkboard with chalk, professional photography, amazing composition and image quality, great ambient natural lighting, dust particles,"
+        "embedding:Sabrina Carpenter - Singer wearing red sleevless top that is modest at a red carpet event, Paparazzi style, portrait photography, The image is detailed and shot using a Canon EOS R5 Mark II 45MP Full-Frame Mirrorless Camera with 85mm f 1.4 lens, RAW photo, highest quality, high detail RAW color photo, professional photo, high resolution image, inspiration from renowned photographers like brandon woelfel\n"
+      ]
+    },
+    {
+      "id": 12,
+      "type": "LoraLoaderModelOnly",
+      "pos": [
+        283.9901428222656,
+        -77.47514343261719
+      ],
+      "size": [
+        310,
+        82
+      ],
+      "flags": {},
+      "order": 9,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 14,
+          "label": "model"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            18
+          ],
+          "slot_index": 0,
+          "label": "MODEL",
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LoraLoaderModelOnly"
+      },
+      "widgets_values": [
+        "flux/Sabrina_Carpenter.safetensors",
+        1.1
+      ]
+    },
+    {
+      "id": 16,
+      "type": "LoraLoaderModelOnly",
+      "pos": [
+        282.8959655761719,
+        57.06154251098633
+      ],
+      "size": [
+        310,
+        82
+      ],
+      "flags": {},
+      "order": 11,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 18,
+          "label": "model"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            19
+          ],
+          "slot_index": 0,
+          "label": "MODEL",
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LoraLoaderModelOnly"
+      },
+      "widgets_values": [
+        "flux-RealismLora.safetensors",
+        0.88
       ]
     }
   ],
@@ -938,8 +938,8 @@
       "id": 1,
       "title": "Model+Loras",
       "bounding": [
-        254.5182342529297,
-        -273.72589111328125,
+        263.9900817871094,
+        -309.0749816894531,
         340.00006103515625,
         872.4700317382812
       ],
@@ -951,8 +951,8 @@
       "id": 2,
       "title": "CLIP Conditioning",
       "bounding": [
-        622.2156982421875,
-        -269.0482482910156,
+        633.3822631835938,
+        -309.17950439453125,
         360,
         603.1788940429688
       ],
@@ -964,10 +964,10 @@
       "id": 3,
       "title": "Sampling",
       "bounding": [
-        1004.9232177734375,
-        -368.5231628417969,
+        1025.12451171875,
+        -314.1714172363281,
         290,
-        923.5999755859375
+        951.5999755859375
       ],
       "color": "#444",
       "font_size": 44,
@@ -977,10 +977,10 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.9280283027531824,
+      "scale": 0.5238477832562262,
       "offset": [
-        119.95212407614048,
-        413.2863628399698
+        -85.49149666089772,
+        590.0598827526287
       ]
     },
     "node_versions": {
