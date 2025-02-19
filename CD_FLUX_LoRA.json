@@ -21,29 +21,29 @@
       "inputs": [
         {
           "name": "model",
+          "label": "model",
           "type": "MODEL",
           "link": 6,
-          "slot_index": 0,
-          "label": "model"
+          "slot_index": 0
         },
         {
           "name": "conditioning",
+          "label": "conditioning",
           "type": "CONDITIONING",
           "link": 7,
-          "slot_index": 1,
-          "label": "conditioning"
+          "slot_index": 1
         }
       ],
       "outputs": [
         {
           "name": "GUIDER",
+          "label": "GUIDER",
           "type": "GUIDER",
+          "shape": 3,
           "links": [
             2
           ],
-          "slot_index": 0,
-          "label": "GUIDER",
-          "shape": 3
+          "slot_index": 0
         }
       ],
       "properties": {
@@ -68,66 +68,32 @@
       "inputs": [
         {
           "name": "samples",
+          "label": "samples",
           "type": "LATENT",
-          "link": 15,
-          "label": "samples"
+          "link": 15
         },
         {
           "name": "vae",
+          "label": "vae",
           "type": "VAE",
-          "link": 16,
-          "label": "vae"
+          "link": 16
         }
       ],
       "outputs": [
         {
           "name": "IMAGE",
+          "label": "IMAGE",
           "type": "IMAGE",
           "links": [
             17
           ],
-          "slot_index": 0,
-          "label": "IMAGE"
+          "slot_index": 0
         }
       ],
       "properties": {
         "Node name for S&R": "VAEDecode"
       },
       "widgets_values": []
-    },
-    {
-      "id": 3,
-      "type": "RandomNoise",
-      "pos": [
-        1035.124267578125,
-        -212.57127380371094
-      ],
-      "size": [
-        260,
-        82
-      ],
-      "flags": {},
-      "order": 0,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "NOISE",
-          "type": "NOISE",
-          "links": [
-            1
-          ],
-          "label": "NOISE",
-          "shape": 3
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "RandomNoise"
-      },
-      "widgets_values": [
-        22,
-        "fixed"
-      ]
     },
     {
       "id": 1,
@@ -141,19 +107,19 @@
         60
       ],
       "flags": {},
-      "order": 1,
+      "order": 0,
       "mode": 0,
       "inputs": [],
       "outputs": [
         {
           "name": "VAE",
+          "label": "VAE",
           "type": "VAE",
+          "shape": 3,
           "links": [
             16
           ],
-          "slot_index": 0,
-          "label": "VAE",
-          "shape": 3
+          "slot_index": 0
         }
       ],
       "properties": {
@@ -180,9 +146,9 @@
       "inputs": [
         {
           "name": "images",
+          "label": "images",
           "type": "IMAGE",
-          "link": 17,
-          "label": "images"
+          "link": 17
         }
       ],
       "outputs": [],
@@ -191,123 +157,6 @@
       },
       "widgets_values": [
         "CD_FLUX_LORA"
-      ]
-    },
-    {
-      "id": 5,
-      "type": "KSamplerSelect",
-      "pos": [
-        1045.124267578125,
-        27.428726196289062
-      ],
-      "size": [
-        260,
-        60
-      ],
-      "flags": {},
-      "order": 2,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "SAMPLER",
-          "type": "SAMPLER",
-          "links": [
-            3
-          ],
-          "label": "SAMPLER",
-          "shape": 3
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "KSamplerSelect"
-      },
-      "widgets_values": [
-        "dpmpp_2m"
-      ]
-    },
-    {
-      "id": 7,
-      "type": "FluxGuidance",
-      "pos": [
-        693.3822631835938,
-        222.4203338623047
-      ],
-      "size": [
-        247.91534423828125,
-        61.57890319824219
-      ],
-      "flags": {},
-      "order": 10,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "conditioning",
-          "type": "CONDITIONING",
-          "link": 9,
-          "label": "conditioning"
-        }
-      ],
-      "outputs": [
-        {
-          "name": "CONDITIONING",
-          "type": "CONDITIONING",
-          "links": [
-            7
-          ],
-          "slot_index": 0,
-          "label": "CONDITIONING",
-          "shape": 3
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "FluxGuidance"
-      },
-      "widgets_values": [
-        6
-      ]
-    },
-    {
-      "id": 6,
-      "type": "BasicScheduler",
-      "pos": [
-        1035.124267578125,
-        137.42872619628906
-      ],
-      "size": [
-        260,
-        110
-      ],
-      "flags": {},
-      "order": 14,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "model",
-          "type": "MODEL",
-          "link": 8,
-          "slot_index": 0,
-          "label": "model"
-        }
-      ],
-      "outputs": [
-        {
-          "name": "SIGMAS",
-          "type": "SIGMAS",
-          "links": [
-            4
-          ],
-          "label": "SIGMAS",
-          "shape": 3
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "BasicScheduler"
-      },
-      "widgets_values": [
-        "beta",
-        35,
-        1
       ]
     },
     {
@@ -327,57 +176,57 @@
       "inputs": [
         {
           "name": "noise",
+          "label": "noise",
           "type": "NOISE",
           "link": 1,
-          "slot_index": 0,
-          "label": "noise"
+          "slot_index": 0
         },
         {
           "name": "guider",
+          "label": "guider",
           "type": "GUIDER",
           "link": 2,
-          "slot_index": 1,
-          "label": "guider"
+          "slot_index": 1
         },
         {
           "name": "sampler",
+          "label": "sampler",
           "type": "SAMPLER",
           "link": 3,
-          "slot_index": 2,
-          "label": "sampler"
+          "slot_index": 2
         },
         {
           "name": "sigmas",
+          "label": "sigmas",
           "type": "SIGMAS",
           "link": 4,
-          "slot_index": 3,
-          "label": "sigmas"
+          "slot_index": 3
         },
         {
           "name": "latent_image",
+          "label": "latent_image",
           "type": "LATENT",
           "link": 20,
-          "slot_index": 4,
-          "label": "latent_image"
+          "slot_index": 4
         }
       ],
       "outputs": [
         {
           "name": "output",
+          "label": "output",
           "type": "LATENT",
+          "shape": 3,
           "links": [
             15
           ],
-          "slot_index": 0,
-          "label": "output",
-          "shape": 3
+          "slot_index": 0
         },
         {
           "name": "denoised_output",
-          "type": "LATENT",
-          "links": null,
           "label": "denoised_output",
-          "shape": 3
+          "type": "LATENT",
+          "shape": 3,
+          "links": null
         }
       ],
       "properties": {
@@ -397,24 +246,24 @@
         106
       ],
       "flags": {},
-      "order": 7,
+      "order": 9,
       "mode": 0,
       "inputs": [
         {
           "name": "width",
           "type": "INT",
-          "link": 25,
           "widget": {
             "name": "width"
-          }
+          },
+          "link": 25
         },
         {
           "name": "height",
           "type": "INT",
-          "link": 26,
           "widget": {
             "name": "height"
-          }
+          },
+          "link": 26
         }
       ],
       "outputs": [
@@ -430,8 +279,8 @@
         "Node name for S&R": "EmptyLatentImage"
       },
       "widgets_values": [
-        1024,
-        1024,
+        896,
+        1088,
         1
       ]
     },
@@ -452,40 +301,40 @@
       "inputs": [
         {
           "name": "model",
+          "label": "model",
           "type": "MODEL",
-          "link": 19,
-          "label": "model"
+          "link": 19
         },
         {
           "name": "width",
-          "type": "INT",
-          "link": 22,
           "label": "width",
+          "type": "INT",
           "widget": {
             "name": "width"
-          }
+          },
+          "link": 22
         },
         {
           "name": "height",
-          "type": "INT",
-          "link": 24,
           "label": "height",
+          "type": "INT",
           "widget": {
             "name": "height"
-          }
+          },
+          "link": 24
         }
       ],
       "outputs": [
         {
           "name": "MODEL",
+          "label": "MODEL",
           "type": "MODEL",
+          "shape": 3,
           "links": [
             6,
             8
           ],
-          "slot_index": 0,
-          "label": "MODEL",
-          "shape": 3
+          "slot_index": 0
         }
       ],
       "properties": {
@@ -494,82 +343,8 @@
       "widgets_values": [
         1.15,
         0.5,
-        1024,
-        1024
-      ]
-    },
-    {
-      "id": 20,
-      "type": "PrimitiveNode",
-      "pos": [
-        -10,
-        400
-      ],
-      "size": [
-        210,
-        82
-      ],
-      "flags": {},
-      "order": 3,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "INT",
-          "type": "INT",
-          "links": [
-            24,
-            26
-          ],
-          "widget": {
-            "name": "height"
-          },
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Run widget replace on values": false
-      },
-      "widgets_values": [
-        1024,
-        "fixed"
-      ]
-    },
-    {
-      "id": 19,
-      "type": "PrimitiveNode",
-      "pos": [
-        -10,
-        270
-      ],
-      "size": [
-        210,
-        82
-      ],
-      "flags": {},
-      "order": 4,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "INT",
-          "type": "INT",
-          "links": [
-            22,
-            25
-          ],
-          "widget": {
-            "name": "width"
-          },
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Run widget replace on values": false
-      },
-      "widgets_values": [
-        1024,
-        "fixed"
+        896,
+        1088
       ]
     },
     {
@@ -584,19 +359,19 @@
         110
       ],
       "flags": {},
-      "order": 5,
+      "order": 1,
       "mode": 0,
       "inputs": [],
       "outputs": [
         {
           "name": "CLIP",
+          "label": "CLIP",
           "type": "CLIP",
+          "shape": 3,
           "links": [
             13
           ],
-          "slot_index": 0,
-          "label": "CLIP",
-          "shape": 3
+          "slot_index": 0
         }
       ],
       "properties": {
@@ -621,19 +396,19 @@
         82
       ],
       "flags": {},
-      "order": 6,
+      "order": 2,
       "mode": 0,
       "inputs": [],
       "outputs": [
         {
           "name": "MODEL",
+          "label": "MODEL",
           "type": "MODEL",
+          "shape": 3,
           "links": [
             14
           ],
-          "slot_index": 0,
-          "label": "MODEL",
-          "shape": 3
+          "slot_index": 0
         }
       ],
       "properties": {
@@ -642,6 +417,80 @@
       "widgets_values": [
         "flux1-dev-fp8.safetensors",
         "fp8_e4m3fn"
+      ]
+    },
+    {
+      "id": 19,
+      "type": "PrimitiveNode",
+      "pos": [
+        -10,
+        270
+      ],
+      "size": [
+        210,
+        82
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "INT",
+          "type": "INT",
+          "widget": {
+            "name": "width"
+          },
+          "links": [
+            22,
+            25
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Run widget replace on values": false
+      },
+      "widgets_values": [
+        896,
+        "fixed"
+      ]
+    },
+    {
+      "id": 20,
+      "type": "PrimitiveNode",
+      "pos": [
+        -10,
+        400
+      ],
+      "size": [
+        210,
+        82
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "INT",
+          "type": "INT",
+          "widget": {
+            "name": "height"
+          },
+          "links": [
+            24,
+            26
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Run widget replace on values": false
+      },
+      "widgets_values": [
+        1088,
+        "fixed"
       ]
     },
     {
@@ -658,25 +507,25 @@
       "flags": {
         "collapsed": false
       },
-      "order": 8,
+      "order": 7,
       "mode": 0,
       "inputs": [
         {
           "name": "clip",
+          "label": "clip",
           "type": "CLIP",
-          "link": 13,
-          "label": "clip"
+          "link": 13
         }
       ],
       "outputs": [
         {
           "name": "CONDITIONING",
+          "label": "CONDITIONING",
           "type": "CONDITIONING",
           "links": [
             9
           ],
-          "slot_index": 0,
-          "label": "CONDITIONING"
+          "slot_index": 0
         }
       ],
       "properties": {
@@ -684,6 +533,123 @@
       },
       "widgets_values": [
         "embedding:Sabrina Carpenter - Singer wearing red sleevless top that is modest at a red carpet event, Paparazzi style, portrait photography, The image is detailed and shot using a Canon EOS R5 Mark II 45MP Full-Frame Mirrorless Camera with 85mm f 1.4 lens, RAW photo, highest quality, high detail RAW color photo, professional photo, high resolution image, inspiration from renowned photographers like brandon woelfel\n"
+      ]
+    },
+    {
+      "id": 7,
+      "type": "FluxGuidance",
+      "pos": [
+        693.3822631835938,
+        222.4203338623047
+      ],
+      "size": [
+        247.91534423828125,
+        61.57890319824219
+      ],
+      "flags": {},
+      "order": 10,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "conditioning",
+          "label": "conditioning",
+          "type": "CONDITIONING",
+          "link": 9
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "label": "CONDITIONING",
+          "type": "CONDITIONING",
+          "shape": 3,
+          "links": [
+            7
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "FluxGuidance"
+      },
+      "widgets_values": [
+        3.5
+      ]
+    },
+    {
+      "id": 5,
+      "type": "KSamplerSelect",
+      "pos": [
+        1045.124267578125,
+        27.428726196289062
+      ],
+      "size": [
+        260,
+        60
+      ],
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "SAMPLER",
+          "label": "SAMPLER",
+          "type": "SAMPLER",
+          "shape": 3,
+          "links": [
+            3
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "KSamplerSelect"
+      },
+      "widgets_values": [
+        "euler"
+      ]
+    },
+    {
+      "id": 6,
+      "type": "BasicScheduler",
+      "pos": [
+        1035.124267578125,
+        137.42872619628906
+      ],
+      "size": [
+        260,
+        110
+      ],
+      "flags": {},
+      "order": 14,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "label": "model",
+          "type": "MODEL",
+          "link": 8,
+          "slot_index": 0
+        }
+      ],
+      "outputs": [
+        {
+          "name": "SIGMAS",
+          "label": "SIGMAS",
+          "type": "SIGMAS",
+          "shape": 3,
+          "links": [
+            4
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "BasicScheduler"
+      },
+      "widgets_values": [
+        "simple",
+        35,
+        1
       ]
     },
     {
@@ -698,26 +664,26 @@
         82
       ],
       "flags": {},
-      "order": 9,
+      "order": 8,
       "mode": 0,
       "inputs": [
         {
           "name": "model",
+          "label": "model",
           "type": "MODEL",
-          "link": 14,
-          "label": "model"
+          "link": 14
         }
       ],
       "outputs": [
         {
           "name": "MODEL",
+          "label": "MODEL",
           "type": "MODEL",
+          "shape": 3,
           "links": [
             18
           ],
-          "slot_index": 0,
-          "label": "MODEL",
-          "shape": 3
+          "slot_index": 0
         }
       ],
       "properties": {
@@ -725,7 +691,7 @@
       },
       "widgets_values": [
         "flux/Sabrina_Carpenter.safetensors",
-        1.1
+        1.18
       ]
     },
     {
@@ -745,21 +711,21 @@
       "inputs": [
         {
           "name": "model",
+          "label": "model",
           "type": "MODEL",
-          "link": 18,
-          "label": "model"
+          "link": 18
         }
       ],
       "outputs": [
         {
           "name": "MODEL",
+          "label": "MODEL",
           "type": "MODEL",
+          "shape": 3,
           "links": [
             19
           ],
-          "slot_index": 0,
-          "label": "MODEL",
-          "shape": 3
+          "slot_index": 0
         }
       ],
       "properties": {
@@ -768,6 +734,40 @@
       "widgets_values": [
         "flux-RealismLora.safetensors",
         0.88
+      ]
+    },
+    {
+      "id": 3,
+      "type": "RandomNoise",
+      "pos": [
+        1035.124267578125,
+        -212.57127380371094
+      ],
+      "size": [
+        260,
+        82
+      ],
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "NOISE",
+          "label": "NOISE",
+          "type": "NOISE",
+          "shape": 3,
+          "links": [
+            1
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "RandomNoise"
+      },
+      "widgets_values": [
+        22,
+        "fixed"
       ]
     }
   ],
@@ -977,15 +977,18 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.5238477832562262,
+      "scale": 0.7247295000000004,
       "offset": [
-        -85.49149666089772,
-        590.0598827526287
+        16.821614921412426,
+        414.1312460698054
       ]
     },
     "node_versions": {
-      "comfy-core": "0.3.12"
-    }
+      "comfy-core": "0.3.14"
+    },
+    "ue_links": [],
+    "VHS_latentpreview": false,
+    "VHS_latentpreviewrate": 0
   },
   "version": 0.4
 }
