@@ -22,6 +22,8 @@ This are a series of workflows that work together to create and repurpose animat
 
 |[CD_FLUX_INPAINTING](workflows/CD_FLUX_INPAINTING.json)|[![Try CD_FLUX_INPAINTING](https://beta.app.comfydeploy.com/button)](https://beta.app.comfydeploy.com/home?gpu=A10G&comfyui_version=a7fe0a94dee08754f97b0171e15c1f2271aa37be&timeout=15&nodes=&workflowLink=https%3A%2F%2Fraw.githubusercontent.com%2Fif-ai%2FIF-Animation-Workflows%2Frefs%2Fheads%2Fmain%2FCD_FLUX_INPAINTING.json)|
 
+|[CD_FLUX_REDUX](workflows/CD_FLUX_REDUX.json)|[![Try CD_FLUX_REDUX](https://beta.app.comfydeploy.com/button)](https://beta.app.comfydeploy.com/home?gpu=A10G&comfyui_version=a7fe0a94dee08754f97b0171e15c1f2271aa37be&timeout=15&nodes=&workflowLink=https%3A%2F%2Fraw.githubusercontent.com%2Fif-ai%2FIF-Animation-Workflows%2Frefs%2Fheads%2Fmain%2FCD_FLUX_REDUX.json)|
+
 IF_Animator (Main workflow )
 IF_KeyAnimation_Helper (has a lite and SMPL version is workflow to extract keys redraw them on a external app)
 IF_Inbetweeners (You can select a few frames create the inbetween)
