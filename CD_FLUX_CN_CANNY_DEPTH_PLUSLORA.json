@@ -1,6 +1,6 @@
 {
   "last_node_id": 97,
-  "last_link_id": 254,
+  "last_link_id": 255,
   "nodes": [
     {
       "id": 34,
@@ -87,7 +87,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 13,
+      "order": 12,
       "mode": 0,
       "inputs": [
         {
@@ -125,7 +125,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 16,
+      "order": 15,
       "mode": 0,
       "inputs": [
         {
@@ -182,7 +182,7 @@
         246
       ],
       "flags": {},
-      "order": 17,
+      "order": 16,
       "mode": 0,
       "inputs": [
         {
@@ -209,7 +209,7 @@
         246
       ],
       "flags": {},
-      "order": 19,
+      "order": 18,
       "mode": 0,
       "inputs": [
         {
@@ -238,7 +238,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 20,
+      "order": 19,
       "mode": 0,
       "inputs": [
         {
@@ -311,7 +311,7 @@
         58
       ],
       "flags": {},
-      "order": 22,
+      "order": 21,
       "mode": 0,
       "inputs": [
         {
@@ -349,7 +349,7 @@
         46
       ],
       "flags": {},
-      "order": 29,
+      "order": 28,
       "mode": 0,
       "inputs": [
         {
@@ -392,7 +392,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 21,
+      "order": 20,
       "mode": 0,
       "inputs": [
         {
@@ -429,7 +429,7 @@
         262
       ],
       "flags": {},
-      "order": 28,
+      "order": 27,
       "mode": 0,
       "inputs": [
         {
@@ -546,7 +546,7 @@
         46
       ],
       "flags": {},
-      "order": 24,
+      "order": 23,
       "mode": 0,
       "inputs": [
         {
@@ -627,13 +627,13 @@
         262
       ],
       "flags": {},
-      "order": 23,
+      "order": 22,
       "mode": 0,
       "inputs": [
         {
           "name": "model",
           "type": "MODEL",
-          "link": 254
+          "link": 255
         },
         {
           "name": "positive",
@@ -665,7 +665,7 @@
         "Node name for S&R": "KSampler"
       },
       "widgets_values": [
-        546658464,
+        546658468,
         "increment",
         6,
         1,
@@ -686,7 +686,7 @@
         86
       ],
       "flags": {},
-      "order": 18,
+      "order": 17,
       "mode": 0,
       "inputs": [
         {
@@ -754,7 +754,7 @@
         58
       ],
       "flags": {},
-      "order": 12,
+      "order": 11,
       "mode": 0,
       "inputs": [
         {
@@ -793,7 +793,7 @@
         82.9031982421875
       ],
       "flags": {},
-      "order": 15,
+      "order": 14,
       "mode": 0,
       "inputs": [
         {
@@ -841,7 +841,7 @@
         78
       ],
       "flags": {},
-      "order": 14,
+      "order": 13,
       "mode": 0,
       "inputs": [
         {
@@ -876,6 +876,74 @@
       "widgets_values": [
         "MiDaS-DepthMapPreprocessor",
         832
+      ]
+    },
+    {
+      "id": 87,
+      "type": "VAEEncode",
+      "pos": [
+        1790.999755859375,
+        1128.7127685546875
+      ],
+      "size": [
+        210,
+        46
+      ],
+      "flags": {},
+      "order": 25,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "pixels",
+          "type": "IMAGE",
+          "link": 239
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": 223
+        }
+      ],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            243
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VAEEncode"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 9,
+      "type": "SaveImage",
+      "pos": [
+        1651.001220703125,
+        -95.65118408203125
+      ],
+      "size": [
+        810.6817016601562,
+        836.8623657226562
+      ],
+      "flags": {},
+      "order": 24,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 9
+        }
+      ],
+      "outputs": [],
+      "properties": {},
+      "widgets_values": [
+        "LORA_CTRLNET_1st_PASS_"
       ]
     },
     {
@@ -915,16 +983,16 @@
         "Node name for S&R": "LoadImage"
       },
       "widgets_values": [
-        "aiony-haust-hRzGI5kLc5c-unsplash.jpg",
+        "maria-loginova-LgIvQzyjKlI-unsplash.jpg",
         "image"
       ]
     },
     {
-      "id": 90,
+      "id": 31,
       "type": "UNETLoader",
       "pos": [
-        1782.8009033203125,
-        871.636962890625
+        570.4951782226562,
+        -43.451446533203125
       ],
       "size": [
         315,
@@ -939,7 +1007,7 @@
           "name": "MODEL",
           "type": "MODEL",
           "links": [
-            251
+            255
           ],
           "slot_index": 0
         }
@@ -948,88 +1016,8 @@
         "Node name for S&R": "UNETLoader"
       },
       "widgets_values": [
-        "flux1-dev-fp8.safetensors",
+        "flux1DepthDevFp8_v10.safetensors",
         "default"
-      ]
-    },
-    {
-      "id": 87,
-      "type": "VAEEncode",
-      "pos": [
-        1790.999755859375,
-        1128.7127685546875
-      ],
-      "size": [
-        210,
-        46
-      ],
-      "flags": {},
-      "order": 26,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "pixels",
-          "type": "IMAGE",
-          "link": 239
-        },
-        {
-          "name": "vae",
-          "type": "VAE",
-          "link": 223
-        }
-      ],
-      "outputs": [
-        {
-          "name": "LATENT",
-          "type": "LATENT",
-          "links": [
-            243
-          ],
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "VAEEncode"
-      },
-      "widgets_values": []
-    },
-    {
-      "id": 93,
-      "type": "LatentUpscaleBy",
-      "pos": [
-        1777.8582763671875,
-        1219.526123046875
-      ],
-      "size": [
-        315,
-        82
-      ],
-      "flags": {},
-      "order": 27,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "samples",
-          "type": "LATENT",
-          "link": 243
-        }
-      ],
-      "outputs": [
-        {
-          "name": "LATENT",
-          "type": "LATENT",
-          "links": [
-            244
-          ],
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "LatentUpscaleBy"
-      },
-      "widgets_values": [
-        "nearest-exact",
-        1.25
       ]
     },
     {
@@ -1064,15 +1052,15 @@
         "Node name for S&R": "VAELoader"
       },
       "widgets_values": [
-        "ae.safetensors"
+        "ae.sft"
       ]
     },
     {
-      "id": 31,
+      "id": 90,
       "type": "UNETLoader",
       "pos": [
-        570.4951782226562,
-        -43.451446533203125
+        1782.8009033203125,
+        871.636962890625
       ],
       "size": [
         315,
@@ -1087,7 +1075,7 @@
           "name": "MODEL",
           "type": "MODEL",
           "links": [
-            253
+            251
           ],
           "slot_index": 0
         }
@@ -1096,47 +1084,8 @@
         "Node name for S&R": "UNETLoader"
       },
       "widgets_values": [
-        "flux\\flux1DepthDevFp8_v10.safetensors",
+        "flux1-dev-fp8.safetensors",
         "default"
-      ]
-    },
-    {
-      "id": 97,
-      "type": "LoraLoaderModelOnly",
-      "pos": [
-        570.4166259765625,
-        94.82534790039062
-      ],
-      "size": [
-        315,
-        82
-      ],
-      "flags": {},
-      "order": 11,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "model",
-          "type": "MODEL",
-          "link": 253
-        }
-      ],
-      "outputs": [
-        {
-          "name": "MODEL",
-          "type": "MODEL",
-          "links": [
-            254
-          ],
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "LoraLoaderModelOnly"
-      },
-      "widgets_values": [
-        "flux\\flux_realism_lora.safetensors",
-        1
       ]
     },
     {
@@ -1174,35 +1123,47 @@
         "Node name for S&R": "LoraLoaderModelOnly"
       },
       "widgets_values": [
-        "flux\\flux-realism-lora.safetensors",
+        "flux/flux_realism_lora.safetensors",
         1
       ]
     },
     {
-      "id": 9,
-      "type": "SaveImage",
+      "id": 93,
+      "type": "LatentUpscaleBy",
       "pos": [
-        1651.001220703125,
-        -95.65118408203125
+        1795.30712890625,
+        1222.461181640625
       ],
       "size": [
-        810.6817016601562,
-        836.8623657226562
+        315,
+        82
       ],
       "flags": {},
-      "order": 25,
+      "order": 26,
       "mode": 0,
       "inputs": [
         {
-          "name": "images",
-          "type": "IMAGE",
-          "link": 9
+          "name": "samples",
+          "type": "LATENT",
+          "link": 243
         }
       ],
-      "outputs": [],
-      "properties": {},
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            244
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LatentUpscaleBy"
+      },
       "widgets_values": [
-        "LORA_CTRLNET_1st_PASS_"
+        "nearest-exact",
+        1.25
       ]
     },
     {
@@ -1242,7 +1203,7 @@
         "Node name for S&R": "CLIPTextEncode"
       },
       "widgets_values": [
-        "Epic dramatic portrait of a woman as Selena from The Sailormoon, holding flowers sparingly fire sparkles affects Background featuring a whimsical palace hall interior, creating a Colorful fantasy aesthetics. photoreal, Five stars best quality"
+        "An oil painting portrait of a beautiful female knight. A serene, pastel-hued scene, with a warm golden film grain. The portrait is a cowboy shot. She has a long curly black hair, with long bangs and a high ponytail. She is wearing very heavy armor, which shows off her huge breasts and narrow waist. White tights could be seen on her thigh. Her big teary eyes are looking directly at the viewer, soft smiling. But her mouth is firmly closed. She is carrying a helmet in her arms. In the background it's a burning and bloody field, somewhere in mid summer Spain. Black smoke covers the skyline afar."
       ]
     },
     {
@@ -1257,7 +1218,7 @@
         1103.8074951171875
       ],
       "flags": {},
-      "order": 30,
+      "order": 29,
       "mode": 0,
       "inputs": [
         {
@@ -1595,16 +1556,8 @@
       "MODEL"
     ],
     [
-      253,
+      255,
       31,
-      0,
-      97,
-      0,
-      "MODEL"
-    ],
-    [
-      254,
-      97,
       0,
       3,
       0,
@@ -1694,14 +1647,15 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.5500081795424365,
+      "scale": 0.8052669756680976,
       "offset": [
-        72.878889226737,
-        321.02719144738137
+        68.60132083112148,
+        286.56448615496146
       ]
     },
     "node_versions": {
-      "comfy-core": "0.3.12"
+      "comfy-core": "0.3.12",
+      "comfyui_controlnet_aux": "1e9eac6377c882da8bb360c7544607036904362c"
     }
   },
   "version": 0.4
