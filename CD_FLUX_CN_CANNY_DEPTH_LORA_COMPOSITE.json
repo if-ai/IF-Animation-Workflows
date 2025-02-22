@@ -1,6 +1,6 @@
 {
-  "last_node_id": 95,
-  "last_link_id": 231,
+  "last_node_id": 96,
+  "last_link_id": 239,
   "nodes": [
     {
       "id": 45,
@@ -14,7 +14,7 @@
         26
       ],
       "flags": {},
-      "order": 16,
+      "order": 17,
       "mode": 0,
       "inputs": [
         {
@@ -50,7 +50,7 @@
         58
       ],
       "flags": {},
-      "order": 23,
+      "order": 21,
       "mode": 0,
       "inputs": [
         {
@@ -91,7 +91,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 38,
+      "order": 33,
       "mode": 0,
       "inputs": [
         {
@@ -129,7 +129,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 24,
+      "order": 22,
       "mode": 0,
       "inputs": [
         {
@@ -167,7 +167,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 21,
+      "order": 24,
       "mode": 0,
       "inputs": [
         {
@@ -224,7 +224,7 @@
         246
       ],
       "flags": {},
-      "order": 35,
+      "order": 28,
       "mode": 0,
       "inputs": [
         {
@@ -251,7 +251,7 @@
         246
       ],
       "flags": {},
-      "order": 37,
+      "order": 41,
       "mode": 4,
       "inputs": [
         {
@@ -280,7 +280,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 27,
+      "order": 30,
       "mode": 0,
       "inputs": [
         {
@@ -316,7 +316,7 @@
         82.9031982421875
       ],
       "flags": {},
-      "order": 34,
+      "order": 39,
       "mode": 4,
       "inputs": [
         {
@@ -353,66 +353,11 @@
       ]
     },
     {
-      "id": 44,
-      "type": "ImageScale",
-      "pos": [
-        -26.643291473388672,
-        342.3267822265625
-      ],
-      "size": [
-        315,
-        130
-      ],
-      "flags": {},
-      "order": 15,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "image",
-          "type": "IMAGE",
-          "link": 96
-        },
-        {
-          "name": "width",
-          "type": "INT",
-          "widget": {
-            "name": "width"
-          },
-          "link": 100
-        },
-        {
-          "name": "height",
-          "type": "INT",
-          "widget": {
-            "name": "height"
-          },
-          "link": 101
-        }
-      ],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [],
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "ImageScale"
-      },
-      "widgets_values": [
-        "nearest-exact",
-        832,
-        1088,
-        "disabled"
-      ]
-    },
-    {
       "id": 65,
       "type": "LoadImage",
       "pos": [
-        -374.29876708984375,
-        907.5526123046875
+        -236.64453125,
+        922.6306762695312
       ],
       "size": [
         278.2839050292969,
@@ -420,7 +365,7 @@
       ],
       "flags": {},
       "order": 0,
-      "mode": 0,
+      "mode": 4,
       "inputs": [],
       "outputs": [
         {
@@ -452,8 +397,8 @@
       "id": 76,
       "type": "LoadImage",
       "pos": [
-        -391.5750732421875,
-        1662.56005859375
+        -253.92074584960938,
+        1677.6375732421875
       ],
       "size": [
         315,
@@ -461,7 +406,7 @@
       ],
       "flags": {},
       "order": 1,
-      "mode": 0,
+      "mode": 4,
       "inputs": [],
       "outputs": [
         {
@@ -490,8 +435,8 @@
       "id": 73,
       "type": "MaskToImage",
       "pos": [
-        33.84745788574219,
-        1079.369140625
+        171.50148010253906,
+        1094.4466552734375
       ],
       "size": [
         264.5999755859375,
@@ -499,7 +444,7 @@
       ],
       "flags": {},
       "order": 9,
-      "mode": 0,
+      "mode": 4,
       "inputs": [
         {
           "name": "mask",
@@ -526,16 +471,16 @@
       "id": 74,
       "type": "ImageToMask",
       "pos": [
-        36.19316482543945,
-        1323.17578125
+        173.84718322753906,
+        1338.2532958984375
       ],
       "size": [
         315,
         58
       ],
       "flags": {},
-      "order": 25,
-      "mode": 0,
+      "order": 26,
+      "mode": 4,
       "inputs": [
         {
           "name": "image",
@@ -564,8 +509,8 @@
       "id": 72,
       "type": "ImageScale",
       "pos": [
-        32.86381530761719,
-        1149.309814453125
+        170.51783752441406,
+        1164.3873291015625
       ],
       "size": [
         315,
@@ -573,7 +518,7 @@
       ],
       "flags": {},
       "order": 19,
-      "mode": 0,
+      "mode": 4,
       "inputs": [
         {
           "name": "image",
@@ -621,8 +566,8 @@
       "id": 80,
       "type": "ImageScale",
       "pos": [
-        24.184114456176758,
-        1677.488525390625
+        161.83810424804688,
+        1692.5660400390625
       ],
       "size": [
         315,
@@ -630,7 +575,7 @@
       ],
       "flags": {},
       "order": 20,
-      "mode": 0,
+      "mode": 4,
       "inputs": [
         {
           "name": "image",
@@ -678,8 +623,8 @@
       "id": 82,
       "type": "MaskToImage",
       "pos": [
-        25.167512893676758,
-        1607.54736328125
+        162.82150268554688,
+        1622.62451171875
       ],
       "size": [
         264.5999755859375,
@@ -687,7 +632,7 @@
       ],
       "flags": {},
       "order": 13,
-      "mode": 0,
+      "mode": 4,
       "inputs": [
         {
           "name": "mask",
@@ -800,16 +745,16 @@
       "id": 81,
       "type": "ImageToMask",
       "pos": [
-        27.51321792602539,
-        1851.3543701171875
+        165.16720581054688,
+        1866.4320068359375
       ],
       "size": [
         315,
         58
       ],
       "flags": {},
-      "order": 26,
-      "mode": 0,
+      "order": 27,
+      "mode": 4,
       "inputs": [
         {
           "name": "image",
@@ -836,8 +781,8 @@
       "id": 71,
       "type": "ImageScale",
       "pos": [
-        31.057907104492188,
-        1427.5643310546875
+        168.71192932128906,
+        1442.641845703125
       ],
       "size": [
         315,
@@ -845,7 +790,7 @@
       ],
       "flags": {},
       "order": 11,
-      "mode": 0,
+      "mode": 4,
       "inputs": [
         {
           "name": "image",
@@ -891,8 +836,8 @@
       "id": 75,
       "type": "InvertMask",
       "pos": [
-        448.7461853027344,
-        1672.326171875
+        586.4002685546875,
+        1687.4036865234375
       ],
       "size": [
         140,
@@ -900,7 +845,7 @@
       ],
       "flags": {},
       "order": 14,
-      "mode": 0,
+      "mode": 4,
       "inputs": [
         {
           "name": "mask",
@@ -927,8 +872,8 @@
       "id": 67,
       "type": "LoadImage",
       "pos": [
-        -388.0902099609375,
-        1297.9580078125
+        -250.4359130859375,
+        1313.0355224609375
       ],
       "size": [
         315,
@@ -936,7 +881,7 @@
       ],
       "flags": {},
       "order": 4,
-      "mode": 0,
+      "mode": 4,
       "inputs": [],
       "outputs": [
         {
@@ -977,7 +922,7 @@
         58
       ],
       "flags": {},
-      "order": 39,
+      "order": 34,
       "mode": 0,
       "inputs": [
         {
@@ -1004,92 +949,11 @@
       ]
     },
     {
-      "id": 23,
-      "type": "CLIPTextEncode",
-      "pos": [
-        935.5130004882812,
-        611.310546875
-      ],
-      "size": [
-        285.6000061035156,
-        111.48834228515625
-      ],
-      "flags": {},
-      "order": 18,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "clip",
-          "type": "CLIP",
-          "link": 95
-        }
-      ],
-      "outputs": [
-        {
-          "name": "CONDITIONING",
-          "type": "CONDITIONING",
-          "links": [
-            41,
-            71
-          ],
-          "slot_index": 0
-        }
-      ],
-      "title": "CLIP Text Encode (Positive Prompt)",
-      "properties": {
-        "Node name for S&R": "CLIPTextEncode"
-      },
-      "widgets_values": [
-        "Ad Typography \"OWARI\" Photorealistic Illustration of A woman's back view running away from the viewer into the distance, over a running track made of Lava, Illustration, from above \na superimposed single white shoe in side profile"
-      ]
-    },
-    {
-      "id": 47,
-      "type": "LoadImage",
-      "pos": [
-        -13.288711547851562,
-        -40.55691146850586
-      ],
-      "size": [
-        278.2839050292969,
-        332.3580322265625
-      ],
-      "flags": {},
-      "order": 5,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            96
-          ],
-          "slot_index": 0
-        },
-        {
-          "name": "MASK",
-          "type": "MASK",
-          "links": [
-            97
-          ],
-          "slot_index": 1
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "LoadImage"
-      },
-      "widgets_values": [
-        "brian-lawson-6qvCcNrNjcM-unsplash.jpg",
-        "image"
-      ]
-    },
-    {
       "id": 77,
       "type": "ImageScale",
       "pos": [
-        34.59453201293945,
-        1953.7724609375
+        172.24855041503906,
+        1968.8502197265625
       ],
       "size": [
         315,
@@ -1097,7 +961,7 @@
       ],
       "flags": {},
       "order": 12,
-      "mode": 0,
+      "mode": 4,
       "inputs": [
         {
           "name": "image",
@@ -1145,16 +1009,16 @@
       "id": 66,
       "type": "ImageCompositeMasked",
       "pos": [
-        432.55328369140625,
-        1764.0108642578125
+        570.2073364257812,
+        1779.088134765625
       ],
       "size": [
         315,
         146
       ],
       "flags": {},
-      "order": 31,
-      "mode": 0,
+      "order": 36,
+      "mode": 4,
       "inputs": [
         {
           "name": "destination",
@@ -1179,7 +1043,6 @@
           "type": "IMAGE",
           "links": [
             137,
-            208,
             209
           ],
           "slot_index": 0
@@ -1198,16 +1061,16 @@
       "id": 78,
       "type": "ImageCompositeMasked",
       "pos": [
-        407.9954528808594,
-        1133.0826416015625
+        545.6495971679688,
+        1148.16015625
       ],
       "size": [
         315,
         146
       ],
       "flags": {},
-      "order": 29,
-      "mode": 0,
+      "order": 32,
+      "mode": 4,
       "inputs": [
         {
           "name": "destination",
@@ -1250,16 +1113,16 @@
       "id": 69,
       "type": "PreviewImage",
       "pos": [
-        791.7166137695312,
-        1402.378173828125
+        929.3707275390625,
+        1417.4556884765625
       ],
       "size": [
         680.899658203125,
         635.4360961914062
       ],
       "flags": {},
-      "order": 32,
-      "mode": 0,
+      "order": 38,
+      "mode": 4,
       "inputs": [
         {
           "name": "images",
@@ -1285,7 +1148,7 @@
         46
       ],
       "flags": {},
-      "order": 41,
+      "order": 40,
       "mode": 0,
       "inputs": [
         {
@@ -1318,8 +1181,8 @@
       "id": 70,
       "type": "ImageScale",
       "pos": [
-        19.333328247070312,
-        910.462890625
+        156.98733520507812,
+        925.541015625
       ],
       "size": [
         315,
@@ -1327,7 +1190,7 @@
       ],
       "flags": {},
       "order": 10,
-      "mode": 0,
+      "mode": 4,
       "inputs": [
         {
           "name": "image",
@@ -1372,68 +1235,19 @@
       ]
     },
     {
-      "id": 59,
-      "type": "AIO_Preprocessor",
-      "pos": [
-        311.2579040527344,
-        -48.626548767089844
-      ],
-      "size": [
-        210,
-        78
-      ],
-      "flags": {},
-      "order": 33,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "image",
-          "type": "IMAGE",
-          "link": 208
-        },
-        {
-          "name": "resolution",
-          "type": "INT",
-          "shape": 7,
-          "widget": {
-            "name": "resolution"
-          },
-          "link": 129
-        }
-      ],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            122,
-            225
-          ],
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "AIO_Preprocessor"
-      },
-      "widgets_values": [
-        "MiDaS-DepthMapPreprocessor",
-        832
-      ]
-    },
-    {
       "id": 79,
       "type": "PreviewImage",
       "pos": [
-        791.5664672851562,
-        908.218994140625
+        929.2205810546875,
+        923.2970581054688
       ],
       "size": [
         598.4425659179688,
         450.6527099609375
       ],
       "flags": {},
-      "order": 30,
-      "mode": 0,
+      "order": 35,
+      "mode": 4,
       "inputs": [
         {
           "name": "images",
@@ -1459,7 +1273,7 @@
         86
       ],
       "flags": {},
-      "order": 36,
+      "order": 29,
       "mode": 0,
       "inputs": [
         {
@@ -1480,7 +1294,7 @@
         {
           "name": "pixels",
           "type": "IMAGE",
-          "link": 225
+          "link": 234
         }
       ],
       "outputs": [
@@ -1515,39 +1329,6 @@
       "widgets_values": []
     },
     {
-      "id": 31,
-      "type": "UNETLoader",
-      "pos": [
-        558.4954833984375,
-        6.091331481933594
-      ],
-      "size": [
-        315,
-        82
-      ],
-      "flags": {},
-      "order": 6,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "MODEL",
-          "type": "MODEL",
-          "links": [
-            230
-          ],
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "UNETLoader"
-      },
-      "widgets_values": [
-        "flux\\flux1DepthDevFp8_v10.safetensors",
-        "default"
-      ]
-    },
-    {
       "id": 34,
       "type": "DualCLIPLoader",
       "pos": [
@@ -1559,7 +1340,7 @@
         106
       ],
       "flags": {},
-      "order": 7,
+      "order": 5,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1583,160 +1364,6 @@
       ]
     },
     {
-      "id": 95,
-      "type": "LoraLoaderModelOnly",
-      "pos": [
-        560.9031982421875,
-        138.82278442382812
-      ],
-      "size": [
-        300.4800109863281,
-        82
-      ],
-      "flags": {},
-      "order": 17,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "model",
-          "type": "MODEL",
-          "link": 230
-        }
-      ],
-      "outputs": [
-        {
-          "name": "MODEL",
-          "type": "MODEL",
-          "links": [
-            226
-          ],
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "LoraLoaderModelOnly"
-      },
-      "widgets_values": [
-        "flux\\flux1-canny-dev-lora.safetensors",
-        0.85
-      ]
-    },
-    {
-      "id": 32,
-      "type": "VAELoader",
-      "pos": [
-        555.4190063476562,
-        530.6292114257812
-      ],
-      "size": [
-        315,
-        58
-      ],
-      "flags": {},
-      "order": 8,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "VAE",
-          "type": "VAE",
-          "links": [
-            60,
-            69
-          ],
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "VAELoader"
-      },
-      "widgets_values": [
-        "ae.safetensors"
-      ]
-    },
-    {
-      "id": 93,
-      "type": "LoraLoaderModelOnly",
-      "pos": [
-        557.2252807617188,
-        267.9197082519531
-      ],
-      "size": [
-        310,
-        82
-      ],
-      "flags": {},
-      "order": 22,
-      "mode": 4,
-      "inputs": [
-        {
-          "name": "model",
-          "label": "model",
-          "type": "MODEL",
-          "link": 226
-        }
-      ],
-      "outputs": [
-        {
-          "name": "MODEL",
-          "label": "MODEL",
-          "type": "MODEL",
-          "shape": 3,
-          "links": [
-            227
-          ],
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "LoraLoaderModelOnly"
-      },
-      "widgets_values": [
-        "flux\\Sabrina Carpenter.safetensors",
-        1.18
-      ]
-    },
-    {
-      "id": 94,
-      "type": "LoraLoaderModelOnly",
-      "pos": [
-        562.6442260742188,
-        393.404052734375
-      ],
-      "size": [
-        310,
-        82
-      ],
-      "flags": {},
-      "order": 28,
-      "mode": 4,
-      "inputs": [
-        {
-          "name": "model",
-          "label": "model",
-          "type": "MODEL",
-          "link": 227
-        }
-      ],
-      "outputs": [
-        {
-          "name": "MODEL",
-          "label": "MODEL",
-          "type": "MODEL",
-          "shape": 3,
-          "links": [],
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "LoraLoaderModelOnly"
-      },
-      "widgets_values": [
-        "flux\\flux-realism-lora.safetensors",
-        0.88
-      ]
-    },
-    {
       "id": 3,
       "type": "KSampler",
       "pos": [
@@ -1748,13 +1375,13 @@
         262
       ],
       "flags": {},
-      "order": 40,
+      "order": 37,
       "mode": 0,
       "inputs": [
         {
           "name": "model",
           "type": "MODEL",
-          "link": null
+          "link": 232
         },
         {
           "name": "positive",
@@ -1786,7 +1413,7 @@
         "Node name for S&R": "KSampler"
       },
       "widgets_values": [
-        321314323610701,
+        590819870012024,
         "randomize",
         30,
         1,
@@ -1820,6 +1447,379 @@
       "properties": {},
       "widgets_values": [
         "LORA_CTRLNET"
+      ]
+    },
+    {
+      "id": 47,
+      "type": "LoadImage",
+      "pos": [
+        -13.288711547851562,
+        -40.55691146850586
+      ],
+      "size": [
+        278.2839050292969,
+        332.3580322265625
+      ],
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            96
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": [
+            97
+          ],
+          "slot_index": 1
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LoadImage"
+      },
+      "widgets_values": [
+        "maria-loginova-LgIvQzyjKlI-unsplash.jpg",
+        "image"
+      ]
+    },
+    {
+      "id": 32,
+      "type": "VAELoader",
+      "pos": [
+        555.4190063476562,
+        530.6292114257812
+      ],
+      "size": [
+        315,
+        58
+      ],
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "VAE",
+          "type": "VAE",
+          "links": [
+            60,
+            69
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VAELoader"
+      },
+      "widgets_values": [
+        "ae.sft"
+      ]
+    },
+    {
+      "id": 44,
+      "type": "ImageScale",
+      "pos": [
+        -26.643291473388672,
+        342.3267822265625
+      ],
+      "size": [
+        315,
+        130
+      ],
+      "flags": {},
+      "order": 16,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 96
+        },
+        {
+          "name": "width",
+          "type": "INT",
+          "widget": {
+            "name": "width"
+          },
+          "link": 100
+        },
+        {
+          "name": "height",
+          "type": "INT",
+          "widget": {
+            "name": "height"
+          },
+          "link": 101
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            233
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ImageScale"
+      },
+      "widgets_values": [
+        "nearest-exact",
+        832,
+        1088,
+        "disabled"
+      ]
+    },
+    {
+      "id": 59,
+      "type": "AIO_Preprocessor",
+      "pos": [
+        311.2579040527344,
+        -48.626548767089844
+      ],
+      "size": [
+        210,
+        78
+      ],
+      "flags": {},
+      "order": 23,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 233
+        },
+        {
+          "name": "resolution",
+          "type": "INT",
+          "shape": 7,
+          "widget": {
+            "name": "resolution"
+          },
+          "link": 129
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            122,
+            234
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "AIO_Preprocessor"
+      },
+      "widgets_values": [
+        "MiDaS-DepthMapPreprocessor",
+        832
+      ]
+    },
+    {
+      "id": 93,
+      "type": "LoraLoaderModelOnly",
+      "pos": [
+        561.9180297851562,
+        384.2815856933594
+      ],
+      "size": [
+        310,
+        82
+      ],
+      "flags": {},
+      "order": 31,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "label": "model",
+          "type": "MODEL",
+          "link": 239
+        }
+      ],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "label": "MODEL",
+          "type": "MODEL",
+          "shape": 3,
+          "links": [
+            232
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LoraLoaderModelOnly"
+      },
+      "widgets_values": [
+        "flux/flux_realism_lora.safetensors",
+        0.9500000000000001
+      ]
+    },
+    {
+      "id": 31,
+      "type": "UNETLoader",
+      "pos": [
+        558.4954833984375,
+        6.091331481933594
+      ],
+      "size": [
+        315,
+        82
+      ],
+      "flags": {},
+      "order": 8,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            236
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "UNETLoader"
+      },
+      "widgets_values": [
+        "flux1-dev-fp8.safetensors",
+        "default"
+      ]
+    },
+    {
+      "id": 95,
+      "type": "LoraLoaderModelOnly",
+      "pos": [
+        572.7688598632812,
+        255.71824645996094
+      ],
+      "size": [
+        300.4800109863281,
+        82
+      ],
+      "flags": {},
+      "order": 25,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 238
+        }
+      ],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            239
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LoraLoaderModelOnly"
+      },
+      "widgets_values": [
+        "flux/Sabrina_Carpenter.safetensors",
+        1.16
+      ]
+    },
+    {
+      "id": 96,
+      "type": "LoraLoaderModelOnly",
+      "pos": [
+        557.3012084960938,
+        134.65963745117188
+      ],
+      "size": [
+        315,
+        82
+      ],
+      "flags": {},
+      "order": 18,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 236
+        }
+      ],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            238
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LoraLoaderModelOnly"
+      },
+      "widgets_values": [
+        "flux1-depth-dev-lora.safetensors",
+        0.91
+      ]
+    },
+    {
+      "id": 23,
+      "type": "CLIPTextEncode",
+      "pos": [
+        935.5130004882812,
+        611.310546875
+      ],
+      "size": [
+        285.6000061035156,
+        111.48834228515625
+      ],
+      "flags": {},
+      "order": 15,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 95
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            41,
+            71
+          ],
+          "slot_index": 0
+        }
+      ],
+      "title": "CLIP Text Encode (Positive Prompt)",
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode"
+      },
+      "widgets_values": [
+        "Ad Typography \"OWARI\" Photorealistic Illustration of A woman's back view running away from the viewer into the distance, over a running track made of Lava, Illustration Best quality 5 stars"
       ]
     }
   ],
@@ -2249,14 +2249,6 @@
       "MASK"
     ],
     [
-      208,
-      66,
-      0,
-      59,
-      0,
-      "IMAGE"
-    ],
-    [
       209,
       66,
       0,
@@ -2265,7 +2257,23 @@
       "IMAGE"
     ],
     [
-      225,
+      232,
+      93,
+      0,
+      3,
+      0,
+      "MODEL"
+    ],
+    [
+      233,
+      44,
+      0,
+      59,
+      0,
+      "IMAGE"
+    ],
+    [
+      234,
       59,
       0,
       35,
@@ -2273,26 +2281,26 @@
       "IMAGE"
     ],
     [
-      226,
-      95,
-      0,
-      93,
-      0,
-      "MODEL"
-    ],
-    [
-      227,
-      93,
-      0,
-      94,
-      0,
-      "MODEL"
-    ],
-    [
-      230,
+      236,
       31,
       0,
+      96,
+      0,
+      "MODEL"
+    ],
+    [
+      238,
+      96,
+      0,
       95,
+      0,
+      "MODEL"
+    ],
+    [
+      239,
+      95,
+      0,
+      93,
       0,
       "MODEL"
     ]
@@ -2354,8 +2362,8 @@
       "id": 7,
       "title": "COMPOSITE",
       "bounding": [
-        -401.5750732421875,
-        796.2191772460938,
+        -263.92083740234375,
+        811.2972412109375,
         1884.192138671875,
         1297.5526123046875
       ],
@@ -2367,14 +2375,15 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.5000074359476426,
+      "scale": 0.4545522144978583,
       "offset": [
-        1104.8735102669227,
-        172.4245794755727
+        452.0979273822934,
+        1018.2273505383265
       ]
     },
     "node_versions": {
-      "comfy-core": "0.3.12"
+      "comfy-core": "0.3.12",
+      "comfyui_controlnet_aux": "1e9eac6377c882da8bb360c7544607036904362c"
     }
   },
   "version": 0.4
