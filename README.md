@@ -32,6 +32,8 @@ This are a series of workflows that work together to create and repurpose animat
 
 |[CD_FLUX_CN_CANNY_DEPTH_PLUSLORA](workflows/CD_FLUX_CN_CANNY_DEPTH_PLUSLORA.json)|[![Try CD_FLUX_CN_CANNY_DEPTH_PLUSLORA](https://beta.app.comfydeploy.com/button)](https://beta.app.comfydeploy.com/home?gpu=A10G&comfyui_version=a7fe0a94dee08754f97b0171e15c1f2271aa37be&timeout=15&nodes=Fannovel16%2Fcomfyui_controlnet_aux%401e9eac6&workflowLink=https%3A%2F%2Fraw.githubusercontent.com%2Fif-ai%2FIF-Animation-Workflows%2Frefs%2Fheads%2Fmain%2FCD_FLUX_CN_CANNY_DEPTH_PLUSLORA.json)|
 
+|[CD_FLUX_T2I](workflows/CD_FLUX_T2I.json)|[![Try CD_FLUX_T2I](https://beta.app.comfydeploy.com/button)](https://beta.app.comfydeploy.com/home?gpu=A10G&comfyui_version=a7fe0a94dee08754f97b0171e15c1f2271aa37be&timeout=15&nodes=&workflowLink=https%3A%2F%2Fraw.githubusercontent.com%2Fif-ai%2FIF-Animation-Workflows%2Frefs%2Fheads%2Fmain%2FCD_FLUX_T2I.json)|
+
 IF_Animator (Main workflow )
 IF_KeyAnimation_Helper (has a lite and SMPL version is workflow to extract keys redraw them on a external app)
 IF_Inbetweeners (You can select a few frames create the inbetween)
