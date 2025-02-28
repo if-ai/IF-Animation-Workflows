@@ -35,7 +35,7 @@ This is a series of workflows that work together to create and repurpose animati
 |[CD_FLUX_T2I](workflows/CD_FLUX_T2I.json)|[![Try CD_FLUX_T2I](https://beta.app.comfydeploy.com/button)](https://beta.app.comfydeploy.com/home?gpu=A10G&comfyui_version=a7fe0a94dee08754f97b0171e15c1f2271aa37be&timeout=15&nodes=&workflowLink=https%3A%2F%2Fraw.githubusercontent.com%2Fif-ai%2FIF-Animation-Workflows%2Frefs%2Fheads%2Fmain%2FCD_FLUX_T2I.json)|
 
 
-
+|[CD_WAN_T2V_I2V_V2V_WRAPPER](workflows/CD_WAN_T2V_I2V_V2V_WRAPPER.json)|[![Try CD_WAN_T2V_I2V_V2V_WRAPPER](https://beta.app.comfydeploy.com/button)](https://beta.app.comfydeploy.com/home?gpu=L40S&comfyui_version=cf0b549d4828b6b9f6d98277c36784ab3c79ff6d&timeout=60&nodes=kijai%2FComfyUI-WanVideoWrapper%40%20977d93%2CKosinkadink%2FComfyUI-VideoHelperSuite%404c7858d%2CFannovel16%2FComfyUI-Frame-Interpolation%40c336f71%2Cif-ai%20ComfyUI-IF_LLM%2FComfyUI-IF_LLM%40fd0eb0%2Ckijai%2FComfyUI-KJNodes%4097d20e2%2Ccubiq%2F%20ComfyUI_essential%4033ff89%2Csousakujikken%2FComfyUI-PixydustQuantizer%40bd0bdec&workflowLink=https%3A%2F%2Fraw.githubusercontent.com%2Fif-ai%2FIF-Animation-Workflows%2Frefs%2Fheads%2Fmain%2FCD_WAN_T2V_I2V_V2V_WRAPPER.json)|
 IF_Animator (Main workflow )
 IF_KeyAnimation_Helper (has a lite and SMPL version is workflow to extract keys redraw them on a external app)
 IF_Inbetweeners (You can select a few frames create the inbetween)
