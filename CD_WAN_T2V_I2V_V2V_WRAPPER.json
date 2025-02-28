@@ -1,6 +1,6 @@
 {
-  "last_node_id": 257,
-  "last_link_id": 617,
+  "last_node_id": 262,
+  "last_link_id": 620,
   "nodes": [
     {
       "id": 4,
@@ -266,44 +266,6 @@
       "widgets_values": []
     },
     {
-      "id": 81,
-      "type": "JWImageSaturation",
-      "pos": [
-        3674.764404296875,
-        -987.2794799804688
-      ],
-      "size": [
-        216.39891052246094,
-        58
-      ],
-      "flags": {},
-      "order": 45,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "image",
-          "type": "IMAGE",
-          "link": 576
-        }
-      ],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            391
-          ],
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "JWImageSaturation"
-      },
-      "widgets_values": [
-        0.8
-      ]
-    },
-    {
       "id": 48,
       "type": "ImageUpscaleWithModel",
       "pos": [
@@ -398,7 +360,7 @@
         {
           "name": "image",
           "type": "IMAGE",
-          "link": 391
+          "link": 620
         },
         {
           "name": "start",
@@ -504,53 +466,6 @@
         2206,
         "",
         ""
-      ]
-    },
-    {
-      "id": 239,
-      "type": "WanVideoDecode",
-      "pos": [
-        3662.269287109375,
-        -1205.4075927734375
-      ],
-      "size": [
-        315,
-        174
-      ],
-      "flags": {},
-      "order": 44,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "vae",
-          "type": "WANVAE",
-          "link": 558
-        },
-        {
-          "name": "samples",
-          "type": "LATENT",
-          "link": 559
-        }
-      ],
-      "outputs": [
-        {
-          "name": "images",
-          "type": "IMAGE",
-          "links": [
-            576
-          ],
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "WanVideoDecode"
-      },
-      "widgets_values": [
-        true,
-        272,
-        272,
-        144,
-        128
       ]
     },
     {
@@ -2733,6 +2648,92 @@
           "paused": false
         }
       }
+    },
+    {
+      "id": 239,
+      "type": "WanVideoDecode",
+      "pos": [
+        3662.269287109375,
+        -1205.4075927734375
+      ],
+      "size": [
+        315,
+        174
+      ],
+      "flags": {},
+      "order": 44,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "vae",
+          "type": "WANVAE",
+          "link": 558
+        },
+        {
+          "name": "samples",
+          "type": "LATENT",
+          "link": 559
+        }
+      ],
+      "outputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "links": [
+            619
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "WanVideoDecode"
+      },
+      "widgets_values": [
+        true,
+        272,
+        272,
+        144,
+        128
+      ]
+    },
+    {
+      "id": 262,
+      "type": "ImageDesaturate+",
+      "pos": [
+        3678.947998046875,
+        -956.3945922851562
+      ],
+      "size": [
+        315,
+        82
+      ],
+      "flags": {},
+      "order": 45,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 619
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            620
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ImageDesaturate+"
+      },
+      "widgets_values": [
+        0.8,
+        "luminance (Rec.709)"
+      ]
     }
   ],
   "links": [
@@ -2913,14 +2914,6 @@
       "IMAGE"
     ],
     [
-      391,
-      81,
-      0,
-      165,
-      0,
-      "IMAGE"
-    ],
-    [
       392,
       165,
       0,
@@ -3079,14 +3072,6 @@
       243,
       1,
       "BLOCKSWAPARGS"
-    ],
-    [
-      576,
-      239,
-      0,
-      81,
-      0,
-      "IMAGE"
     ],
     [
       577,
@@ -3255,6 +3240,22 @@
       257,
       5,
       "INT"
+    ],
+    [
+      619,
+      239,
+      0,
+      262,
+      0,
+      "IMAGE"
+    ],
+    [
+      620,
+      262,
+      0,
+      165,
+      0,
+      "IMAGE"
     ]
   ],
   "groups": [
@@ -3379,10 +3380,10 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.3504938994813935,
+      "scale": 0.5644739300537778,
       "offset": [
-        521.7422518833616,
-        1937.1925547517662
+        -1809.1136824496962,
+        1641.3687437530668
       ]
     },
     "node_versions": {
