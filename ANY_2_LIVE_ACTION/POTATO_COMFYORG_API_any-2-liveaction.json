@@ -1,8 +1,8 @@
 {
-  "id": "e058021e-83e6-494d-9a5d-c5bfcad184a0",
+  "id": "96be9d64-747b-4426-83e2-ec9221e4e6be",
   "revision": 0,
-  "last_node_id": 1114,
-  "last_link_id": 2807,
+  "last_node_id": 1118,
+  "last_link_id": 2847,
   "nodes": [
     {
       "id": 359,
@@ -120,15 +120,15 @@
       "id": 658,
       "type": "SaveImage",
       "pos": [
-        -8341.2197265625,
-        3528.33935546875
+        -8601.1875,
+        3022.196044921875
       ],
       "size": [
         270,
         270.000244140625
       ],
       "flags": {},
-      "order": 138,
+      "order": 110,
       "mode": 0,
       "inputs": [
         {
@@ -313,7 +313,7 @@
       ],
       "flags": {},
       "order": 32,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "",
@@ -355,7 +355,7 @@
       ],
       "flags": {},
       "order": 34,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "",
@@ -476,7 +476,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 89,
+      "order": 86,
       "mode": 4,
       "inputs": [
         {
@@ -521,7 +521,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 110,
+      "order": 102,
       "mode": 4,
       "inputs": [
         {
@@ -552,7 +552,7 @@
         246
       ],
       "flags": {},
-      "order": 112,
+      "order": 133,
       "mode": 0,
       "inputs": [
         {
@@ -575,15 +575,15 @@
       "id": 656,
       "type": "SaveImage",
       "pos": [
-        -8299.673828125,
-        4567.294921875
+        -8559.6416015625,
+        4061.15185546875
       ],
       "size": [
         210,
         270
       ],
       "flags": {},
-      "order": 137,
+      "order": 114,
       "mode": 0,
       "inputs": [
         {
@@ -616,7 +616,7 @@
         246.00006103515625
       ],
       "flags": {},
-      "order": 128,
+      "order": 146,
       "mode": 0,
       "inputs": [
         {
@@ -647,7 +647,7 @@
         78
       ],
       "flags": {},
-      "order": 113,
+      "order": 143,
       "mode": 0,
       "inputs": [
         {
@@ -784,7 +784,7 @@
         26
       ],
       "flags": {},
-      "order": 143,
+      "order": 152,
       "mode": 0,
       "inputs": [
         {
@@ -821,7 +821,7 @@
         46
       ],
       "flags": {},
-      "order": 81,
+      "order": 80,
       "mode": 0,
       "inputs": [
         {
@@ -1063,7 +1063,7 @@
         26
       ],
       "flags": {},
-      "order": 98,
+      "order": 144,
       "mode": 0,
       "inputs": [
         {
@@ -1151,7 +1151,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 111,
+      "order": 103,
       "mode": 4,
       "inputs": [
         {
@@ -1233,7 +1233,7 @@
         334
       ],
       "flags": {},
-      "order": 108,
+      "order": 100,
       "mode": 4,
       "inputs": [
         {
@@ -1317,7 +1317,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 109,
+      "order": 101,
       "mode": 4,
       "inputs": [
         {
@@ -1517,7 +1517,7 @@
         26
       ],
       "flags": {},
-      "order": 91,
+      "order": 88,
       "mode": 0,
       "inputs": [
         {
@@ -1659,83 +1659,6 @@
       "bgcolor": "#335"
     },
     {
-      "id": 312,
-      "type": "ImageResizeKJv2",
-      "pos": [
-        -9547.1201171875,
-        1330.4923095703125
-      ],
-      "size": [
-        270,
-        266
-      ],
-      "flags": {
-        "collapsed": false
-      },
-      "order": 51,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "image",
-          "type": "IMAGE",
-          "link": 592
-        },
-        {
-          "name": "width",
-          "type": "INT",
-          "widget": {
-            "name": "width"
-          },
-          "link": 1674
-        },
-        {
-          "name": "height",
-          "type": "INT",
-          "widget": {
-            "name": "height"
-          },
-          "link": 1675
-        }
-      ],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            687,
-            1511
-          ]
-        },
-        {
-          "name": "width",
-          "type": "INT",
-          "links": []
-        },
-        {
-          "name": "height",
-          "type": "INT",
-          "links": []
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfyui-kjnodes",
-        "ver": "5dcda71011870278c35d92ff77a677ed2e538f2d",
-        "Node name for S&R": "ImageResizeKJv2"
-      },
-      "widgets_values": [
-        480,
-        832,
-        "lanczos",
-        "crop",
-        "172,172,172",
-        "center",
-        16,
-        "cpu"
-      ],
-      "color": "#222",
-      "bgcolor": "#000"
-    },
-    {
       "id": 770,
       "type": "SaveImage",
       "pos": [
@@ -1747,7 +1670,7 @@
         270
       ],
       "flags": {},
-      "order": 149,
+      "order": 156,
       "mode": 0,
       "inputs": [
         {
@@ -1862,7 +1785,7 @@
         258
       ],
       "flags": {},
-      "order": 92,
+      "order": 91,
       "mode": 0,
       "inputs": [
         {
@@ -1893,44 +1816,13 @@
         258
       ],
       "flags": {},
-      "order": 93,
+      "order": 92,
       "mode": 0,
       "inputs": [
         {
           "name": "images",
           "type": "IMAGE",
           "link": 2189
-        }
-      ],
-      "outputs": [],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.38",
-        "Node name for S&R": "PreviewImage"
-      },
-      "widgets_values": [],
-      "color": "#222",
-      "bgcolor": "#000"
-    },
-    {
-      "id": 866,
-      "type": "PreviewImage",
-      "pos": [
-        -7057.3779296875,
-        2841.966796875
-      ],
-      "size": [
-        233.3152618408203,
-        258
-      ],
-      "flags": {},
-      "order": 103,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "images",
-          "type": "IMAGE",
-          "link": 2178
         }
       ],
       "outputs": [],
@@ -2044,89 +1936,24 @@
       "bgcolor": "#000"
     },
     {
-      "id": 867,
-      "type": "BiRefNetRMBG",
-      "pos": [
-        -7067.39794921875,
-        3144.67333984375
-      ],
-      "size": [
-        320,
-        254
-      ],
-      "flags": {
-        "collapsed": true
-      },
-      "order": 76,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "image",
-          "type": "IMAGE",
-          "link": 2191
-        },
-        {
-          "name": "background_color",
-          "shape": 7,
-          "type": "COLOR",
-          "link": null
-        }
-      ],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            2190,
-            2229
-          ]
-        },
-        {
-          "name": "MASK",
-          "type": "MASK",
-          "links": null
-        },
-        {
-          "name": "MASK_IMAGE",
-          "type": "IMAGE",
-          "links": []
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfyui-rmbg",
-        "ver": "daf0b01deb1c529dfb543093bba2ed586aad7886",
-        "Node name for S&R": "BiRefNetRMBG"
-      },
-      "widgets_values": [
-        "BiRefNet-general",
-        1,
-        0,
-        false,
-        false,
-        "Color"
-      ],
-      "color": "#222",
-      "bgcolor": "#000"
-    },
-    {
       "id": 803,
       "type": "Reroute",
       "pos": [
-        -6243.57373046875,
-        3043.164794921875
+        -6232.28076171875,
+        3028.6279296875
       ],
       "size": [
         75,
         26
       ],
       "flags": {},
-      "order": 82,
+      "order": 142,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 2543
+          "link": 2845
         }
       ],
       "outputs": [
@@ -2148,83 +1975,6 @@
       "bgcolor": "#000"
     },
     {
-      "id": 474,
-      "type": "ImageResizeKJv2",
-      "pos": [
-        -9542.6591796875,
-        2392.724853515625
-      ],
-      "size": [
-        270,
-        266
-      ],
-      "flags": {
-        "collapsed": false
-      },
-      "order": 54,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "image",
-          "type": "IMAGE",
-          "link": 915
-        },
-        {
-          "name": "width",
-          "type": "INT",
-          "widget": {
-            "name": "width"
-          },
-          "link": 1660
-        },
-        {
-          "name": "height",
-          "type": "INT",
-          "widget": {
-            "name": "height"
-          },
-          "link": 1661
-        }
-      ],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            2246,
-            2486
-          ]
-        },
-        {
-          "name": "width",
-          "type": "INT",
-          "links": []
-        },
-        {
-          "name": "height",
-          "type": "INT",
-          "links": []
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfyui-kjnodes",
-        "ver": "5dcda71011870278c35d92ff77a677ed2e538f2d",
-        "Node name for S&R": "ImageResizeKJv2"
-      },
-      "widgets_values": [
-        480,
-        832,
-        "lanczos",
-        "crop",
-        "172,172,172",
-        "center",
-        16,
-        "cpu"
-      ],
-      "color": "#222",
-      "bgcolor": "#000"
-    },
-    {
       "id": 740,
       "type": "ImageResizeKJv2",
       "pos": [
@@ -2238,7 +1988,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 129,
+      "order": 147,
       "mode": 0,
       "inputs": [
         {
@@ -2354,7 +2104,7 @@
         246
       ],
       "flags": {},
-      "order": 133,
+      "order": 153,
       "mode": 0,
       "inputs": [
         {
@@ -2387,7 +2137,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 118,
+      "order": 149,
       "mode": 0,
       "inputs": [
         {
@@ -2443,7 +2193,7 @@
         78
       ],
       "flags": {},
-      "order": 94,
+      "order": 130,
       "mode": 0,
       "inputs": [
         {
@@ -2475,37 +2225,6 @@
       "widgets_values": [
         "bottom"
       ],
-      "color": "#222",
-      "bgcolor": "#000"
-    },
-    {
-      "id": 695,
-      "type": "PreviewImage",
-      "pos": [
-        -8002.87060546875,
-        3813.149169921875
-      ],
-      "size": [
-        210,
-        258
-      ],
-      "flags": {},
-      "order": 107,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "images",
-          "type": "IMAGE",
-          "link": 1558
-        }
-      ],
-      "outputs": [],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.38",
-        "Node name for S&R": "PreviewImage"
-      },
-      "widgets_values": [],
       "color": "#222",
       "bgcolor": "#000"
     },
@@ -2865,7 +2584,7 @@
         502.4700012207031
       ],
       "flags": {},
-      "order": 142,
+      "order": 118,
       "mode": 0,
       "inputs": [
         {
@@ -2905,47 +2624,6 @@
       "bgcolor": "#000"
     },
     {
-      "id": 289,
-      "type": "LoadImage",
-      "pos": [
-        -9958.888671875,
-        -327.6114807128906
-      ],
-      "size": [
-        374.6949768066406,
-        398.5068054199219
-      ],
-      "flags": {},
-      "order": 9,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            550
-          ]
-        },
-        {
-          "name": "MASK",
-          "type": "MASK",
-          "links": null
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.38",
-        "Node name for S&R": "LoadImage"
-      },
-      "widgets_values": [
-        "27867cf9-6d0b-4031-ab61-768b6ed2f814.jpeg",
-        "image"
-      ],
-      "color": "#222",
-      "bgcolor": "#000"
-    },
-    {
       "id": 313,
       "type": "LoadImage",
       "pos": [
@@ -2957,7 +2635,7 @@
         398.5068054199219
       ],
       "flags": {},
-      "order": 10,
+      "order": 9,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2999,7 +2677,7 @@
         394.3348388671875
       ],
       "flags": {},
-      "order": 11,
+      "order": 10,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3042,7 +2720,7 @@
         394.3348388671875
       ],
       "flags": {},
-      "order": 12,
+      "order": 11,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3084,7 +2762,7 @@
         46
       ],
       "flags": {},
-      "order": 90,
+      "order": 87,
       "mode": 4,
       "inputs": [
         {
@@ -3129,7 +2807,7 @@
         314.0001220703125
       ],
       "flags": {},
-      "order": 13,
+      "order": 12,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3170,7 +2848,7 @@
         314.00006103515625
       ],
       "flags": {},
-      "order": 14,
+      "order": 13,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3211,7 +2889,7 @@
         246
       ],
       "flags": {},
-      "order": 120,
+      "order": 151,
       "mode": 0,
       "inputs": [
         {
@@ -3242,7 +2920,7 @@
         246
       ],
       "flags": {},
-      "order": 117,
+      "order": 148,
       "mode": 0,
       "inputs": [
         {
@@ -3262,148 +2940,6 @@
       "bgcolor": "#000"
     },
     {
-      "id": 664,
-      "type": "Reroute",
-      "pos": [
-        -6368.16943359375,
-        3323.641845703125
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 123,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 2794
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "IMAGE",
-          "links": []
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      },
-      "color": "#322",
-      "bgcolor": "#533"
-    },
-    {
-      "id": 864,
-      "type": "PreviewImage",
-      "pos": [
-        -6735.40966796875,
-        2843.7861328125
-      ],
-      "size": [
-        240.97996520996094,
-        273.6185302734375
-      ],
-      "flags": {},
-      "order": 101,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "images",
-          "type": "IMAGE",
-          "link": 2176
-        }
-      ],
-      "outputs": [],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.38",
-        "Node name for S&R": "PreviewImage"
-      },
-      "widgets_values": [],
-      "color": "#222",
-      "bgcolor": "#000"
-    },
-    {
-      "id": 317,
-      "type": "ImageResizeKJv2",
-      "pos": [
-        -9548.41015625,
-        1873.935791015625
-      ],
-      "size": [
-        270,
-        266
-      ],
-      "flags": {
-        "collapsed": false
-      },
-      "order": 53,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "image",
-          "type": "IMAGE",
-          "link": 598
-        },
-        {
-          "name": "width",
-          "type": "INT",
-          "widget": {
-            "name": "width"
-          },
-          "link": 1658
-        },
-        {
-          "name": "height",
-          "type": "INT",
-          "widget": {
-            "name": "height"
-          },
-          "link": 1659
-        }
-      ],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            2481
-          ]
-        },
-        {
-          "name": "width",
-          "type": "INT",
-          "links": []
-        },
-        {
-          "name": "height",
-          "type": "INT",
-          "links": []
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfyui-kjnodes",
-        "ver": "5dcda71011870278c35d92ff77a677ed2e538f2d",
-        "Node name for S&R": "ImageResizeKJv2"
-      },
-      "widgets_values": [
-        480,
-        832,
-        "lanczos",
-        "crop",
-        "172,172,172",
-        "center",
-        16,
-        "cpu"
-      ],
-      "color": "#222",
-      "bgcolor": "#000"
-    },
-    {
       "id": 475,
       "type": "LoadImage",
       "pos": [
@@ -3415,7 +2951,7 @@
         394.3348388671875
       ],
       "flags": {},
-      "order": 15,
+      "order": 14,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3446,44 +2982,6 @@
       "bgcolor": "#000"
     },
     {
-      "id": 682,
-      "type": "Reroute",
-      "pos": [
-        -6245.42724609375,
-        2488.886474609375
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 68,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 1511
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "IMAGE",
-          "links": [
-            2478,
-            2479
-          ]
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      },
-      "color": "#223",
-      "bgcolor": "#335"
-    },
-    {
       "id": 421,
       "type": "ComfyUIDeployExternalText",
       "pos": [
@@ -3497,7 +2995,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 16,
+      "order": 15,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3535,7 +3033,7 @@
         300.9212951660156
       ],
       "flags": {},
-      "order": 17,
+      "order": 16,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3573,7 +3071,7 @@
         227.731201171875
       ],
       "flags": {},
-      "order": 18,
+      "order": 17,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3731,7 +3229,7 @@
         26
       ],
       "flags": {},
-      "order": 150,
+      "order": 138,
       "mode": 0,
       "inputs": [
         {
@@ -3766,7 +3264,7 @@
         26
       ],
       "flags": {},
-      "order": 140,
+      "order": 116,
       "mode": 0,
       "inputs": [
         {
@@ -3801,7 +3299,7 @@
         26
       ],
       "flags": {},
-      "order": 136,
+      "order": 113,
       "mode": 0,
       "inputs": [
         {
@@ -3991,7 +3489,7 @@
         88
       ],
       "flags": {},
-      "order": 19,
+      "order": 18,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -4014,7 +3512,7 @@
         200
       ],
       "flags": {},
-      "order": 20,
+      "order": 19,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -4094,7 +3592,7 @@
         314.00006103515625
       ],
       "flags": {},
-      "order": 21,
+      "order": 20,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -4125,189 +3623,6 @@
       "bgcolor": "#335"
     },
     {
-      "id": 574,
-      "type": "Reroute",
-      "pos": [
-        -6368.8095703125,
-        2792.2705078125
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 65,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 1164
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "IMAGE",
-          "links": [
-            2543
-          ]
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      },
-      "color": "#223",
-      "bgcolor": "#335"
-    },
-    {
-      "id": 589,
-      "type": "Reroute",
-      "pos": [
-        -6373.986328125,
-        2835.518798828125
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 59,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 1191
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "IMAGE",
-          "links": [
-            2191,
-            2544
-          ]
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      },
-      "color": "#223",
-      "bgcolor": "#335"
-    },
-    {
-      "id": 588,
-      "type": "Reroute",
-      "pos": [
-        -6369.11865234375,
-        2871.9443359375
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 60,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 1190
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "IMAGE",
-          "links": [
-            2192,
-            2545
-          ]
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      },
-      "color": "#223",
-      "bgcolor": "#335"
-    },
-    {
-      "id": 873,
-      "type": "BiRefNetRMBG",
-      "pos": [
-        -7103.919921875,
-        3506.58251953125
-      ],
-      "size": [
-        320,
-        254
-      ],
-      "flags": {
-        "collapsed": false
-      },
-      "order": 99,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "image",
-          "type": "IMAGE",
-          "link": 2196
-        },
-        {
-          "name": "background_color",
-          "shape": 7,
-          "type": "COLOR",
-          "link": null
-        }
-      ],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            2214,
-            2228,
-            2247
-          ]
-        },
-        {
-          "name": "MASK",
-          "type": "MASK",
-          "links": [
-            2248
-          ]
-        },
-        {
-          "name": "MASK_IMAGE",
-          "type": "IMAGE",
-          "links": [
-            2200
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfyui-rmbg",
-        "ver": "daf0b01deb1c529dfb543093bba2ed586aad7886",
-        "Node name for S&R": "BiRefNetRMBG"
-      },
-      "widgets_values": [
-        "BiRefNet-general",
-        1,
-        0,
-        false,
-        false,
-        "Color"
-      ],
-      "color": "#222",
-      "bgcolor": "#000"
-    },
-    {
       "id": 889,
       "type": "PreviewImage",
       "pos": [
@@ -4319,7 +3634,7 @@
         246
       ],
       "flags": {},
-      "order": 134,
+      "order": 154,
       "mode": 0,
       "inputs": [
         {
@@ -4339,163 +3654,18 @@
       "bgcolor": "#000"
     },
     {
-      "id": 637,
-      "type": "AILab_ImageStitch",
-      "pos": [
-        -8545.2294921875,
-        3891.483154296875
-      ],
-      "size": [
-        270,
-        78
-      ],
-      "flags": {},
-      "order": 88,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "image1",
-          "type": "IMAGE",
-          "link": 2547
-        },
-        {
-          "name": "image2",
-          "type": "IMAGE",
-          "link": 2548
-        }
-      ],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            1486,
-            1558
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfyui-rmbg",
-        "ver": "daf0b01deb1c529dfb543093bba2ed586aad7886",
-        "Node name for S&R": "AILab_ImageStitch"
-      },
-      "widgets_values": [
-        "right"
-      ],
-      "color": "#222",
-      "bgcolor": "#000"
-    },
-    {
-      "id": 657,
-      "type": "AILab_ImageStitch",
-      "pos": [
-        -8590.583984375,
-        3601.2314453125
-      ],
-      "size": [
-        210,
-        78
-      ],
-      "flags": {
-        "collapsed": false
-      },
-      "order": 124,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "image1",
-          "type": "IMAGE",
-          "link": 1368
-        },
-        {
-          "name": "image2",
-          "type": "IMAGE",
-          "link": 2790
-        }
-      ],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            1370,
-            1411
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfyui-rmbg",
-        "ver": "daf0b01deb1c529dfb543093bba2ed586aad7886",
-        "Node name for S&R": "AILab_ImageStitch"
-      },
-      "widgets_values": [
-        "right"
-      ],
-      "color": "#222",
-      "bgcolor": "#000"
-    },
-    {
-      "id": 655,
-      "type": "AILab_ImageStitch",
-      "pos": [
-        -8583.1376953125,
-        4550.98046875
-      ],
-      "size": [
-        210,
-        78
-      ],
-      "flags": {
-        "collapsed": false
-      },
-      "order": 122,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "image1",
-          "type": "IMAGE",
-          "link": 1365
-        },
-        {
-          "name": "image2",
-          "type": "IMAGE",
-          "link": 2793
-        }
-      ],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            1367,
-            1412
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfyui-rmbg",
-        "ver": "daf0b01deb1c529dfb543093bba2ed586aad7886",
-        "Node name for S&R": "AILab_ImageStitch"
-      },
-      "widgets_values": [
-        "right"
-      ],
-      "color": "#222",
-      "bgcolor": "#000"
-    },
-    {
       "id": 636,
       "type": "AILab_ImageStitch",
       "pos": [
-        -8375.7587890625,
-        4332.80078125
+        -8635.7265625,
+        3826.658203125
       ],
       "size": [
         270,
         78
       ],
       "flags": {},
-      "order": 139,
+      "order": 115,
       "mode": 0,
       "inputs": [
         {
@@ -4533,15 +3703,15 @@
       "id": 635,
       "type": "PreviewImage",
       "pos": [
-        -7887.4404296875,
-        4534.244140625
+        -8147.40771484375,
+        4028.10107421875
       ],
       "size": [
         216.3630828857422,
         258
       ],
       "flags": {},
-      "order": 153,
+      "order": 126,
       "mode": 0,
       "inputs": [
         {
@@ -4561,52 +3731,6 @@
       "bgcolor": "#000"
     },
     {
-      "id": 634,
-      "type": "AILab_ImageStitch",
-      "pos": [
-        -8014.5166015625,
-        4195.9833984375
-      ],
-      "size": [
-        270,
-        78
-      ],
-      "flags": {},
-      "order": 148,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "image1",
-          "type": "IMAGE",
-          "link": 1486
-        },
-        {
-          "name": "image2",
-          "type": "IMAGE",
-          "link": 1295
-        }
-      ],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            1286
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfyui-rmbg",
-        "ver": "daf0b01deb1c529dfb543093bba2ed586aad7886",
-        "Node name for S&R": "AILab_ImageStitch"
-      },
-      "widgets_values": [
-        "bottom"
-      ],
-      "color": "#222",
-      "bgcolor": "#000"
-    },
-    {
       "id": 996,
       "type": "Reroute",
       "pos": [
@@ -4618,7 +3742,7 @@
         26
       ],
       "flags": {},
-      "order": 155,
+      "order": 159,
       "mode": 0,
       "inputs": [
         {
@@ -4658,7 +3782,7 @@
         26
       ],
       "flags": {},
-      "order": 158,
+      "order": 160,
       "mode": 0,
       "inputs": [
         {
@@ -4687,62 +3811,6 @@
       "bgcolor": "#000"
     },
     {
-      "id": 888,
-      "type": "ImageCompositeMasked",
-      "pos": [
-        -7104.22998046875,
-        3892.592041015625
-      ],
-      "size": [
-        270,
-        146
-      ],
-      "flags": {},
-      "order": 119,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "destination",
-          "type": "IMAGE",
-          "link": 2246
-        },
-        {
-          "name": "source",
-          "type": "IMAGE",
-          "link": 2247
-        },
-        {
-          "name": "mask",
-          "shape": 7,
-          "type": "MASK",
-          "link": 2248
-        }
-      ],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            2249,
-            2250,
-            2755
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.38",
-        "Node name for S&R": "ImageCompositeMasked"
-      },
-      "widgets_values": [
-        0,
-        0,
-        false
-      ],
-      "color": "#222",
-      "bgcolor": "#000"
-    },
-    {
       "id": 533,
       "type": "ComfyUIDeployExternalText",
       "pos": [
@@ -4754,7 +3822,7 @@
         321.0223388671875
       ],
       "flags": {},
-      "order": 22,
+      "order": 21,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -4792,8 +3860,8 @@
         240.34864807128906
       ],
       "flags": {},
-      "order": 114,
-      "mode": 4,
+      "order": 129,
+      "mode": 0,
       "inputs": [
         {
           "name": "context",
@@ -4857,8 +3925,8 @@
       "flags": {
         "collapsed": false
       },
-      "order": 144,
-      "mode": 4,
+      "order": 136,
+      "mode": 0,
       "inputs": [
         {
           "name": "context",
@@ -4920,8 +3988,8 @@
         238.13401794433594
       ],
       "flags": {},
-      "order": 130,
-      "mode": 4,
+      "order": 132,
+      "mode": 0,
       "inputs": [
         {
           "name": "context",
@@ -4964,7 +4032,7 @@
         319.7298889160156
       ],
       "flags": {},
-      "order": 135,
+      "order": 155,
       "mode": 0,
       "inputs": [
         {
@@ -5029,7 +4097,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 152,
+      "order": 158,
       "mode": 0,
       "inputs": [
         {
@@ -5092,7 +4160,7 @@
         280.1310119628906
       ],
       "flags": {},
-      "order": 147,
+      "order": 157,
       "mode": 0,
       "inputs": [
         {
@@ -5125,62 +4193,6 @@
       "bgcolor": "#000"
     },
     {
-      "id": 982,
-      "type": "ImageBatchMulti",
-      "pos": [
-        -10429,
-        2634.21484375
-      ],
-      "size": [
-        270,
-        142
-      ],
-      "flags": {},
-      "order": 95,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "image_1",
-          "type": "IMAGE",
-          "link": 2482
-        },
-        {
-          "name": "image_2",
-          "type": "IMAGE",
-          "link": 2483
-        },
-        {
-          "name": "image_3",
-          "type": "IMAGE",
-          "link": 2485
-        },
-        {
-          "name": "image_4",
-          "type": "IMAGE",
-          "link": 2487
-        }
-      ],
-      "outputs": [
-        {
-          "name": "images",
-          "type": "IMAGE",
-          "links": [
-            2488
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfyui-kjnodes",
-        "ver": "44565e9bffc89de454d06b4abe08137d1247652a"
-      },
-      "widgets_values": [
-        4,
-        null
-      ],
-      "color": "#222",
-      "bgcolor": "#000"
-    },
-    {
       "id": 1052,
       "type": "Display_Text",
       "pos": [
@@ -5194,8 +4206,8 @@
       "flags": {
         "collapsed": false
       },
-      "order": 126,
-      "mode": 4,
+      "order": 108,
+      "mode": 0,
       "inputs": [
         {
           "name": "context",
@@ -5257,8 +4269,8 @@
         238.13401794433594
       ],
       "flags": {},
-      "order": 105,
-      "mode": 4,
+      "order": 97,
+      "mode": 0,
       "inputs": [
         {
           "name": "context",
@@ -5301,8 +4313,8 @@
         240.34864807128906
       ],
       "flags": {},
-      "order": 86,
-      "mode": 4,
+      "order": 83,
+      "mode": 0,
       "inputs": [
         {
           "name": "context",
@@ -5366,8 +4378,8 @@
       "flags": {
         "collapsed": false
       },
-      "order": 121,
-      "mode": 4,
+      "order": 106,
+      "mode": 0,
       "inputs": [
         {
           "name": "context",
@@ -5429,8 +4441,8 @@
         238.13401794433594
       ],
       "flags": {},
-      "order": 100,
-      "mode": 4,
+      "order": 94,
+      "mode": 0,
       "inputs": [
         {
           "name": "context",
@@ -5473,8 +4485,8 @@
         240.34864807128906
       ],
       "flags": {},
-      "order": 83,
-      "mode": 4,
+      "order": 81,
+      "mode": 0,
       "inputs": [
         {
           "name": "context",
@@ -5536,7 +4548,7 @@
         391.8146667480469
       ],
       "flags": {},
-      "order": 23,
+      "order": 22,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -5579,7 +4591,7 @@
         200
       ],
       "flags": {},
-      "order": 24,
+      "order": 23,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -5606,282 +4618,6 @@
       "bgcolor": "#000"
     },
     {
-      "id": 863,
-      "type": "BiRefNetRMBG",
-      "pos": [
-        -6742.40771484375,
-        2801.52587890625
-      ],
-      "size": [
-        320,
-        254
-      ],
-      "flags": {
-        "collapsed": true
-      },
-      "order": 84,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "image",
-          "type": "IMAGE",
-          "link": 2478
-        },
-        {
-          "name": "background_color",
-          "shape": 7,
-          "type": "COLOR",
-          "link": null
-        }
-      ],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            2176,
-            2659
-          ]
-        },
-        {
-          "name": "MASK",
-          "type": "MASK",
-          "links": []
-        },
-        {
-          "name": "MASK_IMAGE",
-          "type": "IMAGE",
-          "links": []
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfyui-rmbg",
-        "ver": "daf0b01deb1c529dfb543093bba2ed586aad7886",
-        "Node name for S&R": "BiRefNetRMBG"
-      },
-      "widgets_values": [
-        "BiRefNet-general",
-        1,
-        0,
-        false,
-        false,
-        "Color"
-      ],
-      "color": "#222e40",
-      "bgcolor": "#364254"
-    },
-    {
-      "id": 865,
-      "type": "BiRefNetRMBG",
-      "pos": [
-        -7092.82763671875,
-        2801.785888671875
-      ],
-      "size": [
-        320,
-        254
-      ],
-      "flags": {
-        "collapsed": true
-      },
-      "order": 85,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "image",
-          "type": "IMAGE",
-          "link": 2479
-        },
-        {
-          "name": "background_color",
-          "shape": 7,
-          "type": "COLOR",
-          "link": null
-        }
-      ],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            2178,
-            2658
-          ]
-        },
-        {
-          "name": "MASK",
-          "type": "MASK",
-          "links": null
-        },
-        {
-          "name": "MASK_IMAGE",
-          "type": "IMAGE",
-          "links": []
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfyui-rmbg",
-        "ver": "daf0b01deb1c529dfb543093bba2ed586aad7886",
-        "Node name for S&R": "BiRefNetRMBG"
-      },
-      "widgets_values": [
-        "BiRefNet-general",
-        1,
-        0,
-        false,
-        false,
-        "Color"
-      ],
-      "color": "#222e40",
-      "bgcolor": "#364254"
-    },
-    {
-      "id": 681,
-      "type": "Reroute",
-      "pos": [
-        -6246.87890625,
-        2455.378173828125
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 58,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 1510
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "IMAGE",
-          "links": []
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      },
-      "color": "#223",
-      "bgcolor": "#335"
-    },
-    {
-      "id": 683,
-      "type": "Reroute",
-      "pos": [
-        -6229.13037109375,
-        2151.321044921875
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 104,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 2658
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "IMAGE",
-          "links": [
-            2790,
-            2791
-          ]
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      },
-      "color": "#223",
-      "bgcolor": "#335"
-    },
-    {
-      "id": 684,
-      "type": "Reroute",
-      "pos": [
-        -6229.74560546875,
-        2189.35400390625
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 102,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 2659
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "IMAGE",
-          "links": [
-            2793,
-            2794
-          ]
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      },
-      "color": "#223",
-      "bgcolor": "#335"
-    },
-    {
-      "id": 663,
-      "type": "Reroute",
-      "pos": [
-        -6368.85888671875,
-        3281.090087890625
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 125,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 2791
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "IMAGE",
-          "links": []
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      },
-      "color": "#322",
-      "bgcolor": "#533"
-    },
-    {
       "id": 691,
       "type": "Note",
       "pos": [
@@ -5893,7 +4629,7 @@
         88
       ],
       "flags": {},
-      "order": 25,
+      "order": 24,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -5992,41 +4728,6 @@
       "bgcolor": "#000"
     },
     {
-      "id": 1001,
-      "type": "Reroute",
-      "pos": [
-        -6368.72802734375,
-        3237.73779296875
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 157,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 2801
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "IMAGE",
-          "links": null
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      },
-      "color": "#322",
-      "bgcolor": "#533"
-    },
-    {
       "id": 1093,
       "type": "ImageRemoveAlpha+",
       "pos": [
@@ -6038,8 +4739,8 @@
         26
       ],
       "flags": {},
-      "order": 106,
-      "mode": 4,
+      "order": 98,
+      "mode": 0,
       "inputs": [
         {
           "name": "image",
@@ -6077,8 +4778,8 @@
         26
       ],
       "flags": {},
-      "order": 97,
-      "mode": 4,
+      "order": 93,
+      "mode": 0,
       "inputs": [
         {
           "name": "image",
@@ -6101,78 +4802,6 @@
         "Node name for S&R": "ImageRemoveAlpha+"
       },
       "widgets_values": [],
-      "color": "#432",
-      "bgcolor": "#653"
-    },
-    {
-      "id": 1101,
-      "type": "ImageRemoveAlpha+",
-      "pos": [
-        -9190.7255859375,
-        2115.09423828125
-      ],
-      "size": [
-        196.41659545898438,
-        26
-      ],
-      "flags": {},
-      "order": 151,
-      "mode": 4,
-      "inputs": [
-        {
-          "name": "image",
-          "type": "IMAGE",
-          "link": 2718
-        }
-      ],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            2719
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfyui_essentials",
-        "ver": "33ff89fd354d8ec3ab6affb605a79a931b445d99",
-        "Node name for S&R": "ImageRemoveAlpha+"
-      },
-      "widgets_values": [],
-      "color": "#432",
-      "bgcolor": "#653"
-    },
-    {
-      "id": 1103,
-      "type": "SaveImage",
-      "pos": [
-        -9180.7255859375,
-        2235.093994140625
-      ],
-      "size": [
-        270,
-        270
-      ],
-      "flags": {},
-      "order": 156,
-      "mode": 4,
-      "inputs": [
-        {
-          "name": "images",
-          "type": "IMAGE",
-          "link": 2720
-        }
-      ],
-      "outputs": [],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.38",
-        "Node name for S&R": "SaveImage"
-      },
-      "widgets_values": [
-        "SCENE_COUPLE"
-      ],
       "color": "#432",
       "bgcolor": "#653"
     },
@@ -6221,131 +4850,6 @@
       "bgcolor": "#000"
     },
     {
-      "id": 229,
-      "type": "ImageResizeKJv2",
-      "pos": [
-        -9546.048828125,
-        270.4660339355469
-      ],
-      "size": [
-        270,
-        266
-      ],
-      "flags": {
-        "collapsed": false
-      },
-      "order": 38,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "image",
-          "type": "IMAGE",
-          "link": 560
-        },
-        {
-          "name": "width",
-          "type": "INT",
-          "widget": {
-            "name": "width"
-          },
-          "link": 671
-        },
-        {
-          "name": "height",
-          "type": "INT",
-          "widget": {
-            "name": "height"
-          },
-          "link": 672
-        }
-      ],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            684,
-            1245,
-            1510
-          ]
-        },
-        {
-          "name": "width",
-          "type": "INT",
-          "links": []
-        },
-        {
-          "name": "height",
-          "type": "INT",
-          "links": []
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfyui-kjnodes",
-        "ver": "5dcda71011870278c35d92ff77a677ed2e538f2d",
-        "Node name for S&R": "ImageResizeKJv2"
-      },
-      "widgets_values": [
-        480,
-        832,
-        "lanczos",
-        "crop",
-        "172,172,172",
-        "center",
-        16,
-        "cpu"
-      ],
-      "color": "#222",
-      "bgcolor": "#000"
-    },
-    {
-      "id": 612,
-      "type": "AILab_ImageStitch",
-      "pos": [
-        -9555.3955078125,
-        30.634126663208008
-      ],
-      "size": [
-        270,
-        78
-      ],
-      "flags": {},
-      "order": 70,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "image1",
-          "type": "IMAGE",
-          "link": 1244
-        },
-        {
-          "name": "image2",
-          "type": "IMAGE",
-          "link": 1245
-        }
-      ],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            1368,
-            2721
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfyui-rmbg",
-        "ver": "daf0b01deb1c529dfb543093bba2ed586aad7886",
-        "Node name for S&R": "AILab_ImageStitch"
-      },
-      "widgets_values": [
-        "bottom"
-      ],
-      "color": "#222",
-      "bgcolor": "#000"
-    },
-    {
       "id": 1095,
       "type": "SaveImage",
       "pos": [
@@ -6357,8 +4861,8 @@
         270
       ],
       "flags": {},
-      "order": 141,
-      "mode": 4,
+      "order": 117,
+      "mode": 0,
       "inputs": [
         {
           "name": "images",
@@ -6374,83 +4878,6 @@
       },
       "widgets_values": [
         "SCENE_COUPLE"
-      ],
-      "color": "#432",
-      "bgcolor": "#653"
-    },
-    {
-      "id": 1094,
-      "type": "ImageResizeKJv2",
-      "pos": [
-        -9215.5947265625,
-        57.027870178222656
-      ],
-      "size": [
-        270,
-        266
-      ],
-      "flags": {
-        "collapsed": true
-      },
-      "order": 127,
-      "mode": 4,
-      "inputs": [
-        {
-          "name": "image",
-          "type": "IMAGE",
-          "link": 2713
-        },
-        {
-          "name": "width",
-          "type": "INT",
-          "widget": {
-            "name": "width"
-          },
-          "link": 2726
-        },
-        {
-          "name": "height",
-          "type": "INT",
-          "widget": {
-            "name": "height"
-          },
-          "link": 2727
-        }
-      ],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            2714,
-            2723
-          ]
-        },
-        {
-          "name": "width",
-          "type": "INT",
-          "links": []
-        },
-        {
-          "name": "height",
-          "type": "INT",
-          "links": []
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfyui-kjnodes",
-        "ver": "5dcda71011870278c35d92ff77a677ed2e538f2d",
-        "Node name for S&R": "ImageResizeKJv2"
-      },
-      "widgets_values": [
-        512,
-        512,
-        "lanczos",
-        "pad",
-        "255,255,255",
-        "center",
-        16,
-        "cpu"
       ],
       "color": "#432",
       "bgcolor": "#653"
@@ -6506,21 +4933,21 @@
       "id": 801,
       "type": "Reroute",
       "pos": [
-        -6244.0234375,
-        3077.135009765625
+        -6232.73046875,
+        3062.59814453125
       ],
       "size": [
         75,
         26
       ],
       "flags": {},
-      "order": 77,
+      "order": 127,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 2544
+          "link": 2846
         }
       ],
       "outputs": [
@@ -6528,9 +4955,7 @@
           "name": "",
           "type": "IMAGE",
           "links": [
-            2033,
-            2483,
-            2737
+            2033
           ]
         }
       ],
@@ -6545,21 +4970,21 @@
       "id": 802,
       "type": "Reroute",
       "pos": [
-        -6241.68603515625,
-        3118.368896484375
+        -6230.39306640625,
+        3103.83203125
       ],
       "size": [
         75,
         26
       ],
       "flags": {},
-      "order": 79,
+      "order": 125,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 2545
+          "link": 2847
         }
       ],
       "outputs": [
@@ -6567,9 +4992,7 @@
           "name": "",
           "type": "IMAGE",
           "links": [
-            2037,
-            2485,
-            2738
+            2037
           ]
         }
       ],
@@ -6579,270 +5002,20 @@
       },
       "color": "#222",
       "bgcolor": "#000"
-    },
-    {
-      "id": 983,
-      "type": "Reroute",
-      "pos": [
-        -6247.95849609375,
-        2415.44677734375
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 71,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 2481
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "IMAGE",
-          "links": [
-            2482,
-            2547,
-            2739
-          ]
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      },
-      "color": "#223",
-      "bgcolor": "#335"
-    },
-    {
-      "id": 985,
-      "type": "Reroute",
-      "pos": [
-        -6241.61865234375,
-        2527.970703125
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 72,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 2486
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "IMAGE",
-          "links": [
-            2487,
-            2548,
-            2740
-          ]
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      },
-      "color": "#223",
-      "bgcolor": "#335"
-    },
-    {
-      "id": 1105,
-      "type": "AILab_ImageStitch",
-      "pos": [
-        -10786.875,
-        2205.424072265625
-      ],
-      "size": [
-        270,
-        78
-      ],
-      "flags": {},
-      "order": 115,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "image1",
-          "type": "IMAGE",
-          "link": 2735
-        },
-        {
-          "name": "image2",
-          "type": "IMAGE",
-          "link": 2740
-        }
-      ],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            2736
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfyui-rmbg",
-        "ver": "daf0b01deb1c529dfb543093bba2ed586aad7886",
-        "Node name for S&R": "AILab_ImageStitch"
-      },
-      "widgets_values": [
-        "bottom"
-      ],
-      "color": "#2e3e57",
-      "bgcolor": "#4b5b73"
-    },
-    {
-      "id": 446,
-      "type": "SaveImage",
-      "pos": [
-        -10792.611328125,
-        2458.671875
-      ],
-      "size": [
-        270,
-        270
-      ],
-      "flags": {},
-      "order": 146,
-      "mode": 4,
-      "inputs": [
-        {
-          "name": "images",
-          "type": "IMAGE",
-          "link": 2748
-        }
-      ],
-      "outputs": [],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.38",
-        "Node name for S&R": "SaveImage"
-      },
-      "widgets_values": [
-        "SCENE_COUPLE"
-      ],
-      "color": "#222",
-      "bgcolor": "#000"
-    },
-    {
-      "id": 1108,
-      "type": "AILab_ImageStitch",
-      "pos": [
-        -10781.0693359375,
-        2320.35693359375
-      ],
-      "size": [
-        270,
-        78
-      ],
-      "flags": {},
-      "order": 131,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "image1",
-          "type": "IMAGE",
-          "link": 2736
-        },
-        {
-          "name": "image2",
-          "type": "IMAGE",
-          "link": 2739
-        }
-      ],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            2741,
-            2748
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfyui-rmbg",
-        "ver": "daf0b01deb1c529dfb543093bba2ed586aad7886",
-        "Node name for S&R": "AILab_ImageStitch"
-      },
-      "widgets_values": [
-        "left"
-      ],
-      "color": "#2e3e57",
-      "bgcolor": "#4b5b73"
-    },
-    {
-      "id": 1107,
-      "type": "AILab_ImageStitch",
-      "pos": [
-        -10771.4921875,
-        2077.634765625
-      ],
-      "size": [
-        270,
-        78
-      ],
-      "flags": {},
-      "order": 96,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "image1",
-          "type": "IMAGE",
-          "link": 2737
-        },
-        {
-          "name": "image2",
-          "type": "IMAGE",
-          "link": 2738
-        }
-      ],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            2735
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfyui-rmbg",
-        "ver": "daf0b01deb1c529dfb543093bba2ed586aad7886",
-        "Node name for S&R": "AILab_ImageStitch"
-      },
-      "widgets_values": [
-        "bottom"
-      ],
-      "color": "#2e3e57",
-      "bgcolor": "#4b5b73"
     },
     {
       "id": 1110,
       "type": "SaveVideo",
       "pos": [
-        -5596.68359375,
-        3022.3291015625
+        -5263.22998046875,
+        3177.810302734375
       ],
       "size": [
         270,
         106
       ],
       "flags": {},
-      "order": 160,
+      "order": 162,
       "mode": 4,
       "inputs": [
         {
@@ -6869,15 +5042,15 @@
       "id": 572,
       "type": "ShowText|pysssss",
       "pos": [
-        -5605.93359375,
-        3194.63623046875
+        -5272.47998046875,
+        3350.11572265625
       ],
       "size": [
         269.1610107421875,
         263.4264831542969
       ],
       "flags": {},
-      "order": 161,
+      "order": 163,
       "mode": 0,
       "inputs": [
         {
@@ -6906,153 +5079,6 @@
       "bgcolor": "#653"
     },
     {
-      "id": 1102,
-      "type": "ImageResizeKJv2",
-      "pos": [
-        -9198.98046875,
-        2187.8984375
-      ],
-      "size": [
-        270,
-        266
-      ],
-      "flags": {
-        "collapsed": false
-      },
-      "order": 154,
-      "mode": 4,
-      "inputs": [
-        {
-          "name": "image",
-          "type": "IMAGE",
-          "link": 2719
-        },
-        {
-          "name": "width",
-          "type": "INT",
-          "widget": {
-            "name": "width"
-          },
-          "link": 2743
-        },
-        {
-          "name": "height",
-          "type": "INT",
-          "widget": {
-            "name": "height"
-          },
-          "link": 2744
-        }
-      ],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            2720,
-            2801
-          ]
-        },
-        {
-          "name": "width",
-          "type": "INT",
-          "links": []
-        },
-        {
-          "name": "height",
-          "type": "INT",
-          "links": []
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfyui-kjnodes",
-        "ver": "5dcda71011870278c35d92ff77a677ed2e538f2d",
-        "Node name for S&R": "ImageResizeKJv2"
-      },
-      "widgets_values": [
-        512,
-        512,
-        "lanczos",
-        "pad",
-        "255,255,255",
-        "center",
-        16,
-        "cpu"
-      ],
-      "color": "#432",
-      "bgcolor": "#653"
-    },
-    {
-      "id": 1104,
-      "type": "FluxKontextProImageNode",
-      "pos": [
-        -9211.0439453125,
-        1814.1566162109375
-      ],
-      "size": [
-        371.3164367675781,
-        278
-      ],
-      "flags": {},
-      "order": 145,
-      "mode": 4,
-      "inputs": [
-        {
-          "name": "input_image",
-          "shape": 7,
-          "type": "IMAGE",
-          "link": 2741
-        },
-        {
-          "name": "prompt",
-          "type": "STRING",
-          "widget": {
-            "name": "prompt"
-          },
-          "link": 2747
-        },
-        {
-          "name": "aspect_ratio",
-          "type": "STRING",
-          "widget": {
-            "name": "aspect_ratio"
-          },
-          "link": 2781
-        },
-        {
-          "name": "seed",
-          "type": "INT",
-          "widget": {
-            "name": "seed"
-          },
-          "link": 2761
-        }
-      ],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            2718
-          ]
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "FluxKontextProImageNode"
-      },
-      "widgets_values": [
-        "",
-        "9:16",
-        3,
-        50,
-        567431517662120,
-        "randomize",
-        false
-      ],
-      "color": "#432",
-      "bgcolor": "#653"
-    },
-    {
       "id": 1100,
       "type": "FluxKontextProImageNode",
       "pos": [
@@ -7064,8 +5090,8 @@
         278
       ],
       "flags": {},
-      "order": 80,
-      "mode": 4,
+      "order": 79,
+      "mode": 0,
       "inputs": [
         {
           "name": "input_image",
@@ -7136,8 +5162,8 @@
       "flags": {
         "collapsed": false
       },
-      "order": 132,
-      "mode": 4,
+      "order": 111,
+      "mode": 0,
       "inputs": [
         {
           "name": "images",
@@ -7158,82 +5184,6 @@
       "bgcolor": "#653"
     },
     {
-      "id": 1098,
-      "type": "ImageResizeKJv2",
-      "pos": [
-        -9179.763671875,
-        1121.8203125
-      ],
-      "size": [
-        270,
-        266
-      ],
-      "flags": {
-        "collapsed": false
-      },
-      "order": 116,
-      "mode": 4,
-      "inputs": [
-        {
-          "name": "image",
-          "type": "IMAGE",
-          "link": 2716
-        },
-        {
-          "name": "width",
-          "type": "INT",
-          "widget": {
-            "name": "width"
-          },
-          "link": 2733
-        },
-        {
-          "name": "height",
-          "type": "INT",
-          "widget": {
-            "name": "height"
-          },
-          "link": 2734
-        }
-      ],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            2717
-          ]
-        },
-        {
-          "name": "width",
-          "type": "INT",
-          "links": []
-        },
-        {
-          "name": "height",
-          "type": "INT",
-          "links": []
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfyui-kjnodes",
-        "ver": "5dcda71011870278c35d92ff77a677ed2e538f2d",
-        "Node name for S&R": "ImageResizeKJv2"
-      },
-      "widgets_values": [
-        512,
-        512,
-        "lanczos",
-        "pad",
-        "255,255,255",
-        "center",
-        16,
-        "cpu"
-      ],
-      "color": "#432",
-      "bgcolor": "#653"
-    },
-    {
       "id": 1096,
       "type": "FluxKontextProImageNode",
       "pos": [
@@ -7245,8 +5195,8 @@
         278
       ],
       "flags": {},
-      "order": 87,
-      "mode": 4,
+      "order": 84,
+      "mode": 0,
       "inputs": [
         {
           "name": "input_image",
@@ -7315,7 +5265,7 @@
         214
       ],
       "flags": {},
-      "order": 26,
+      "order": 25,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -7352,7 +5302,7 @@
         208
       ],
       "flags": {},
-      "order": 27,
+      "order": 26,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -7423,80 +5373,652 @@
       "bgcolor": "#335"
     },
     {
-      "id": 1112,
-      "type": "Label (rgthree)",
+      "id": 1114,
+      "type": "ComfyUIDeployExternalEnum",
       "pos": [
-        -7347.625,
-        -142.6376190185547
+        -6681.11328125,
+        1348.7977294921875
       ],
       "size": [
-        1849.1015625,
-        120
+        400,
+        214
       ],
-      "flags": {
-        "allow_interaction": true
-      },
-      "order": 28,
+      "flags": {},
+      "order": 27,
       "mode": 0,
       "inputs": [],
-      "outputs": [],
-      "title": "www.youtube.com/@impactframes",
+      "outputs": [
+        {
+          "name": "text",
+          "type": "*",
+          "links": [
+            2778,
+            2779,
+            2780,
+            2781
+          ]
+        }
+      ],
       "properties": {
-        "fontSize": 120,
-        "fontFamily": "Arial",
-        "fontColor": "#999999",
-        "textAlign": "left",
-        "backgroundColor": "\n\n\n\n\n\n\n\n#e6ccff",
-        "padding": 0,
-        "borderRadius": 0
+        "cnr_id": "comfyui-deploy",
+        "ver": "ceb53bcb228176b854c7d72140a0dbedaa212eea",
+        "Node name for S&R": "ComfyUIDeployExternalEnum"
       },
-      "color": "#fff0",
-      "bgcolor": "#fff0"
+      "widgets_values": [
+        "aspect_ratio",
+        "9:16",
+        "[\"16:9\",\"9:16\",\"1:1\"]",
+        "",
+        ""
+      ],
+      "color": "#222",
+      "bgcolor": "#000"
     },
     {
-      "id": 1113,
-      "type": "Label (rgthree)",
+      "id": 446,
+      "type": "SaveImage",
       "pos": [
-        -7491.818359375,
-        -320.99505615234375
+        -10787.619140625,
+        2458.09814453125
       ],
       "size": [
-        2025.17578125,
-        120
+        270,
+        270
+      ],
+      "flags": {},
+      "order": 135,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 2748
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.38",
+        "Node name for S&R": "SaveImage"
+      },
+      "widgets_values": [
+        "SCENE_COUPLE"
+      ],
+      "color": "#222",
+      "bgcolor": "#000"
+    },
+    {
+      "id": 867,
+      "type": "BiRefNetRMBG",
+      "pos": [
+        -7067.39794921875,
+        3144.67333984375
+      ],
+      "size": [
+        320,
+        254
       ],
       "flags": {
-        "allow_interaction": true
+        "collapsed": true
       },
-      "order": 29,
+      "order": 77,
       "mode": 0,
-      "inputs": [],
-      "outputs": [],
-      "title": "Sponsored by COMFYDEPLOY.COM ",
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 2191
+        },
+        {
+          "name": "background_color",
+          "shape": 7,
+          "type": "COLOR",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            2190,
+            2229
+          ]
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null
+        },
+        {
+          "name": "MASK_IMAGE",
+          "type": "IMAGE",
+          "links": []
+        }
+      ],
       "properties": {
-        "fontSize": 120,
-        "fontFamily": "Arial",
-        "fontColor": "#999999",
-        "textAlign": "left",
-        "backgroundColor": "\n\n\n\n\n\n\n\n#e6ccff",
-        "padding": 0,
-        "borderRadius": 0
+        "cnr_id": "comfyui-rmbg",
+        "ver": "daf0b01deb1c529dfb543093bba2ed586aad7886",
+        "Node name for S&R": "BiRefNetRMBG"
       },
-      "color": "#fff0",
-      "bgcolor": "#fff0"
+      "widgets_values": [
+        "BiRefNet-general",
+        1,
+        0,
+        false,
+        false,
+        "Color"
+      ],
+      "color": "#222",
+      "bgcolor": "#000"
+    },
+    {
+      "id": 574,
+      "type": "Reroute",
+      "pos": [
+        -6370.06640625,
+        2787.502197265625
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 65,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 1164
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "IMAGE",
+          "links": []
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      },
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 589,
+      "type": "Reroute",
+      "pos": [
+        -6373.986328125,
+        2835.518798828125
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 59,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 1191
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "IMAGE",
+          "links": [
+            2191
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      },
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 588,
+      "type": "Reroute",
+      "pos": [
+        -6369.11865234375,
+        2871.9443359375
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 60,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 1190
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "IMAGE",
+          "links": [
+            2192
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      },
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 695,
+      "type": "PreviewImage",
+      "pos": [
+        -8095.0634765625,
+        3075.818115234375
+      ],
+      "size": [
+        210,
+        258
+      ],
+      "flags": {},
+      "order": 99,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 1558
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.38",
+        "Node name for S&R": "PreviewImage"
+      },
+      "widgets_values": [],
+      "color": "#222",
+      "bgcolor": "#000"
+    },
+    {
+      "id": 657,
+      "type": "AILab_ImageStitch",
+      "pos": [
+        -8841.052734375,
+        3033.8125
+      ],
+      "size": [
+        210,
+        78
+      ],
+      "flags": {
+        "collapsed": false
+      },
+      "order": 104,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image1",
+          "type": "IMAGE",
+          "link": 1368
+        },
+        {
+          "name": "image2",
+          "type": "IMAGE",
+          "link": 2810
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            1370,
+            1411
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-rmbg",
+        "ver": "daf0b01deb1c529dfb543093bba2ed586aad7886",
+        "Node name for S&R": "AILab_ImageStitch"
+      },
+      "widgets_values": [
+        "right"
+      ],
+      "color": "#222",
+      "bgcolor": "#000"
+    },
+    {
+      "id": 612,
+      "type": "AILab_ImageStitch",
+      "pos": [
+        -9558.0810546875,
+        27.303735733032227
+      ],
+      "size": [
+        270,
+        78
+      ],
+      "flags": {},
+      "order": 70,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image1",
+          "type": "IMAGE",
+          "link": 1244
+        },
+        {
+          "name": "image2",
+          "type": "IMAGE",
+          "link": 1245
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            1368,
+            2721
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-rmbg",
+        "ver": "daf0b01deb1c529dfb543093bba2ed586aad7886",
+        "Node name for S&R": "AILab_ImageStitch"
+      },
+      "widgets_values": [
+        "bottom"
+      ],
+      "color": "#222",
+      "bgcolor": "#000"
+    },
+    {
+      "id": 655,
+      "type": "AILab_ImageStitch",
+      "pos": [
+        -8843.10546875,
+        4044.83740234375
+      ],
+      "size": [
+        210,
+        78
+      ],
+      "flags": {
+        "collapsed": false
+      },
+      "order": 107,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image1",
+          "type": "IMAGE",
+          "link": 1365
+        },
+        {
+          "name": "image2",
+          "type": "IMAGE",
+          "link": 2812
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            1367,
+            1412
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-rmbg",
+        "ver": "daf0b01deb1c529dfb543093bba2ed586aad7886",
+        "Node name for S&R": "AILab_ImageStitch"
+      },
+      "widgets_values": [
+        "right"
+      ],
+      "color": "#222",
+      "bgcolor": "#000"
+    },
+    {
+      "id": 634,
+      "type": "AILab_ImageStitch",
+      "pos": [
+        -8274.484375,
+        3689.83984375
+      ],
+      "size": [
+        270,
+        78
+      ],
+      "flags": {},
+      "order": 121,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image1",
+          "type": "IMAGE",
+          "link": 1486
+        },
+        {
+          "name": "image2",
+          "type": "IMAGE",
+          "link": 1295
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            1286
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-rmbg",
+        "ver": "daf0b01deb1c529dfb543093bba2ed586aad7886",
+        "Node name for S&R": "AILab_ImageStitch"
+      },
+      "widgets_values": [
+        "bottom"
+      ],
+      "color": "#222",
+      "bgcolor": "#000"
+    },
+    {
+      "id": 637,
+      "type": "AILab_ImageStitch",
+      "pos": [
+        -8611,
+        3553.870849609375
+      ],
+      "size": [
+        270,
+        78
+      ],
+      "flags": {},
+      "order": 85,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image1",
+          "type": "IMAGE",
+          "link": 2547
+        },
+        {
+          "name": "image2",
+          "type": "IMAGE",
+          "link": 2548
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            1486,
+            1558
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-rmbg",
+        "ver": "daf0b01deb1c529dfb543093bba2ed586aad7886",
+        "Node name for S&R": "AILab_ImageStitch"
+      },
+      "widgets_values": [
+        "right"
+      ],
+      "color": "#222",
+      "bgcolor": "#000"
+    },
+    {
+      "id": 474,
+      "type": "ImageResizeKJv2",
+      "pos": [
+        -9542.6591796875,
+        2392.724853515625
+      ],
+      "size": [
+        270,
+        266
+      ],
+      "flags": {
+        "collapsed": false
+      },
+      "order": 54,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 915
+        },
+        {
+          "name": "width",
+          "type": "INT",
+          "widget": {
+            "name": "width"
+          },
+          "link": 1660
+        },
+        {
+          "name": "height",
+          "type": "INT",
+          "widget": {
+            "name": "height"
+          },
+          "link": 1661
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            2246,
+            2486
+          ]
+        },
+        {
+          "name": "width",
+          "type": "INT",
+          "links": []
+        },
+        {
+          "name": "height",
+          "type": "INT",
+          "links": []
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-kjnodes",
+        "ver": "5dcda71011870278c35d92ff77a677ed2e538f2d",
+        "Node name for S&R": "ImageResizeKJv2"
+      },
+      "widgets_values": [
+        480,
+        832,
+        "lanczos",
+        "crop",
+        "172,172,172",
+        "center",
+        16,
+        "cpu"
+      ],
+      "color": "#222",
+      "bgcolor": "#000"
+    },
+    {
+      "id": 985,
+      "type": "Reroute",
+      "pos": [
+        -6193.10546875,
+        2519.787353515625
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 72,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 2486
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "IMAGE",
+          "links": [
+            2487,
+            2548,
+            2740
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      },
+      "color": "#223",
+      "bgcolor": "#335"
     },
     {
       "id": 1109,
       "type": "KlingImage2VideoNode",
       "pos": [
-        -6048.85009765625,
-        3030.74951171875
+        -5715.396484375,
+        3186.230712890625
       ],
       "size": [
         400,
         302
       ],
       "flags": {},
-      "order": 159,
+      "order": 161,
       "mode": 4,
       "inputs": [
         {
@@ -7558,46 +6080,1601 @@
       "bgcolor": "#000"
     },
     {
-      "id": 1114,
-      "type": "ComfyUIDeployExternalEnum",
+      "id": 1104,
+      "type": "FluxKontextProImageNode",
       "pos": [
-        -6681.11328125,
-        1348.7977294921875
+        -9236.451171875,
+        1813.7938232421875
       ],
       "size": [
-        400,
-        214
+        371.3164367675781,
+        278
       ],
       "flags": {},
-      "order": 30,
+      "order": 134,
       "mode": 0,
-      "inputs": [],
+      "inputs": [
+        {
+          "name": "input_image",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": 2741
+        },
+        {
+          "name": "prompt",
+          "type": "STRING",
+          "widget": {
+            "name": "prompt"
+          },
+          "link": 2747
+        },
+        {
+          "name": "aspect_ratio",
+          "type": "STRING",
+          "widget": {
+            "name": "aspect_ratio"
+          },
+          "link": 2781
+        },
+        {
+          "name": "seed",
+          "type": "INT",
+          "widget": {
+            "name": "seed"
+          },
+          "link": 2761
+        }
+      ],
       "outputs": [
         {
-          "name": "text",
-          "type": "*",
+          "name": "IMAGE",
+          "type": "IMAGE",
           "links": [
-            2778,
-            2779,
-            2780,
-            2781
+            2828
           ]
         }
       ],
       "properties": {
-        "cnr_id": "comfyui-deploy",
-        "ver": "ceb53bcb228176b854c7d72140a0dbedaa212eea",
-        "Node name for S&R": "ComfyUIDeployExternalEnum"
+        "Node name for S&R": "FluxKontextProImageNode"
       },
       "widgets_values": [
-        "aspect_ratio",
-        "9:16",
-        "[\"16:9\",\"9:16\",\"1:1\"]",
         "",
-        ""
+        "9:16",
+        3,
+        50,
+        567431517662120,
+        "randomize",
+        false
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 1101,
+      "type": "ImageRemoveAlpha+",
+      "pos": [
+        -9111.9306640625,
+        2144.0576171875
+      ],
+      "size": [
+        196.41659545898438,
+        26
+      ],
+      "flags": {},
+      "order": 137,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 2828
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            2719
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui_essentials",
+        "ver": "33ff89fd354d8ec3ab6affb605a79a931b445d99",
+        "Node name for S&R": "ImageRemoveAlpha+"
+      },
+      "widgets_values": [],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 1102,
+      "type": "ImageResizeKJv2",
+      "pos": [
+        -9232.7626953125,
+        2196.96435546875
+      ],
+      "size": [
+        270,
+        266
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 139,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 2719
+        },
+        {
+          "name": "width",
+          "type": "INT",
+          "widget": {
+            "name": "width"
+          },
+          "link": 2743
+        },
+        {
+          "name": "height",
+          "type": "INT",
+          "widget": {
+            "name": "height"
+          },
+          "link": 2744
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            2720,
+            2801
+          ]
+        },
+        {
+          "name": "width",
+          "type": "INT",
+          "links": []
+        },
+        {
+          "name": "height",
+          "type": "INT",
+          "links": []
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-kjnodes",
+        "ver": "5dcda71011870278c35d92ff77a677ed2e538f2d",
+        "Node name for S&R": "ImageResizeKJv2"
+      },
+      "widgets_values": [
+        512,
+        512,
+        "lanczos",
+        "pad",
+        "255,255,255",
+        "center",
+        16,
+        "cpu"
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 1103,
+      "type": "SaveImage",
+      "pos": [
+        -9173.2265625,
+        2327.781005859375
+      ],
+      "size": [
+        270,
+        270
+      ],
+      "flags": {},
+      "order": 140,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 2720
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.38",
+        "Node name for S&R": "SaveImage"
+      },
+      "widgets_values": [
+        "SCENE_COUPLE"
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 983,
+      "type": "Reroute",
+      "pos": [
+        -6196.4375,
+        2405.10400390625
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 71,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 2481
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "IMAGE",
+          "links": [
+            2482,
+            2547,
+            2739
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      },
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 1094,
+      "type": "ImageResizeKJv2",
+      "pos": [
+        -9174.12109375,
+        76.37838745117188
+      ],
+      "size": [
+        270,
+        266
+      ],
+      "flags": {
+        "collapsed": false
+      },
+      "order": 109,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 2713
+        },
+        {
+          "name": "width",
+          "type": "INT",
+          "widget": {
+            "name": "width"
+          },
+          "link": 2726
+        },
+        {
+          "name": "height",
+          "type": "INT",
+          "widget": {
+            "name": "height"
+          },
+          "link": 2727
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            2714,
+            2723,
+            2816
+          ]
+        },
+        {
+          "name": "width",
+          "type": "INT",
+          "links": []
+        },
+        {
+          "name": "height",
+          "type": "INT",
+          "links": []
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-kjnodes",
+        "ver": "5dcda71011870278c35d92ff77a677ed2e538f2d",
+        "Node name for S&R": "ImageResizeKJv2"
+      },
+      "widgets_values": [
+        512,
+        512,
+        "lanczos",
+        "pad",
+        "255,255,255",
+        "center",
+        16,
+        "cpu"
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 1098,
+      "type": "ImageResizeKJv2",
+      "pos": [
+        -9186.94921875,
+        1106.013916015625
+      ],
+      "size": [
+        270,
+        266
+      ],
+      "flags": {
+        "collapsed": false
+      },
+      "order": 105,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 2716
+        },
+        {
+          "name": "width",
+          "type": "INT",
+          "widget": {
+            "name": "width"
+          },
+          "link": 2733
+        },
+        {
+          "name": "height",
+          "type": "INT",
+          "widget": {
+            "name": "height"
+          },
+          "link": 2734
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            2717,
+            2817
+          ]
+        },
+        {
+          "name": "width",
+          "type": "INT",
+          "links": []
+        },
+        {
+          "name": "height",
+          "type": "INT",
+          "links": []
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-kjnodes",
+        "ver": "5dcda71011870278c35d92ff77a677ed2e538f2d",
+        "Node name for S&R": "ImageResizeKJv2"
+      },
+      "widgets_values": [
+        512,
+        512,
+        "lanczos",
+        "pad",
+        "255,255,255",
+        "center",
+        16,
+        "cpu"
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 317,
+      "type": "ImageResizeKJv2",
+      "pos": [
+        -9548.41015625,
+        1873.935791015625
+      ],
+      "size": [
+        270,
+        266
+      ],
+      "flags": {
+        "collapsed": false
+      },
+      "order": 53,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 598
+        },
+        {
+          "name": "width",
+          "type": "INT",
+          "widget": {
+            "name": "width"
+          },
+          "link": 1658
+        },
+        {
+          "name": "height",
+          "type": "INT",
+          "widget": {
+            "name": "height"
+          },
+          "link": 1659
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            2481
+          ]
+        },
+        {
+          "name": "width",
+          "type": "INT",
+          "links": []
+        },
+        {
+          "name": "height",
+          "type": "INT",
+          "links": []
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-kjnodes",
+        "ver": "5dcda71011870278c35d92ff77a677ed2e538f2d",
+        "Node name for S&R": "ImageResizeKJv2"
+      },
+      "widgets_values": [
+        480,
+        832,
+        "lanczos",
+        "crop",
+        "172,172,172",
+        "center",
+        16,
+        "cpu"
       ],
       "color": "#222",
       "bgcolor": "#000"
+    },
+    {
+      "id": 1108,
+      "type": "AILab_ImageStitch",
+      "pos": [
+        -10784.7587890625,
+        2313.06103515625
+      ],
+      "size": [
+        270,
+        78
+      ],
+      "flags": {},
+      "order": 131,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image1",
+          "type": "IMAGE",
+          "link": 2736
+        },
+        {
+          "name": "image2",
+          "type": "IMAGE",
+          "link": 2739
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            2741,
+            2748
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-rmbg",
+        "ver": "daf0b01deb1c529dfb543093bba2ed586aad7886",
+        "Node name for S&R": "AILab_ImageStitch"
+      },
+      "widgets_values": [
+        "left"
+      ],
+      "color": "#2e3e57",
+      "bgcolor": "#4b5b73"
+    },
+    {
+      "id": 1105,
+      "type": "AILab_ImageStitch",
+      "pos": [
+        -10802.71484375,
+        2177.84033203125
+      ],
+      "size": [
+        270,
+        78
+      ],
+      "flags": {},
+      "order": 128,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image1",
+          "type": "IMAGE",
+          "link": 2735
+        },
+        {
+          "name": "image2",
+          "type": "IMAGE",
+          "link": 2740
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            2736
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-rmbg",
+        "ver": "daf0b01deb1c529dfb543093bba2ed586aad7886",
+        "Node name for S&R": "AILab_ImageStitch"
+      },
+      "widgets_values": [
+        "bottom"
+      ],
+      "color": "#2e3e57",
+      "bgcolor": "#4b5b73"
+    },
+    {
+      "id": 1107,
+      "type": "AILab_ImageStitch",
+      "pos": [
+        -10806.03515625,
+        2042.263916015625
+      ],
+      "size": [
+        270,
+        78
+      ],
+      "flags": {},
+      "order": 123,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image1",
+          "type": "IMAGE",
+          "link": 2835
+        },
+        {
+          "name": "image2",
+          "type": "IMAGE",
+          "link": 2836
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            2735
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-rmbg",
+        "ver": "daf0b01deb1c529dfb543093bba2ed586aad7886",
+        "Node name for S&R": "AILab_ImageStitch"
+      },
+      "widgets_values": [
+        "bottom"
+      ],
+      "color": "#2e3e57",
+      "bgcolor": "#4b5b73"
+    },
+    {
+      "id": 982,
+      "type": "ImageBatchMulti",
+      "pos": [
+        -10366.6904296875,
+        2625.390869140625
+      ],
+      "size": [
+        270,
+        142
+      ],
+      "flags": {},
+      "order": 124,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image_1",
+          "type": "IMAGE",
+          "link": 2482
+        },
+        {
+          "name": "image_2",
+          "type": "IMAGE",
+          "link": 2837
+        },
+        {
+          "name": "image_3",
+          "type": "IMAGE",
+          "link": 2838
+        },
+        {
+          "name": "image_4",
+          "type": "IMAGE",
+          "link": 2487
+        }
+      ],
+      "outputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "links": [
+            2488
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-kjnodes",
+        "ver": "44565e9bffc89de454d06b4abe08137d1247652a"
+      },
+      "widgets_values": [
+        4,
+        null
+      ],
+      "color": "#222",
+      "bgcolor": "#000"
+    },
+    {
+      "id": 1116,
+      "type": "Reroute",
+      "pos": [
+        -6231.54931640625,
+        3456.522216796875
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 96,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 2844
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "IMAGE",
+          "links": [
+            2812
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      },
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 683,
+      "type": "Reroute",
+      "pos": [
+        -6225.04345703125,
+        2139.14697265625
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 119,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 2816
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "IMAGE",
+          "links": [
+            2818,
+            2835,
+            2837
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      },
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 684,
+      "type": "Reroute",
+      "pos": [
+        -6223.984375,
+        2177.5849609375
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 112,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 2817
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "IMAGE",
+          "links": [
+            2819,
+            2836,
+            2838
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      },
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 229,
+      "type": "ImageResizeKJv2",
+      "pos": [
+        -9546.048828125,
+        270.4660339355469
+      ],
+      "size": [
+        270,
+        266
+      ],
+      "flags": {
+        "collapsed": false
+      },
+      "order": 38,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 560
+        },
+        {
+          "name": "width",
+          "type": "INT",
+          "widget": {
+            "name": "width"
+          },
+          "link": 671
+        },
+        {
+          "name": "height",
+          "type": "INT",
+          "widget": {
+            "name": "height"
+          },
+          "link": 672
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            684,
+            1245,
+            2839
+          ]
+        },
+        {
+          "name": "width",
+          "type": "INT",
+          "links": []
+        },
+        {
+          "name": "height",
+          "type": "INT",
+          "links": []
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-kjnodes",
+        "ver": "5dcda71011870278c35d92ff77a677ed2e538f2d",
+        "Node name for S&R": "ImageResizeKJv2"
+      },
+      "widgets_values": [
+        480,
+        832,
+        "lanczos",
+        "crop",
+        "172,172,172",
+        "center",
+        16,
+        "cpu"
+      ],
+      "color": "#222",
+      "bgcolor": "#000"
+    },
+    {
+      "id": 312,
+      "type": "ImageResizeKJv2",
+      "pos": [
+        -9547.1201171875,
+        1330.4923095703125
+      ],
+      "size": [
+        270,
+        266
+      ],
+      "flags": {
+        "collapsed": false
+      },
+      "order": 51,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 592
+        },
+        {
+          "name": "width",
+          "type": "INT",
+          "widget": {
+            "name": "width"
+          },
+          "link": 1674
+        },
+        {
+          "name": "height",
+          "type": "INT",
+          "widget": {
+            "name": "height"
+          },
+          "link": 1675
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            687,
+            2840
+          ]
+        },
+        {
+          "name": "width",
+          "type": "INT",
+          "links": []
+        },
+        {
+          "name": "height",
+          "type": "INT",
+          "links": []
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-kjnodes",
+        "ver": "5dcda71011870278c35d92ff77a677ed2e538f2d",
+        "Node name for S&R": "ImageResizeKJv2"
+      },
+      "widgets_values": [
+        480,
+        832,
+        "lanczos",
+        "crop",
+        "172,172,172",
+        "center",
+        16,
+        "cpu"
+      ],
+      "color": "#222",
+      "bgcolor": "#000"
+    },
+    {
+      "id": 681,
+      "type": "Reroute",
+      "pos": [
+        -6195.484375,
+        2442.675537109375
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 58,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 2839
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "IMAGE",
+          "links": [
+            2841
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      },
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 682,
+      "type": "Reroute",
+      "pos": [
+        -6195.6591796875,
+        2475.171142578125
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 68,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 2840
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "IMAGE",
+          "links": [
+            2842
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      },
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 864,
+      "type": "PreviewImage",
+      "pos": [
+        -6734.10546875,
+        2840.630126953125
+      ],
+      "size": [
+        240.97996520996094,
+        273.6185302734375
+      ],
+      "flags": {},
+      "order": 95,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 2176
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.38",
+        "Node name for S&R": "PreviewImage"
+      },
+      "widgets_values": [],
+      "color": "#222",
+      "bgcolor": "#000"
+    },
+    {
+      "id": 866,
+      "type": "PreviewImage",
+      "pos": [
+        -7075.6005859375,
+        2848.3369140625
+      ],
+      "size": [
+        233.3152618408203,
+        258
+      ],
+      "flags": {},
+      "order": 89,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 2178
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.38",
+        "Node name for S&R": "PreviewImage"
+      },
+      "widgets_values": [],
+      "color": "#222",
+      "bgcolor": "#000"
+    },
+    {
+      "id": 1115,
+      "type": "Reroute",
+      "pos": [
+        -6230.4482421875,
+        3412.37109375
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 90,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 2843
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "IMAGE",
+          "links": [
+            2810
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      },
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 863,
+      "type": "BiRefNetRMBG",
+      "pos": [
+        -6757.12451171875,
+        2797.35107421875
+      ],
+      "size": [
+        320,
+        254
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 82,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 2842
+        },
+        {
+          "name": "background_color",
+          "shape": 7,
+          "type": "COLOR",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            2176,
+            2844
+          ]
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": []
+        },
+        {
+          "name": "MASK_IMAGE",
+          "type": "IMAGE",
+          "links": []
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-rmbg",
+        "ver": "daf0b01deb1c529dfb543093bba2ed586aad7886",
+        "Node name for S&R": "BiRefNetRMBG"
+      },
+      "widgets_values": [
+        "BiRefNet-general",
+        1,
+        0,
+        false,
+        false,
+        "Color"
+      ],
+      "color": "#222e40",
+      "bgcolor": "#364254"
+    },
+    {
+      "id": 865,
+      "type": "BiRefNetRMBG",
+      "pos": [
+        -7109.05615234375,
+        2809.580322265625
+      ],
+      "size": [
+        320,
+        254
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 76,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 2841
+        },
+        {
+          "name": "background_color",
+          "shape": 7,
+          "type": "COLOR",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            2178,
+            2843
+          ]
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null
+        },
+        {
+          "name": "MASK_IMAGE",
+          "type": "IMAGE",
+          "links": []
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-rmbg",
+        "ver": "daf0b01deb1c529dfb543093bba2ed586aad7886",
+        "Node name for S&R": "BiRefNetRMBG"
+      },
+      "widgets_values": [
+        "BiRefNet-general",
+        1,
+        0,
+        false,
+        false,
+        "Color"
+      ],
+      "color": "#222e40",
+      "bgcolor": "#364254"
+    },
+    {
+      "id": 888,
+      "type": "ImageCompositeMasked",
+      "pos": [
+        -7071.7080078125,
+        3874.6806640625
+      ],
+      "size": [
+        270,
+        146
+      ],
+      "flags": {},
+      "order": 150,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "destination",
+          "type": "IMAGE",
+          "link": 2246
+        },
+        {
+          "name": "source",
+          "type": "IMAGE",
+          "link": 2247
+        },
+        {
+          "name": "mask",
+          "shape": 7,
+          "type": "MASK",
+          "link": 2248
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            2249,
+            2250,
+            2755
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.38",
+        "Node name for S&R": "ImageCompositeMasked"
+      },
+      "widgets_values": [
+        0,
+        0,
+        false
+      ],
+      "color": "#222",
+      "bgcolor": "#000"
+    },
+    {
+      "id": 873,
+      "type": "BiRefNetRMBG",
+      "pos": [
+        -7103.919921875,
+        3506.58251953125
+      ],
+      "size": [
+        320,
+        254
+      ],
+      "flags": {
+        "collapsed": false
+      },
+      "order": 145,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 2196
+        },
+        {
+          "name": "background_color",
+          "shape": 7,
+          "type": "COLOR",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            2214,
+            2228,
+            2247
+          ]
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": [
+            2248
+          ]
+        },
+        {
+          "name": "MASK_IMAGE",
+          "type": "IMAGE",
+          "links": [
+            2200
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-rmbg",
+        "ver": "daf0b01deb1c529dfb543093bba2ed586aad7886",
+        "Node name for S&R": "BiRefNetRMBG"
+      },
+      "widgets_values": [
+        "BiRefNet-general",
+        1,
+        0,
+        false,
+        false,
+        "Color"
+      ],
+      "color": "#222",
+      "bgcolor": "#000"
+    },
+    {
+      "id": 1001,
+      "type": "Reroute",
+      "pos": [
+        -6374.54833984375,
+        3238.11279296875
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 141,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 2801
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "IMAGE",
+          "links": [
+            2845
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      },
+      "color": "#322",
+      "bgcolor": "#533"
+    },
+    {
+      "id": 663,
+      "type": "Reroute",
+      "pos": [
+        -6369.4697265625,
+        3282.76513671875
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 122,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 2818
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "IMAGE",
+          "links": [
+            2846
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      },
+      "color": "#322",
+      "bgcolor": "#533"
+    },
+    {
+      "id": 664,
+      "type": "Reroute",
+      "pos": [
+        -6373.21240234375,
+        3328.780517578125
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 120,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 2819
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "IMAGE",
+          "links": [
+            2847
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      },
+      "color": "#322",
+      "bgcolor": "#533"
+    },
+    {
+      "id": 289,
+      "type": "LoadImage",
+      "pos": [
+        -9958.888671875,
+        -327.6114807128906
+      ],
+      "size": [
+        374.6949768066406,
+        398.5068054199219
+      ],
+      "flags": {},
+      "order": 28,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            550
+          ]
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.38",
+        "Node name for S&R": "LoadImage"
+      },
+      "widgets_values": [
+        "27867cf9-6d0b-4031-ab61-768b6ed2f814.jpeg",
+        "image"
+      ],
+      "color": "#222",
+      "bgcolor": "#000"
+    },
+    {
+      "id": 1113,
+      "type": "Label (rgthree)",
+      "pos": [
+        -8764.3349609375,
+        -81.58428955078125
+      ],
+      "size": [
+        2662.55859375,
+        120
+      ],
+      "flags": {
+        "allow_interaction": true
+      },
+      "order": 29,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "RUN THIS TEMPLATE IN COMFYDEPLOY.COM ",
+      "properties": {
+        "fontSize": 120,
+        "fontFamily": "Arial",
+        "fontColor": "#999999",
+        "textAlign": "left",
+        "backgroundColor": "\n\n\n\n\n\n\n\n#e6ccff",
+        "padding": 0,
+        "borderRadius": 0
+      },
+      "color": "#fff0",
+      "bgcolor": "#fff0"
+    },
+    {
+      "id": 1112,
+      "type": "Label (rgthree)",
+      "pos": [
+        -8647.4853515625,
+        137.25294494628906
+      ],
+      "size": [
+        1849.1015625,
+        120
+      ],
+      "flags": {
+        "allow_interaction": true
+      },
+      "order": 30,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "www.youtube.com/@impactframes",
+      "properties": {
+        "fontSize": 120,
+        "fontFamily": "Arial",
+        "fontColor": "#999999",
+        "textAlign": "left",
+        "backgroundColor": "\n\n\n\n\n\n\n\n#e6ccff",
+        "padding": 0,
+        "borderRadius": 0
+      },
+      "color": "#fff0",
+      "bgcolor": "#fff0"
     }
   ],
   "links": [
@@ -8048,22 +8125,6 @@
       634,
       0,
       "IMAGE"
-    ],
-    [
-      1510,
-      229,
-      0,
-      681,
-      0,
-      "*"
-    ],
-    [
-      1511,
-      312,
-      0,
-      682,
-      0,
-      "*"
     ],
     [
       1558,
@@ -8554,22 +8615,6 @@
       "INT"
     ],
     [
-      2478,
-      682,
-      0,
-      863,
-      0,
-      "IMAGE"
-    ],
-    [
-      2479,
-      682,
-      0,
-      865,
-      0,
-      "IMAGE"
-    ],
-    [
       2481,
       317,
       0,
@@ -8583,22 +8628,6 @@
       0,
       982,
       0,
-      "IMAGE"
-    ],
-    [
-      2483,
-      801,
-      0,
-      982,
-      1,
-      "IMAGE"
-    ],
-    [
-      2485,
-      802,
-      0,
-      982,
-      2,
       "IMAGE"
     ],
     [
@@ -8694,30 +8723,6 @@
       988,
       0,
       992,
-      0,
-      "*"
-    ],
-    [
-      2543,
-      574,
-      0,
-      803,
-      0,
-      "*"
-    ],
-    [
-      2544,
-      589,
-      0,
-      801,
-      0,
-      "*"
-    ],
-    [
-      2545,
-      588,
-      0,
-      802,
       0,
       "*"
     ],
@@ -8826,22 +8831,6 @@
       "*"
     ],
     [
-      2658,
-      865,
-      0,
-      683,
-      0,
-      "*"
-    ],
-    [
-      2659,
-      863,
-      0,
-      684,
-      0,
-      "*"
-    ],
-    [
       2712,
       1096,
       0,
@@ -8886,14 +8875,6 @@
       1098,
       0,
       1099,
-      0,
-      "IMAGE"
-    ],
-    [
-      2718,
-      1104,
-      0,
-      1101,
       0,
       "IMAGE"
     ],
@@ -8999,22 +8980,6 @@
       0,
       1108,
       0,
-      "IMAGE"
-    ],
-    [
-      2737,
-      801,
-      0,
-      1107,
-      0,
-      "IMAGE"
-    ],
-    [
-      2738,
-      802,
-      0,
-      1107,
-      1,
       "IMAGE"
     ],
     [
@@ -9178,15 +9143,47 @@
       "STRING"
     ],
     [
-      2790,
-      683,
+      2801,
+      1102,
+      0,
+      1001,
+      0,
+      "*"
+    ],
+    [
+      2810,
+      1115,
       0,
       657,
       1,
       "IMAGE"
     ],
     [
-      2791,
+      2812,
+      1116,
+      0,
+      655,
+      1,
+      "IMAGE"
+    ],
+    [
+      2816,
+      1094,
+      0,
+      683,
+      0,
+      "*"
+    ],
+    [
+      2817,
+      1098,
+      0,
+      684,
+      0,
+      "*"
+    ],
+    [
+      2818,
       683,
       0,
       663,
@@ -9194,15 +9191,7 @@
       "*"
     ],
     [
-      2793,
-      684,
-      0,
-      655,
-      1,
-      "IMAGE"
-    ],
-    [
-      2794,
+      2819,
       684,
       0,
       664,
@@ -9210,10 +9199,114 @@
       "*"
     ],
     [
-      2801,
-      1102,
+      2828,
+      1104,
       0,
+      1101,
+      0,
+      "IMAGE"
+    ],
+    [
+      2835,
+      683,
+      0,
+      1107,
+      0,
+      "IMAGE"
+    ],
+    [
+      2836,
+      684,
+      0,
+      1107,
+      1,
+      "IMAGE"
+    ],
+    [
+      2837,
+      683,
+      0,
+      982,
+      1,
+      "IMAGE"
+    ],
+    [
+      2838,
+      684,
+      0,
+      982,
+      2,
+      "IMAGE"
+    ],
+    [
+      2839,
+      229,
+      0,
+      681,
+      0,
+      "*"
+    ],
+    [
+      2840,
+      312,
+      0,
+      682,
+      0,
+      "*"
+    ],
+    [
+      2841,
+      681,
+      0,
+      865,
+      0,
+      "IMAGE"
+    ],
+    [
+      2842,
+      682,
+      0,
+      863,
+      0,
+      "IMAGE"
+    ],
+    [
+      2843,
+      865,
+      0,
+      1115,
+      0,
+      "*"
+    ],
+    [
+      2844,
+      863,
+      0,
+      1116,
+      0,
+      "*"
+    ],
+    [
+      2845,
       1001,
+      0,
+      803,
+      0,
+      "*"
+    ],
+    [
+      2846,
+      663,
+      0,
+      801,
+      0,
+      "*"
+    ],
+    [
+      2847,
+      664,
+      0,
+      802,
       0,
       "*"
     ]
@@ -9444,8 +9537,8 @@
       "id": 56,
       "title": "IMG_RUN",
       "bounding": [
-        -6377.69482421875,
-        3188.750732421875,
+        -6382.73779296875,
+        3193.889404296875,
         96.7291259765625,
         170.65237426757812
       ],
@@ -9457,10 +9550,10 @@
       "id": 58,
       "title": "Source",
       "bounding": [
-        -6267.87353515625,
-        2376.125244140625,
-        140,
-        184.06802368164062
+        -6206.4375,
+        2361.50390625,
+        98.33203125,
+        194.28335571289062
       ],
       "color": "#88A",
       "font_size": 24,
@@ -9470,8 +9563,8 @@
       "id": 59,
       "title": "INPUT",
       "bounding": [
-        -6234.62158203125,
-        2107.2314453125,
+        -6239.6650390625,
+        2096.37841796875,
         96.379638671875,
         116.6786117553711
       ],
@@ -9574,8 +9667,8 @@
       "id": 69,
       "title": "STITCH_IMAGES_FOR_SHOWCASE",
       "bounding": [
-        -8621.8359375,
-        3338.0166015625,
+        -8881.8037109375,
+        2831.873291015625,
         1046.298095703125,
         1552.3109130859375
       ],
@@ -9742,8 +9835,8 @@
       "id": 104,
       "title": "IMG_)Bridge",
       "bounding": [
-        -6259.20849609375,
-        2994.197509765625,
+        -6247.91552734375,
+        2979.66064453125,
         106.06591796875,
         162.61587524414062
       ],
@@ -9846,12 +9939,25 @@
       "id": 159,
       "title": "COMFY_KLING",
       "bounding": [
-        -6058.85009765625,
-        2948.72900390625,
+        -5725.396484375,
+        3104.210205078125,
         742.16650390625,
         519.3336181640625
       ],
       "color": "#b58b2a",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "id": 160,
+      "title": "SOURCE",
+      "bounding": [
+        -6246.294921875,
+        3375.841796875,
+        96.379638671875,
+        116.6786117553711
+      ],
+      "color": "#88A",
       "font_size": 24,
       "flags": {}
     }
@@ -9859,10 +9965,10 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.16105100000000278,
+      "scale": 0.23579476910001057,
       "offset": [
-        14021.783570034384,
-        2328.580439599631
+        13670.400797670394,
+        792.903830022404
       ]
     },
     "frontendVersion": "1.20.6",

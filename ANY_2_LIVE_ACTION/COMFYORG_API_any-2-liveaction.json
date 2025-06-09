@@ -2419,10 +2419,10 @@
         "cnr_id": "llm-toolkit",
         "ver": "3d82dbfe091d84868212e5f275deb5447fa4e659",
         "Node name for S&R": "OpenAIProviderNode",
-        "llm_model": "gpt-4.1-mini"
+        "llm_model": "gpt-4-turbo-preview"
       },
       "widgets_values": [
-        "gpt-4.1-mini"
+        "gpt-4-turbo-preview"
       ],
       "color": "#222",
       "bgcolor": "#000"
@@ -7977,68 +7977,6 @@
       "bgcolor": "#335"
     },
     {
-      "id": 1112,
-      "type": "Label (rgthree)",
-      "pos": [
-        -7347.625,
-        -142.6376190185547
-      ],
-      "size": [
-        1849.1015625,
-        120
-      ],
-      "flags": {
-        "allow_interaction": true
-      },
-      "order": 33,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [],
-      "title": "www.youtube.com/@impactframes",
-      "properties": {
-        "fontSize": 120,
-        "fontFamily": "Arial",
-        "fontColor": "#999999",
-        "textAlign": "left",
-        "backgroundColor": "\n\n\n\n\n\n\n\n#e6ccff",
-        "padding": 0,
-        "borderRadius": 0
-      },
-      "color": "#fff0",
-      "bgcolor": "#fff0"
-    },
-    {
-      "id": 1113,
-      "type": "Label (rgthree)",
-      "pos": [
-        -7491.818359375,
-        -320.99505615234375
-      ],
-      "size": [
-        2025.17578125,
-        120
-      ],
-      "flags": {
-        "allow_interaction": true
-      },
-      "order": 34,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [],
-      "title": "Sponsored by COMFYDEPLOY.COM ",
-      "properties": {
-        "fontSize": 120,
-        "fontFamily": "Arial",
-        "fontColor": "#999999",
-        "textAlign": "left",
-        "backgroundColor": "\n\n\n\n\n\n\n\n#e6ccff",
-        "padding": 0,
-        "borderRadius": 0
-      },
-      "color": "#fff0",
-      "bgcolor": "#fff0"
-    },
-    {
       "id": 572,
       "type": "ShowText|pysssss",
       "pos": [
@@ -8692,7 +8630,7 @@
         214
       ],
       "flags": {},
-      "order": 35,
+      "order": 33,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -8736,7 +8674,7 @@
         214
       ],
       "flags": {},
-      "order": 36,
+      "order": 34,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -9942,6 +9880,68 @@
       ],
       "color": "#222e40",
       "bgcolor": "#364254"
+    },
+    {
+      "id": 1113,
+      "type": "Label (rgthree)",
+      "pos": [
+        -8646.9423828125,
+        -347.5267028808594
+      ],
+      "size": [
+        2722.55859375,
+        120
+      ],
+      "flags": {
+        "allow_interaction": true
+      },
+      "order": 35,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "RUN THIS TEMPLATE ON COMFYDEPLOY.COM ",
+      "properties": {
+        "fontSize": 120,
+        "fontFamily": "Arial",
+        "fontColor": "#999999",
+        "textAlign": "left",
+        "backgroundColor": "\n\n\n\n\n\n\n\n#e6ccff",
+        "padding": 0,
+        "borderRadius": 0
+      },
+      "color": "#fff0",
+      "bgcolor": "#fff0"
+    },
+    {
+      "id": 1112,
+      "type": "Label (rgthree)",
+      "pos": [
+        -8522.4404296875,
+        -97.0874252319336
+      ],
+      "size": [
+        1849.1015625,
+        120
+      ],
+      "flags": {
+        "allow_interaction": true
+      },
+      "order": 36,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "www.youtube.com/@impactframes",
+      "properties": {
+        "fontSize": 120,
+        "fontFamily": "Arial",
+        "fontColor": "#999999",
+        "textAlign": "left",
+        "backgroundColor": "\n\n\n\n\n\n\n\n#e6ccff",
+        "padding": 0,
+        "borderRadius": 0
+      },
+      "color": "#fff0",
+      "bgcolor": "#fff0"
     }
   ],
   "links": [

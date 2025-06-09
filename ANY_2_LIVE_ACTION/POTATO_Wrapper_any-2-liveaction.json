@@ -1,8 +1,8 @@
 {
-  "id": "4f2d2394-a1b2-429d-b3ba-08be443a4193",
+  "id": "71777e6d-5526-48f7-b66c-82ca1b4c886f",
   "revision": 0,
   "last_node_id": 1074,
-  "last_link_id": 2727,
+  "last_link_id": 2739,
   "nodes": [
     {
       "id": 359,
@@ -50,7 +50,7 @@
         78
       ],
       "flags": {},
-      "order": 85,
+      "order": 82,
       "mode": 0,
       "inputs": [
         {
@@ -97,8 +97,8 @@
         246.0001220703125
       ],
       "flags": {},
-      "order": 104,
-      "mode": 4,
+      "order": 96,
+      "mode": 0,
       "inputs": [
         {
           "name": "images",
@@ -130,8 +130,8 @@
       "flags": {
         "collapsed": false
       },
-      "order": 114,
-      "mode": 4,
+      "order": 124,
+      "mode": 0,
       "inputs": [
         {
           "name": "image",
@@ -169,8 +169,8 @@
         26
       ],
       "flags": {},
-      "order": 115,
-      "mode": 4,
+      "order": 123,
+      "mode": 0,
       "inputs": [
         {
           "name": "image",
@@ -334,7 +334,7 @@
         270.000244140625
       ],
       "flags": {},
-      "order": 162,
+      "order": 141,
       "mode": 0,
       "inputs": [
         {
@@ -367,7 +367,7 @@
         46
       ],
       "flags": {},
-      "order": 84,
+      "order": 81,
       "mode": 0,
       "inputs": [
         {
@@ -726,7 +726,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 106,
+      "order": 98,
       "mode": 4,
       "inputs": [
         {
@@ -771,7 +771,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 128,
+      "order": 113,
       "mode": 4,
       "inputs": [
         {
@@ -802,7 +802,7 @@
         246
       ],
       "flags": {},
-      "order": 130,
+      "order": 149,
       "mode": 0,
       "inputs": [
         {
@@ -822,39 +822,6 @@
       "bgcolor": "#000"
     },
     {
-      "id": 279,
-      "type": "SaveImage",
-      "pos": [
-        -9243.146484375,
-        208.11952209472656
-      ],
-      "size": [
-        270,
-        270.0001220703125
-      ],
-      "flags": {},
-      "order": 150,
-      "mode": 4,
-      "inputs": [
-        {
-          "name": "images",
-          "type": "IMAGE",
-          "link": 617
-        }
-      ],
-      "outputs": [],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.38",
-        "Node name for S&R": "SaveImage"
-      },
-      "widgets_values": [
-        "FEMALE_CHARACTER"
-      ],
-      "color": "#222",
-      "bgcolor": "#000"
-    },
-    {
       "id": 656,
       "type": "SaveImage",
       "pos": [
@@ -866,7 +833,7 @@
         270
       ],
       "flags": {},
-      "order": 161,
+      "order": 138,
       "mode": 0,
       "inputs": [
         {
@@ -899,7 +866,7 @@
         246.00006103515625
       ],
       "flags": {},
-      "order": 147,
+      "order": 162,
       "mode": 0,
       "inputs": [
         {
@@ -930,7 +897,7 @@
         78
       ],
       "flags": {},
-      "order": 131,
+      "order": 158,
       "mode": 0,
       "inputs": [
         {
@@ -1069,7 +1036,7 @@
         26
       ],
       "flags": {},
-      "order": 165,
+      "order": 170,
       "mode": 0,
       "inputs": [
         {
@@ -1106,7 +1073,7 @@
         46
       ],
       "flags": {},
-      "order": 98,
+      "order": 92,
       "mode": 0,
       "inputs": [
         {
@@ -1149,7 +1116,7 @@
         46
       ],
       "flags": {},
-      "order": 79,
+      "order": 76,
       "mode": 0,
       "inputs": [
         {
@@ -1385,7 +1352,7 @@
         26
       ],
       "flags": {},
-      "order": 116,
+      "order": 159,
       "mode": 0,
       "inputs": [
         {
@@ -1420,7 +1387,7 @@
         498.01922607421875
       ],
       "flags": {},
-      "order": 154,
+      "order": 128,
       "mode": 0,
       "inputs": [
         {
@@ -1445,12 +1412,12 @@
       "widgets_values": [
         [
           {
-            "url": "/api/view?filename=rgthree.compare._temp_ylflp_00025_.png&type=temp&subfolder=&rand=0.7687237851954534",
+            "url": "/api/view?filename=rgthree.compare._temp_pkjsd_00005_.png&type=temp&subfolder=&rand=0.9748346324097867",
             "name": "A",
             "selected": true
           },
           {
-            "url": "/api/view?filename=rgthree.compare._temp_ylflp_00026_.png&type=temp&subfolder=&rand=0.9972370408488489",
+            "url": "/api/view?filename=rgthree.compare._temp_pkjsd_00006_.png&type=temp&subfolder=&rand=0.6723013400606507",
             "name": "B",
             "selected": true
           }
@@ -1473,7 +1440,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 129,
+      "order": 114,
       "mode": 4,
       "inputs": [
         {
@@ -1555,7 +1522,7 @@
         334
       ],
       "flags": {},
-      "order": 126,
+      "order": 111,
       "mode": 4,
       "inputs": [
         {
@@ -1639,7 +1606,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 127,
+      "order": 112,
       "mode": 4,
       "inputs": [
         {
@@ -1672,7 +1639,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 89,
+      "order": 86,
       "mode": 4,
       "inputs": [
         {
@@ -1712,8 +1679,8 @@
       "flags": {
         "collapsed": false
       },
-      "order": 81,
-      "mode": 4,
+      "order": 78,
+      "mode": 0,
       "inputs": [
         {
           "name": "images",
@@ -1820,7 +1787,7 @@
         26
       ],
       "flags": {},
-      "order": 90,
+      "order": 87,
       "mode": 0,
       "inputs": [
         {
@@ -1858,7 +1825,7 @@
       ],
       "flags": {},
       "order": 181,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "t5",
@@ -1949,10 +1916,10 @@
         "cnr_id": "llm-toolkit",
         "ver": "3d82dbfe091d84868212e5f275deb5447fa4e659",
         "Node name for S&R": "OpenAIProviderNode",
-        "llm_model": "gpt-4.1-mini"
+        "llm_model": "gpt-4-turbo-preview"
       },
       "widgets_values": [
-        "gpt-4.1-mini"
+        "gpt-4-turbo-preview"
       ],
       "color": "#222",
       "bgcolor": "#000"
@@ -2007,7 +1974,7 @@
         26
       ],
       "flags": {},
-      "order": 108,
+      "order": 100,
       "mode": 0,
       "inputs": [
         {
@@ -2160,13 +2127,13 @@
         26
       ],
       "flags": {},
-      "order": 93,
+      "order": 143,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 2544
+          "link": 2710
         }
       ],
       "outputs": [
@@ -2276,7 +2243,7 @@
         270
       ],
       "flags": {},
-      "order": 172,
+      "order": 175,
       "mode": 0,
       "inputs": [
         {
@@ -2309,7 +2276,7 @@
         46
       ],
       "flags": {},
-      "order": 82,
+      "order": 79,
       "mode": 0,
       "inputs": [
         {
@@ -2356,7 +2323,7 @@
         "collapsed": false
       },
       "order": 198,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "images",
@@ -2484,75 +2451,13 @@
         258
       ],
       "flags": {},
-      "order": 109,
+      "order": 103,
       "mode": 0,
       "inputs": [
         {
           "name": "images",
           "type": "IMAGE",
           "link": 2190
-        }
-      ],
-      "outputs": [],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.38",
-        "Node name for S&R": "PreviewImage"
-      },
-      "widgets_values": [],
-      "color": "#222",
-      "bgcolor": "#000"
-    },
-    {
-      "id": 869,
-      "type": "PreviewImage",
-      "pos": [
-        -6720.35546875,
-        3192.75927734375
-      ],
-      "size": [
-        218.04722595214844,
-        258
-      ],
-      "flags": {},
-      "order": 111,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "images",
-          "type": "IMAGE",
-          "link": 2189
-        }
-      ],
-      "outputs": [],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.38",
-        "Node name for S&R": "PreviewImage"
-      },
-      "widgets_values": [],
-      "color": "#222",
-      "bgcolor": "#000"
-    },
-    {
-      "id": 866,
-      "type": "PreviewImage",
-      "pos": [
-        -7057.3779296875,
-        2841.966796875
-      ],
-      "size": [
-        233.3152618408203,
-        258
-      ],
-      "flags": {},
-      "order": 122,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "images",
-          "type": "IMAGE",
-          "link": 2178
         }
       ],
       "outputs": [],
@@ -2577,7 +2482,7 @@
         26
       ],
       "flags": {},
-      "order": 88,
+      "order": 85,
       "mode": 0,
       "inputs": [
         {
@@ -2603,138 +2508,6 @@
       "bgcolor": "#335"
     },
     {
-      "id": 868,
-      "type": "BiRefNetRMBG",
-      "pos": [
-        -6757.673828125,
-        3154.389404296875
-      ],
-      "size": [
-        320,
-        254
-      ],
-      "flags": {
-        "collapsed": true
-      },
-      "order": 94,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "image",
-          "type": "IMAGE",
-          "link": 2192
-        },
-        {
-          "name": "background_color",
-          "shape": 7,
-          "type": "COLOR",
-          "link": null
-        }
-      ],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            2189,
-            2230
-          ]
-        },
-        {
-          "name": "MASK",
-          "type": "MASK",
-          "links": null
-        },
-        {
-          "name": "MASK_IMAGE",
-          "type": "IMAGE",
-          "links": []
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfyui-rmbg",
-        "ver": "daf0b01deb1c529dfb543093bba2ed586aad7886",
-        "Node name for S&R": "BiRefNetRMBG"
-      },
-      "widgets_values": [
-        "BiRefNet-general",
-        1,
-        0,
-        false,
-        false,
-        "Color"
-      ],
-      "color": "#222",
-      "bgcolor": "#000"
-    },
-    {
-      "id": 867,
-      "type": "BiRefNetRMBG",
-      "pos": [
-        -7067.39794921875,
-        3144.67333984375
-      ],
-      "size": [
-        320,
-        254
-      ],
-      "flags": {
-        "collapsed": true
-      },
-      "order": 92,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "image",
-          "type": "IMAGE",
-          "link": 2191
-        },
-        {
-          "name": "background_color",
-          "shape": 7,
-          "type": "COLOR",
-          "link": null
-        }
-      ],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            2190,
-            2229
-          ]
-        },
-        {
-          "name": "MASK",
-          "type": "MASK",
-          "links": null
-        },
-        {
-          "name": "MASK_IMAGE",
-          "type": "IMAGE",
-          "links": [
-            2453
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfyui-rmbg",
-        "ver": "daf0b01deb1c529dfb543093bba2ed586aad7886",
-        "Node name for S&R": "BiRefNetRMBG"
-      },
-      "widgets_values": [
-        "BiRefNet-general",
-        1,
-        0,
-        false,
-        false,
-        "Color"
-      ],
-      "color": "#222",
-      "bgcolor": "#000"
-    },
-    {
       "id": 39,
       "type": "WanVideoBlockSwap",
       "pos": [
@@ -2747,7 +2520,7 @@
       ],
       "flags": {},
       "order": 9,
-      "mode": 4,
+      "mode": 0,
       "inputs": [],
       "outputs": [
         {
@@ -2786,13 +2559,13 @@
         26
       ],
       "flags": {},
-      "order": 99,
+      "order": 157,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 2543
+          "link": 2709
         }
       ],
       "outputs": [
@@ -2906,7 +2679,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 148,
+      "order": 163,
       "mode": 0,
       "inputs": [
         {
@@ -2983,7 +2756,7 @@
         "collapsed": false
       },
       "order": 10,
-      "mode": 4,
+      "mode": 0,
       "inputs": [],
       "outputs": [
         {
@@ -3104,7 +2877,7 @@
       ],
       "flags": {},
       "order": 11,
-      "mode": 4,
+      "mode": 0,
       "inputs": [],
       "outputs": [
         {
@@ -3218,7 +2991,7 @@
       ],
       "flags": {},
       "order": 14,
-      "mode": 4,
+      "mode": 0,
       "inputs": [],
       "outputs": [
         {
@@ -3297,7 +3070,7 @@
         246
       ],
       "flags": {},
-      "order": 156,
+      "order": 171,
       "mode": 0,
       "inputs": [
         {
@@ -3330,7 +3103,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 137,
+      "order": 166,
       "mode": 0,
       "inputs": [
         {
@@ -3427,7 +3200,7 @@
       ],
       "flags": {},
       "order": 195,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "image",
@@ -3472,7 +3245,7 @@
       ],
       "flags": {},
       "order": 191,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "vae",
@@ -3522,7 +3295,7 @@
       ],
       "flags": {},
       "order": 193,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "images",
@@ -3577,7 +3350,7 @@
         78
       ],
       "flags": {},
-      "order": 112,
+      "order": 146,
       "mode": 0,
       "inputs": [
         {
@@ -3625,7 +3398,7 @@
       ],
       "flags": {},
       "order": 197,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "images",
@@ -3703,7 +3476,7 @@
         258
       ],
       "flags": {},
-      "order": 125,
+      "order": 110,
       "mode": 0,
       "inputs": [
         {
@@ -3734,8 +3507,8 @@
         270
       ],
       "flags": {},
-      "order": 153,
-      "mode": 4,
+      "order": 127,
+      "mode": 0,
       "inputs": [
         {
           "name": "images",
@@ -4112,7 +3885,7 @@
       ],
       "flags": {},
       "order": 184,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "model",
@@ -4228,7 +4001,7 @@
         10,
         1.0000000000000002,
         8.000000000000002,
-        394637804541794,
+        876650390418304,
         "randomize",
         true,
         "unipc",
@@ -4252,8 +4025,8 @@
         210
       ],
       "flags": {},
-      "order": 170,
-      "mode": 4,
+      "order": 177,
+      "mode": 0,
       "inputs": [
         {
           "label": "phantom_latent_1",
@@ -4339,7 +4112,7 @@
         502.4700012207031
       ],
       "flags": {},
-      "order": 151,
+      "order": 131,
       "mode": 0,
       "inputs": [
         {
@@ -4364,12 +4137,12 @@
       "widgets_values": [
         [
           {
-            "url": "/api/view?filename=rgthree.compare._temp_urcsq_00025_.png&type=temp&subfolder=&rand=0.9153885351450994",
+            "url": "/api/view?filename=rgthree.compare._temp_afpul_00005_.png&type=temp&subfolder=&rand=0.44622549247342636",
             "name": "A",
             "selected": true
           },
           {
-            "url": "/api/view?filename=rgthree.compare._temp_urcsq_00026_.png&type=temp&subfolder=&rand=0.19011494244122762",
+            "url": "/api/view?filename=rgthree.compare._temp_afpul_00006_.png&type=temp&subfolder=&rand=0.3655797610173157",
             "name": "B",
             "selected": true
           }
@@ -4390,8 +4163,8 @@
         86
       ],
       "flags": {},
-      "order": 135,
-      "mode": 4,
+      "order": 164,
+      "mode": 0,
       "inputs": [
         {
           "name": "image",
@@ -4434,103 +4207,6 @@
       "bgcolor": "#000"
     },
     {
-      "id": 580,
-      "type": "WanVideoVACEEncode",
-      "pos": [
-        -5596.74853515625,
-        3035.75732421875
-      ],
-      "size": [
-        308.55474853515625,
-        282
-      ],
-      "flags": {
-        "collapsed": false
-      },
-      "order": 159,
-      "mode": 4,
-      "inputs": [
-        {
-          "name": "vae",
-          "type": "WANVAE",
-          "link": 1203
-        },
-        {
-          "name": "input_frames",
-          "shape": 7,
-          "type": "IMAGE",
-          "link": 2225
-        },
-        {
-          "name": "ref_images",
-          "shape": 7,
-          "type": "IMAGE",
-          "link": 2268
-        },
-        {
-          "name": "input_masks",
-          "shape": 7,
-          "type": "MASK",
-          "link": null
-        },
-        {
-          "name": "prev_vace_embeds",
-          "shape": 7,
-          "type": "WANVIDIMAGE_EMBEDS",
-          "link": null
-        },
-        {
-          "name": "width",
-          "type": "INT",
-          "widget": {
-            "name": "width"
-          },
-          "link": 1181
-        },
-        {
-          "name": "height",
-          "type": "INT",
-          "widget": {
-            "name": "height"
-          },
-          "link": 1180
-        },
-        {
-          "name": "num_frames",
-          "type": "INT",
-          "widget": {
-            "name": "num_frames"
-          },
-          "link": 1183
-        }
-      ],
-      "outputs": [
-        {
-          "name": "vace_embeds",
-          "type": "WANVIDIMAGE_EMBEDS",
-          "links": [
-            1202
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "ComfyUI-WanVideoWrapper",
-        "ver": "fa7015315a484c15eb79f41744ef501c728dc9d4",
-        "Node name for S&R": "WanVideoVACEEncode"
-      },
-      "widgets_values": [
-        832,
-        480,
-        81,
-        0.7000000000000002,
-        0,
-        0.9000000000000001,
-        false
-      ],
-      "color": "#222",
-      "bgcolor": "#000"
-    },
-    {
       "id": 751,
       "type": "WanVideoVACEStartToEndFrame",
       "pos": [
@@ -4542,8 +4218,8 @@
         142
       ],
       "flags": {},
-      "order": 117,
-      "mode": 4,
+      "order": 160,
+      "mode": 0,
       "inputs": [
         {
           "name": "start_image",
@@ -4605,75 +4281,6 @@
       "bgcolor": "#000"
     },
     {
-      "id": 601,
-      "type": "WanVideoEncode",
-      "pos": [
-        -5196.59130859375,
-        2696.0283203125
-      ],
-      "size": [
-        330,
-        242
-      ],
-      "flags": {
-        "collapsed": false
-      },
-      "order": 139,
-      "mode": 4,
-      "inputs": [
-        {
-          "label": "vae",
-          "name": "vae",
-          "type": "WANVAE",
-          "link": 1223
-        },
-        {
-          "label": "image",
-          "name": "image",
-          "type": "IMAGE",
-          "link": 2459
-        },
-        {
-          "label": "mask",
-          "name": "mask",
-          "shape": 7,
-          "type": "MASK",
-          "link": 2460
-        }
-      ],
-      "outputs": [
-        {
-          "label": "samples",
-          "name": "samples",
-          "type": "LATENT",
-          "links": [
-            2461
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "ComfyUI-WanVideoWrapper",
-        "ver": "a623f87dcad9cff5a690559fe559566be4045a9a",
-        "Node name for S&R": "WanVideoEncode",
-        "ttNbgOverride": {
-          "color": "#223",
-          "bgcolor": "#335",
-          "groupcolor": "#88A"
-        }
-      },
-      "widgets_values": [
-        false,
-        272,
-        272,
-        144,
-        128,
-        0.003000000000000001,
-        1.0000000000000002
-      ],
-      "color": "#222",
-      "bgcolor": "#000"
-    },
-    {
       "id": 11,
       "type": "LoadWanVideoT5TextEncoder",
       "pos": [
@@ -4686,7 +4293,7 @@
       ],
       "flags": {},
       "order": 19,
-      "mode": 4,
+      "mode": 0,
       "inputs": [],
       "outputs": [
         {
@@ -4727,7 +4334,7 @@
         "collapsed": false
       },
       "order": 20,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "prev_lora",
@@ -4776,8 +4383,8 @@
         254
       ],
       "flags": {},
-      "order": 91,
-      "mode": 4,
+      "order": 88,
+      "mode": 0,
       "inputs": [
         {
           "name": "compile_args",
@@ -4855,7 +4462,7 @@
       ],
       "flags": {},
       "order": 51,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "prev_lora",
@@ -4905,7 +4512,7 @@
       ],
       "flags": {},
       "order": 72,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "prev_lora",
@@ -4943,41 +4550,6 @@
       "bgcolor": "#000"
     },
     {
-      "id": 981,
-      "type": "WanVideoVRAMManagement",
-      "pos": [
-        -5906.6337890625,
-        2427.77685546875
-      ],
-      "size": [
-        293.6646423339844,
-        58
-      ],
-      "flags": {},
-      "order": 21,
-      "mode": 4,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "vram_management_args",
-          "type": "VRAM_MANAGEMENTARGS",
-          "links": [
-            2465
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "ComfyUI-WanVideoWrapper",
-        "ver": "fa7015315a484c15eb79f41744ef501c728dc9d4",
-        "Node name for S&R": "WanVideoVRAMManagement"
-      },
-      "widgets_values": [
-        0.7000000000000002
-      ],
-      "color": "#222",
-      "bgcolor": "#000"
-    },
-    {
       "id": 289,
       "type": "LoadImage",
       "pos": [
@@ -4989,7 +4561,7 @@
         398.5068054199219
       ],
       "flags": {},
-      "order": 22,
+      "order": 21,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -5030,7 +4602,7 @@
         398.5068054199219
       ],
       "flags": {},
-      "order": 23,
+      "order": 22,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -5072,7 +4644,7 @@
         394.3348388671875
       ],
       "flags": {},
-      "order": 24,
+      "order": 23,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -5115,7 +4687,7 @@
         394.3348388671875
       ],
       "flags": {},
-      "order": 25,
+      "order": 24,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -5157,7 +4729,7 @@
         46
       ],
       "flags": {},
-      "order": 107,
+      "order": 99,
       "mode": 4,
       "inputs": [
         {
@@ -5202,7 +4774,7 @@
         314.0001220703125
       ],
       "flags": {},
-      "order": 26,
+      "order": 25,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -5243,7 +4815,7 @@
         314.00006103515625
       ],
       "flags": {},
-      "order": 27,
+      "order": 26,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -5284,7 +4856,7 @@
         246
       ],
       "flags": {},
-      "order": 140,
+      "order": 169,
       "mode": 0,
       "inputs": [
         {
@@ -5315,7 +4887,7 @@
         246
       ],
       "flags": {},
-      "order": 136,
+      "order": 165,
       "mode": 0,
       "inputs": [
         {
@@ -5335,41 +4907,6 @@
       "bgcolor": "#000"
     },
     {
-      "id": 664,
-      "type": "Reroute",
-      "pos": [
-        -6349.22119140625,
-        3323.6923828125
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 143,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 2724
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "IMAGE",
-          "links": []
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      },
-      "color": "#322",
-      "bgcolor": "#533"
-    },
-    {
       "id": 864,
       "type": "PreviewImage",
       "pos": [
@@ -5381,7 +4918,7 @@
         273.6185302734375
       ],
       "flags": {},
-      "order": 120,
+      "order": 107,
       "mode": 0,
       "inputs": [
         {
@@ -5489,13 +5026,13 @@
         26
       ],
       "flags": {},
-      "order": 95,
+      "order": 139,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 2545
+          "link": 2711
         }
       ],
       "outputs": [
@@ -5504,8 +5041,7 @@
           "type": "IMAGE",
           "links": [
             2037,
-            2043,
-            2485
+            2043
           ]
         }
       ],
@@ -5528,7 +5064,7 @@
         394.3348388671875
       ],
       "flags": {},
-      "order": 28,
+      "order": 27,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -5570,7 +5106,7 @@
         26
       ],
       "flags": {},
-      "order": 83,
+      "order": 80,
       "mode": 0,
       "inputs": [
         {
@@ -5584,8 +5120,7 @@
           "name": "",
           "type": "IMAGE",
           "links": [
-            2478,
-            2479
+            2478
           ]
         }
       ],
@@ -5610,7 +5145,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 29,
+      "order": 28,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -5648,7 +5183,7 @@
         300.9212951660156
       ],
       "flags": {},
-      "order": 30,
+      "order": 29,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -5686,7 +5221,7 @@
         227.731201171875
       ],
       "flags": {},
-      "order": 31,
+      "order": 30,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -5716,15 +5251,15 @@
       "id": 992,
       "type": "Reroute",
       "pos": [
-        -6331.4658203125,
-        3711.92333984375
+        -6224.517578125,
+        3724.215087890625
       ],
       "size": [
         75,
         26
       ],
       "flags": {},
-      "order": 78,
+      "order": 151,
       "mode": 0,
       "inputs": [
         {
@@ -5733,7 +5268,7 @@
           "widget": {
             "name": "value"
           },
-          "link": 2526
+          "link": 2708
         }
       ],
       "outputs": [
@@ -5756,15 +5291,15 @@
       "id": 990,
       "type": "Reroute",
       "pos": [
-        -6329.7041015625,
-        3758.293701171875
+        -6222.755859375,
+        3770.58544921875
       ],
       "size": [
         75,
         26
       ],
       "flags": {},
-      "order": 76,
+      "order": 120,
       "mode": 0,
       "inputs": [
         {
@@ -5773,7 +5308,7 @@
           "widget": {
             "name": "value"
           },
-          "link": 2525
+          "link": 2707
         }
       ],
       "outputs": [
@@ -5796,15 +5331,15 @@
       "id": 991,
       "type": "Reroute",
       "pos": [
-        -6327.8310546875,
-        3809.54296875
+        -6220.8828125,
+        3821.834716796875
       ],
       "size": [
         75,
         26
       ],
       "flags": {},
-      "order": 77,
+      "order": 119,
       "mode": 0,
       "inputs": [
         {
@@ -5813,7 +5348,7 @@
           "widget": {
             "name": "value"
           },
-          "link": 2524
+          "link": 2706
         }
       ],
       "outputs": [
@@ -5831,111 +5366,6 @@
       },
       "color": "#222",
       "bgcolor": "#000"
-    },
-    {
-      "id": 997,
-      "type": "Reroute",
-      "pos": [
-        -6257.58837890625,
-        3948.800048828125
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 180,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 2515
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "STRING",
-          "links": []
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      },
-      "color": "#322",
-      "bgcolor": "#533"
-    },
-    {
-      "id": 994,
-      "type": "Reroute",
-      "pos": [
-        -6255.82666015625,
-        3995.1708984375
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 164,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 2650
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "STRING",
-          "links": []
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      },
-      "color": "#322",
-      "bgcolor": "#533"
-    },
-    {
-      "id": 995,
-      "type": "Reroute",
-      "pos": [
-        -6253.95166015625,
-        4046.420654296875
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 160,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 2656
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "STRING",
-          "links": []
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      },
-      "color": "#322",
-      "bgcolor": "#533"
     },
     {
       "id": 989,
@@ -5990,9 +5420,6 @@
         {
           "name": "",
           "type": "*",
-          "widget": {
-            "name": "value"
-          },
           "link": 2492
         }
       ],
@@ -6000,9 +5427,7 @@
         {
           "name": "",
           "type": "STRING",
-          "links": [
-            2524
-          ]
+          "links": []
         }
       ],
       "properties": {
@@ -6030,9 +5455,6 @@
         {
           "name": "",
           "type": "*",
-          "widget": {
-            "name": "value"
-          },
           "link": 2491
         }
       ],
@@ -6040,9 +5462,7 @@
         {
           "name": "",
           "type": "STRING",
-          "links": [
-            2525
-          ]
+          "links": []
         }
       ],
       "properties": {
@@ -6070,9 +5490,6 @@
         {
           "name": "",
           "type": "*",
-          "widget": {
-            "name": "value"
-          },
           "link": 2493
         }
       ],
@@ -6080,9 +5497,7 @@
         {
           "name": "",
           "type": "STRING",
-          "links": [
-            2526
-          ]
+          "links": []
         }
       ],
       "properties": {
@@ -6104,7 +5519,7 @@
         88
       ],
       "flags": {},
-      "order": 32,
+      "order": 31,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -6127,7 +5542,7 @@
         200
       ],
       "flags": {},
-      "order": 33,
+      "order": 32,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -6207,7 +5622,7 @@
         314.00006103515625
       ],
       "flags": {},
-      "order": 34,
+      "order": 33,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -6251,8 +5666,8 @@
       "flags": {
         "collapsed": false
       },
-      "order": 132,
-      "mode": 4,
+      "order": 153,
+      "mode": 0,
       "inputs": [
         {
           "name": "image",
@@ -6290,7 +5705,7 @@
         26
       ],
       "flags": {},
-      "order": 80,
+      "order": 77,
       "mode": 0,
       "inputs": [
         {
@@ -6303,9 +5718,7 @@
         {
           "name": "",
           "type": "IMAGE",
-          "links": [
-            2543
-          ]
+          "links": []
         }
       ],
       "properties": {
@@ -6341,8 +5754,7 @@
           "name": "",
           "type": "IMAGE",
           "links": [
-            2191,
-            2544
+            2191
           ]
         }
       ],
@@ -6379,8 +5791,7 @@
           "name": "",
           "type": "IMAGE",
           "links": [
-            2192,
-            2545
+            2192
           ]
         }
       ],
@@ -6390,78 +5801,6 @@
       },
       "color": "#223",
       "bgcolor": "#335"
-    },
-    {
-      "id": 873,
-      "type": "BiRefNetRMBG",
-      "pos": [
-        -7103.919921875,
-        3506.58251953125
-      ],
-      "size": [
-        320,
-        254
-      ],
-      "flags": {
-        "collapsed": false
-      },
-      "order": 118,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "image",
-          "type": "IMAGE",
-          "link": 2196
-        },
-        {
-          "name": "background_color",
-          "shape": 7,
-          "type": "COLOR",
-          "link": null
-        }
-      ],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            2214,
-            2228,
-            2247,
-            2459
-          ]
-        },
-        {
-          "name": "MASK",
-          "type": "MASK",
-          "links": [
-            2248,
-            2460
-          ]
-        },
-        {
-          "name": "MASK_IMAGE",
-          "type": "IMAGE",
-          "links": [
-            2200
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfyui-rmbg",
-        "ver": "daf0b01deb1c529dfb543093bba2ed586aad7886",
-        "Node name for S&R": "BiRefNetRMBG"
-      },
-      "widgets_values": [
-        "BiRefNet-general",
-        1,
-        0,
-        false,
-        false,
-        "Color"
-      ],
-      "color": "#222",
-      "bgcolor": "#000"
     },
     {
       "id": 889,
@@ -6475,7 +5814,7 @@
         246
       ],
       "flags": {},
-      "order": 157,
+      "order": 172,
       "mode": 0,
       "inputs": [
         {
@@ -6506,7 +5845,7 @@
         26
       ],
       "flags": {},
-      "order": 86,
+      "order": 83,
       "mode": 0,
       "inputs": [
         {
@@ -6544,7 +5883,7 @@
         26
       ],
       "flags": {},
-      "order": 87,
+      "order": 84,
       "mode": 0,
       "inputs": [
         {
@@ -6582,7 +5921,7 @@
         78
       ],
       "flags": {},
-      "order": 105,
+      "order": 97,
       "mode": 0,
       "inputs": [
         {
@@ -6631,7 +5970,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 144,
+      "order": 136,
       "mode": 0,
       "inputs": [
         {
@@ -6642,7 +5981,7 @@
         {
           "name": "image2",
           "type": "IMAGE",
-          "link": 2721
+          "link": 2728
         }
       ],
       "outputs": [
@@ -6680,7 +6019,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 142,
+      "order": 133,
       "mode": 0,
       "inputs": [
         {
@@ -6691,7 +6030,7 @@
         {
           "name": "image2",
           "type": "IMAGE",
-          "link": 2723
+          "link": 2731
         }
       ],
       "outputs": [
@@ -6727,7 +6066,7 @@
         78
       ],
       "flags": {},
-      "order": 163,
+      "order": 142,
       "mode": 0,
       "inputs": [
         {
@@ -6773,7 +6112,7 @@
         258
       ],
       "flags": {},
-      "order": 175,
+      "order": 148,
       "mode": 0,
       "inputs": [
         {
@@ -6804,7 +6143,7 @@
         78
       ],
       "flags": {},
-      "order": 171,
+      "order": 145,
       "mode": 0,
       "inputs": [
         {
@@ -6842,15 +6181,15 @@
       "id": 996,
       "type": "Reroute",
       "pos": [
-        -6254.43505859375,
-        4097.7841796875
+        -6361.771484375,
+        4096.4921875
       ],
       "size": [
         75,
         26
       ],
       "flags": {},
-      "order": 177,
+      "order": 179,
       "mode": 0,
       "inputs": [
         {
@@ -6890,7 +6229,7 @@
         321.0223388671875
       ],
       "flags": {},
-      "order": 35,
+      "order": 34,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -6928,8 +6267,8 @@
         240.34864807128906
       ],
       "flags": {},
-      "order": 173,
-      "mode": 4,
+      "order": 140,
+      "mode": 0,
       "inputs": [
         {
           "name": "context",
@@ -6993,8 +6332,8 @@
       "flags": {
         "collapsed": false
       },
-      "order": 178,
-      "mode": 4,
+      "order": 147,
+      "mode": 0,
       "inputs": [
         {
           "name": "context",
@@ -7039,7 +6378,7 @@
       },
       "widgets_values": [
         "0",
-        "Transform the characters into a realistic, high-quality live-action cosplay portrayal, ensuring the male character retains a rugged facial structure with sharp cheekbones, defined jawline, and determined expression beneath a wide headband; maintain his tousled short hair, tactical suit with heavy padding, utility belt, gloves, and prominently held silenced pistol. Accurately depict the woman with short, voluminous red hair styled in gentle waves framing her delicate yet assertive face, slim eyebrows, expressive eyes, and full lips; preserve her black tank top, fingerless gloves, military-style pants, and firearm. Retain their original dynamic poses, composition, costumes, accessories, props, and action-oriented background environment."
+        "Transform the characters from the first image into a realistic, high-quality live-action cosplay portrayal, featuring the provided actors with slightly stylized, enhanced proportions to improve character likeness. Depict the male character with short, tousled hair, defined jawline, and intense expression, wearing tactical gear, a dark headband, and holding a large silenced pistol in a dynamic aiming pose. Portray the female character with short, fiery-red hair styled in loose waves, maintaining her strong facial features, wearing a black tank top, military green pants, black gloves, and confidently gripping a handgun. Position them accurately in the foreground, preserving original poses and costumes, and replace the background with a lifelike desert ruin environment matching the provided image."
       ],
       "color": "#222",
       "bgcolor": "#000"
@@ -7056,8 +6395,8 @@
         238.13401794433594
       ],
       "flags": {},
-      "order": 176,
-      "mode": 4,
+      "order": 144,
+      "mode": 0,
       "inputs": [
         {
           "name": "context",
@@ -7083,7 +6422,7 @@
       "widgets_values": [
         "gpt-4o-mini",
         "Write a detailed description of a futuristic city.",
-        "Transform the characters into a realistic, high-quality live-action cosplay portrayal, ensuring the male character retains a rugged facial structure with sharp cheekbones, defined jawline, and determined expression beneath a wide headband; maintain his tousled short hair, tactical suit with heavy padding, utility belt, gloves, and prominently held silenced pistol. Accurately depict the woman with short, voluminous red hair styled in gentle waves framing her delicate yet assertive face, slim eyebrows, expressive eyes, and full lips; preserve her black tank top, fingerless gloves, military-style pants, and firearm. Retain their original dynamic poses, composition, costumes, accessories, props, and action-oriented background environment."
+        "Transform the characters from the first image into a realistic, high-quality live-action cosplay portrayal, featuring the provided actors with slightly stylized, enhanced proportions to improve character likeness. Depict the male character with short, tousled hair, defined jawline, and intense expression, wearing tactical gear, a dark headband, and holding a large silenced pistol in a dynamic aiming pose. Portray the female character with short, fiery-red hair styled in loose waves, maintaining her strong facial features, wearing a black tank top, military green pants, black gloves, and confidently gripping a handgun. Position them accurately in the foreground, preserving original poses and costumes, and replace the background with a lifelike desert ruin environment matching the provided image."
       ],
       "color": "#222",
       "bgcolor": "#000"
@@ -7100,7 +6439,7 @@
         319.7298889160156
       ],
       "flags": {},
-      "order": 158,
+      "order": 173,
       "mode": 0,
       "inputs": [
         {
@@ -7165,7 +6504,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 174,
+      "order": 178,
       "mode": 0,
       "inputs": [
         {
@@ -7211,7 +6550,7 @@
       },
       "widgets_values": [
         "0",
-        "Tactical soldier swiftly raises rifle, red-haired agent smirks approvingly, shifting stance, sand swirls across barren desert, camera tracks swiftly upward, harsh shadows accentuate tension, warm color palette, deep focus, dynamic composition, shot on Sony FX9 with anamorphic lenses, classic tokusatsu aesthetics."
+        "Armored soldier swiftly raises handgun, red-haired operative smirks calmly, abandoned desert ruins, camera arcs smoothly, warm sunlight, crisp shadows, vibrant tokusatsu palette, shot on Sony Venice 6K with anamorphic lenses."
       ],
       "color": "#222",
       "bgcolor": "#000"
@@ -7228,7 +6567,7 @@
         280.1310119628906
       ],
       "flags": {},
-      "order": 169,
+      "order": 176,
       "mode": 0,
       "inputs": [
         {
@@ -7255,7 +6594,7 @@
       "widgets_values": [
         "gpt-4o-mini",
         "Write a detailed description of a futuristic city.",
-        "Tactical soldier swiftly raises rifle, red-haired agent smirks approvingly, shifting stance, sand swirls across barren desert, camera tracks swiftly upward, harsh shadows accentuate tension, warm color palette, deep focus, dynamic composition, shot on Sony FX9 with anamorphic lenses, classic tokusatsu aesthetics."
+        "Armored soldier swiftly raises handgun, red-haired operative smirks calmly, abandoned desert ruins, camera arcs smoothly, warm sunlight, crisp shadows, vibrant tokusatsu palette, shot on Sony Venice 6K with anamorphic lenses."
       ],
       "color": "#222",
       "bgcolor": "#000"
@@ -7274,8 +6613,8 @@
       "flags": {
         "collapsed": false
       },
-      "order": 146,
-      "mode": 4,
+      "order": 116,
+      "mode": 0,
       "inputs": [
         {
           "name": "context",
@@ -7320,7 +6659,7 @@
       },
       "widgets_values": [
         "0",
-        "Transform the characters into a realistic, high-quality live-action cosplay portrayal, ensuring the male character retains a rugged facial structure with sharp cheekbones, defined jawline, and determined expression beneath a wide headband; maintain his tousled short hair, tactical suit with heavy padding, utility belt, gloves, and prominently held silenced pistol. Accurately depict the woman with short, voluminous red hair styled in gentle waves framing her delicate yet assertive face, slim eyebrows, expressive eyes, and full lips; preserve her black tank top, fingerless gloves, military-style pants, and firearm. Retain their original dynamic poses, composition, costumes, accessories, props, and action-oriented background environment."
+        "Transform the character into a realistic, high-quality live-action cosplay portrayal featuring the provided actress, accurately capturing the character's slender yet slightly stylized proportions. Ensure the actress retains her natural facial features, including defined cheekbones, full lips, and expressive eyes, while matching the short, vibrant red hairstyle styled in soft waves. Maintain the exact pose, crouched against a wall, holding a tactical pistol, and preserve the costume consisting of a fitted dark tank top, tactical green pants, knee pads, combat boots, gloves, and holstered katana as a prop."
       ],
       "color": "#222",
       "bgcolor": "#000"
@@ -7337,8 +6676,8 @@
         238.13401794433594
       ],
       "flags": {},
-      "order": 124,
-      "mode": 4,
+      "order": 109,
+      "mode": 0,
       "inputs": [
         {
           "name": "context",
@@ -7364,7 +6703,7 @@
       "widgets_values": [
         "gpt-4o-mini",
         "Write a detailed description of a futuristic city.",
-        "Transform the characters into a realistic, high-quality live-action cosplay portrayal, ensuring the male character retains a rugged facial structure with sharp cheekbones, defined jawline, and determined expression beneath a wide headband; maintain his tousled short hair, tactical suit with heavy padding, utility belt, gloves, and prominently held silenced pistol. Accurately depict the woman with short, voluminous red hair styled in gentle waves framing her delicate yet assertive face, slim eyebrows, expressive eyes, and full lips; preserve her black tank top, fingerless gloves, military-style pants, and firearm. Retain their original dynamic poses, composition, costumes, accessories, props, and action-oriented background environment."
+        "Transform the character into a realistic, high-quality live-action cosplay portrayal featuring the provided actress, accurately capturing the character's slender yet slightly stylized proportions. Ensure the actress retains her natural facial features, including defined cheekbones, full lips, and expressive eyes, while matching the short, vibrant red hairstyle styled in soft waves. Maintain the exact pose, crouched against a wall, holding a tactical pistol, and preserve the costume consisting of a fitted dark tank top, tactical green pants, knee pads, combat boots, gloves, and holstered katana as a prop."
       ],
       "color": "#222",
       "bgcolor": "#000"
@@ -7460,8 +6799,8 @@
         240.34864807128906
       ],
       "flags": {},
-      "order": 103,
-      "mode": 4,
+      "order": 95,
+      "mode": 0,
       "inputs": [
         {
           "name": "context",
@@ -7525,8 +6864,8 @@
       "flags": {
         "collapsed": false
       },
-      "order": 141,
-      "mode": 4,
+      "order": 115,
+      "mode": 0,
       "inputs": [
         {
           "name": "context",
@@ -7571,7 +6910,7 @@
       },
       "widgets_values": [
         "0",
-        "Transform the characters into a realistic, high-quality live-action cosplay portrayal, ensuring the male character retains a rugged facial structure with sharp cheekbones, defined jawline, and determined expression beneath a wide headband; maintain his tousled short hair, tactical suit with heavy padding, utility belt, gloves, and prominently held silenced pistol. Accurately depict the woman with short, voluminous red hair styled in gentle waves framing her delicate yet assertive face, slim eyebrows, expressive eyes, and full lips; preserve her black tank top, fingerless gloves, military-style pants, and firearm. Retain their original dynamic poses, composition, costumes, accessories, props, and action-oriented background environment."
+        "Transform the original image to a high-quality, realistic cosplay-style live-action portrayal, keeping the character's strong, rugged facial structure, pronounced cheekbones, sharp jawline, and intense expression, while replacing facial features with those of the actor provided, including bright blue eyes, defined eyebrows, and short, tousled hair. Maintain the original character's iconic costume consisting of blue-grey tactical suit, intricate harnesses, headband, gloves, thigh holster, and sidearm. Preserve the exact composition, heroic stance, muscular proportions, and stylized action-oriented aesthetic."
       ],
       "color": "#222",
       "bgcolor": "#000"
@@ -7588,8 +6927,8 @@
         238.13401794433594
       ],
       "flags": {},
-      "order": 119,
-      "mode": 4,
+      "order": 106,
+      "mode": 0,
       "inputs": [
         {
           "name": "context",
@@ -7615,7 +6954,7 @@
       "widgets_values": [
         "gpt-4o-mini",
         "Write a detailed description of a futuristic city.",
-        "Transform the characters into a realistic, high-quality live-action cosplay portrayal, ensuring the male character retains a rugged facial structure with sharp cheekbones, defined jawline, and determined expression beneath a wide headband; maintain his tousled short hair, tactical suit with heavy padding, utility belt, gloves, and prominently held silenced pistol. Accurately depict the woman with short, voluminous red hair styled in gentle waves framing her delicate yet assertive face, slim eyebrows, expressive eyes, and full lips; preserve her black tank top, fingerless gloves, military-style pants, and firearm. Retain their original dynamic poses, composition, costumes, accessories, props, and action-oriented background environment."
+        "Transform the original image to a high-quality, realistic cosplay-style live-action portrayal, keeping the character's strong, rugged facial structure, pronounced cheekbones, sharp jawline, and intense expression, while replacing facial features with those of the actor provided, including bright blue eyes, defined eyebrows, and short, tousled hair. Maintain the original character's iconic costume consisting of blue-grey tactical suit, intricate harnesses, headband, gloves, thigh holster, and sidearm. Preserve the exact composition, heroic stance, muscular proportions, and stylized action-oriented aesthetic."
       ],
       "color": "#222",
       "bgcolor": "#000"
@@ -7632,8 +6971,8 @@
         240.34864807128906
       ],
       "flags": {},
-      "order": 100,
-      "mode": 4,
+      "order": 93,
+      "mode": 0,
       "inputs": [
         {
           "name": "context",
@@ -7695,7 +7034,7 @@
         391.8146667480469
       ],
       "flags": {},
-      "order": 36,
+      "order": 35,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -7738,7 +7077,7 @@
         200
       ],
       "flags": {},
-      "order": 37,
+      "order": 36,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -7765,76 +7104,6 @@
       "bgcolor": "#000"
     },
     {
-      "id": 681,
-      "type": "Reroute",
-      "pos": [
-        -6221.8701171875,
-        2457.305908203125
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 73,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 1510
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "IMAGE",
-          "links": []
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      },
-      "color": "#223",
-      "bgcolor": "#335"
-    },
-    {
-      "id": 663,
-      "type": "Reroute",
-      "pos": [
-        -6349.91064453125,
-        3281.140625
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 145,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 2722
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "IMAGE",
-          "links": []
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      },
-      "color": "#322",
-      "bgcolor": "#533"
-    },
-    {
       "id": 691,
       "type": "Note",
       "pos": [
@@ -7846,7 +7115,7 @@
         88
       ],
       "flags": {},
-      "order": 38,
+      "order": 37,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -7900,110 +7169,6 @@
       "bgcolor": "#000"
     },
     {
-      "id": 1001,
-      "type": "Reroute",
-      "pos": [
-        -6349.77978515625,
-        3237.788330078125
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 167,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 2716
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "IMAGE",
-          "links": null
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      },
-      "color": "#322",
-      "bgcolor": "#533"
-    },
-    {
-      "id": 976,
-      "type": "WanVideoEncode",
-      "pos": [
-        -5203.685546875,
-        2990.91552734375
-      ],
-      "size": [
-        330,
-        242
-      ],
-      "flags": {
-        "collapsed": false
-      },
-      "order": 110,
-      "mode": 4,
-      "inputs": [
-        {
-          "label": "vae",
-          "name": "vae",
-          "type": "WANVAE",
-          "link": 2458
-        },
-        {
-          "label": "image",
-          "name": "image",
-          "type": "IMAGE",
-          "link": 2453
-        },
-        {
-          "label": "mask",
-          "name": "mask",
-          "shape": 7,
-          "type": "MASK",
-          "link": null
-        }
-      ],
-      "outputs": [
-        {
-          "label": "samples",
-          "name": "samples",
-          "type": "LATENT",
-          "links": [
-            2457
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "ComfyUI-WanVideoWrapper",
-        "ver": "a623f87dcad9cff5a690559fe559566be4045a9a",
-        "Node name for S&R": "WanVideoEncode",
-        "ttNbgOverride": {
-          "color": "#223",
-          "bgcolor": "#335",
-          "groupcolor": "#88A"
-        }
-      },
-      "widgets_values": [
-        false,
-        272,
-        272,
-        144,
-        128,
-        0.003000000000000001,
-        1.0000000000000002
-      ],
-      "color": "#222",
-      "bgcolor": "#000"
-    },
-    {
       "id": 446,
       "type": "SaveImage",
       "pos": [
@@ -8015,8 +7180,8 @@
         270
       ],
       "flags": {},
-      "order": 166,
-      "mode": 4,
+      "order": 155,
+      "mode": 0,
       "inputs": [
         {
           "name": "images",
@@ -8050,8 +7215,8 @@
       "flags": {
         "collapsed": true
       },
-      "order": 149,
-      "mode": 4,
+      "order": 154,
+      "mode": 0,
       "inputs": [
         {
           "name": "image",
@@ -8081,7 +7246,7 @@
           "type": "IMAGE",
           "links": [
             1590,
-            2716
+            2739
           ]
         },
         {
@@ -8157,37 +7322,6 @@
       "bgcolor": "#335"
     },
     {
-      "id": 1061,
-      "type": "Label (rgthree)",
-      "pos": [
-        -8305.8369140625,
-        -26.102909088134766
-      ],
-      "size": [
-        1849.1015625,
-        120
-      ],
-      "flags": {
-        "allow_interaction": true
-      },
-      "order": 39,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [],
-      "title": "www.youtube.com/@impactframes",
-      "properties": {
-        "fontSize": 120,
-        "fontFamily": "Arial",
-        "fontColor": "#999999",
-        "textAlign": "left",
-        "backgroundColor": "\n\n\n\n\n\n\n\n#e6ccff",
-        "padding": 0,
-        "borderRadius": 0
-      },
-      "color": "#fff0",
-      "bgcolor": "#fff0"
-    },
-    {
       "id": 1059,
       "type": "ComfyUIDeployExternalSeed",
       "pos": [
@@ -8199,7 +7333,7 @@
         208
       ],
       "flags": {},
-      "order": 40,
+      "order": 38,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -8300,7 +7434,7 @@
         "Node name for S&R": "ShowText|pysssss"
       },
       "widgets_values": [
-        "https://v3.fal.media/files/rabbit/JGwn5llCcnbDEclJgD7p5_output.mp4"
+        "https://v3.fal.media/files/zebra/BaLXDEe8OnkRhoqTuwhbB_output.mp4"
       ],
       "color": "#233",
       "bgcolor": "#355"
@@ -8396,222 +7530,6 @@
       "bgcolor": "#355"
     },
     {
-      "id": 793,
-      "type": "VHS_LoadVideoPath",
-      "pos": [
-        -5626.85986328125,
-        3428.010498046875
-      ],
-      "size": [
-        236.4912109375,
-        286
-      ],
-      "flags": {},
-      "order": 188,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "meta_batch",
-          "shape": 7,
-          "type": "VHS_BatchManager",
-          "link": null
-        },
-        {
-          "name": "vae",
-          "shape": 7,
-          "type": "VAE",
-          "link": null
-        },
-        {
-          "name": "video",
-          "type": "STRING",
-          "widget": {
-            "name": "video"
-          },
-          "link": 2001
-        }
-      ],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            2680
-          ]
-        },
-        {
-          "name": "frame_count",
-          "type": "INT",
-          "links": null
-        },
-        {
-          "name": "audio",
-          "type": "AUDIO",
-          "links": null
-        },
-        {
-          "name": "video_info",
-          "type": "VHS_VIDEOINFO",
-          "links": [
-            2681
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfyui-videohelpersuite",
-        "ver": "f7369389620ff244ddd6086cf0fa792a569086f2",
-        "Node name for S&R": "VHS_LoadVideoPath"
-      },
-      "widgets_values": {
-        "video": "",
-        "force_rate": 0,
-        "custom_width": 0,
-        "custom_height": 0,
-        "frame_load_cap": 0,
-        "skip_first_frames": 0,
-        "select_every_nth": 1,
-        "format": "Wan",
-        "videopreview": {
-          "hidden": false,
-          "params": {
-            "type": "path",
-            "format": "video/",
-            "filename": "",
-            "force_rate": 0,
-            "custom_width": 0,
-            "custom_height": 0,
-            "frame_load_cap": 0,
-            "select_every_nth": 1,
-            "skip_first_frames": 0
-          },
-          "paused": false
-        }
-      },
-      "color": "#233",
-      "bgcolor": "#355"
-    },
-    {
-      "id": 1066,
-      "type": "SaveVideo",
-      "pos": [
-        -5347.85205078125,
-        3544.6826171875
-      ],
-      "size": [
-        270,
-        106
-      ],
-      "flags": {},
-      "order": 196,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "video",
-          "type": "VIDEO",
-          "link": 2676
-        }
-      ],
-      "outputs": [],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.38",
-        "Node name for S&R": "SaveVideo"
-      },
-      "widgets_values": [
-        "video/Kling_fal_",
-        "auto",
-        "auto"
-      ],
-      "color": "#233",
-      "bgcolor": "#355"
-    },
-    {
-      "id": 1068,
-      "type": "VHS_VideoInfo",
-      "pos": [
-        -5325.71142578125,
-        3719.928466796875
-      ],
-      "size": [
-        224.12109375,
-        206
-      ],
-      "flags": {
-        "collapsed": true
-      },
-      "order": 192,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "video_info",
-          "type": "VHS_VIDEOINFO",
-          "link": 2681
-        }
-      ],
-      "outputs": [
-        {
-          "name": "source_fps🟨",
-          "type": "FLOAT",
-          "links": [
-            2679
-          ]
-        },
-        {
-          "name": "source_frame_count🟨",
-          "type": "INT",
-          "links": null
-        },
-        {
-          "name": "source_duration🟨",
-          "type": "FLOAT",
-          "links": null
-        },
-        {
-          "name": "source_width🟨",
-          "type": "INT",
-          "links": null
-        },
-        {
-          "name": "source_height🟨",
-          "type": "INT",
-          "links": null
-        },
-        {
-          "name": "loaded_fps🟦",
-          "type": "FLOAT",
-          "links": null
-        },
-        {
-          "name": "loaded_frame_count🟦",
-          "type": "INT",
-          "links": null
-        },
-        {
-          "name": "loaded_duration🟦",
-          "type": "FLOAT",
-          "links": null
-        },
-        {
-          "name": "loaded_width🟦",
-          "type": "INT",
-          "links": null
-        },
-        {
-          "name": "loaded_height🟦",
-          "type": "INT",
-          "links": null
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfyui-videohelpersuite",
-        "ver": "f7369389620ff244ddd6086cf0fa792a569086f2",
-        "Node name for S&R": "VHS_VideoInfo"
-      },
-      "widgets_values": {},
-      "color": "#233",
-      "bgcolor": "#355"
-    },
-    {
       "id": 888,
       "type": "ImageCompositeMasked",
       "pos": [
@@ -8623,7 +7541,7 @@
         146
       ],
       "flags": {},
-      "order": 138,
+      "order": 167,
       "mode": 0,
       "inputs": [
         {
@@ -8673,15 +7591,15 @@
       "id": 993,
       "type": "Reroute",
       "pos": [
-        -6329.5439453125,
-        3861.2236328125
+        -6222.595703125,
+        3873.515380859375
       ],
       "size": [
         75,
         26
       ],
       "flags": {},
-      "order": 179,
+      "order": 180,
       "mode": 0,
       "inputs": [
         {
@@ -8859,8 +7777,8 @@
         364
       ],
       "flags": {},
-      "order": 113,
-      "mode": 4,
+      "order": 152,
+      "mode": 0,
       "inputs": [
         {
           "name": "image_1",
@@ -8934,7 +7852,7 @@
         "5",
         "png",
         false,
-        4178892870,
+        2379044267,
         "randomize"
       ],
       "color": "#222",
@@ -8952,8 +7870,8 @@
         364
       ],
       "flags": {},
-      "order": 97,
-      "mode": 4,
+      "order": 121,
+      "mode": 0,
       "inputs": [
         {
           "name": "image_1",
@@ -9027,7 +7945,7 @@
         "6",
         "png",
         false,
-        994452189,
+        571424465,
         "randomize"
       ],
       "color": "#222",
@@ -9045,8 +7963,8 @@
         364
       ],
       "flags": {},
-      "order": 96,
-      "mode": 4,
+      "order": 122,
+      "mode": 0,
       "inputs": [
         {
           "name": "image_1",
@@ -9120,7 +8038,7 @@
         "6",
         "png",
         false,
-        3822426615,
+        621536533,
         "randomize"
       ],
       "color": "#222",
@@ -9138,7 +8056,7 @@
         214
       ],
       "flags": {},
-      "order": 41,
+      "order": 39,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -9216,195 +8134,66 @@
       "bgcolor": "#335"
     },
     {
-      "id": 1060,
-      "type": "Label (rgthree)",
+      "id": 1073,
+      "type": "Reroute",
       "pos": [
-        -8450.0302734375,
-        -204.4603271484375
+        -6209.310546875,
+        3471.844482421875
       ],
       "size": [
-        2025.17578125,
-        120
+        75,
+        26
       ],
-      "flags": {
-        "allow_interaction": true
-      },
-      "order": 42,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [],
-      "title": "Sponsored by COMFYDEPLOY.COM ",
-      "properties": {
-        "fontSize": 120,
-        "fontFamily": "Arial",
-        "fontColor": "#999999",
-        "textAlign": "left",
-        "backgroundColor": "\n\n\n\n\n\n\n\n#e6ccff",
-        "padding": 0,
-        "borderRadius": 0
-      },
-      "color": "#fff0",
-      "bgcolor": "#fff0"
-    },
-    {
-      "id": 863,
-      "type": "BiRefNetRMBG",
-      "pos": [
-        -6742.40771484375,
-        2801.52587890625
-      ],
-      "size": [
-        320,
-        254
-      ],
-      "flags": {
-        "collapsed": true
-      },
-      "order": 101,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "image",
-          "type": "IMAGE",
-          "link": 2478
-        },
-        {
-          "name": "background_color",
-          "shape": 7,
-          "type": "COLOR",
-          "link": null
-        }
-      ],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            2176,
-            2720
-          ]
-        },
-        {
-          "name": "MASK",
-          "type": "MASK",
-          "links": []
-        },
-        {
-          "name": "MASK_IMAGE",
-          "type": "IMAGE",
-          "links": []
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfyui-rmbg",
-        "ver": "daf0b01deb1c529dfb543093bba2ed586aad7886",
-        "Node name for S&R": "BiRefNetRMBG"
-      },
-      "widgets_values": [
-        "BiRefNet-general",
-        1,
-        0,
-        false,
-        false,
-        "Color"
-      ],
-      "color": "#222e40",
-      "bgcolor": "#364254"
-    },
-    {
-      "id": 865,
-      "type": "BiRefNetRMBG",
-      "pos": [
-        -7092.82763671875,
-        2801.785888671875
-      ],
-      "size": [
-        320,
-        254
-      ],
-      "flags": {
-        "collapsed": false
-      },
+      "flags": {},
       "order": 102,
       "mode": 0,
       "inputs": [
         {
-          "name": "image",
-          "type": "IMAGE",
-          "link": 2479
-        },
-        {
-          "name": "background_color",
-          "shape": 7,
-          "type": "COLOR",
-          "link": null
+          "name": "",
+          "type": "*",
+          "link": 2697
         }
       ],
       "outputs": [
         {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            2178,
-            2717
-          ]
-        },
-        {
-          "name": "MASK",
-          "type": "MASK",
-          "links": []
-        },
-        {
-          "name": "MASK_IMAGE",
+          "name": "",
           "type": "IMAGE",
           "links": []
         }
       ],
       "properties": {
-        "cnr_id": "comfyui-rmbg",
-        "ver": "daf0b01deb1c529dfb543093bba2ed586aad7886",
-        "Node name for S&R": "BiRefNetRMBG"
+        "showOutputText": false,
+        "horizontal": false
       },
-      "widgets_values": [
-        "BiRefNet-general",
-        1,
-        0,
-        false,
-        false,
-        "Color"
-      ],
-      "color": "#222e40",
-      "bgcolor": "#364254"
+      "color": "#223",
+      "bgcolor": "#335"
     },
     {
       "id": 1074,
       "type": "Reroute",
       "pos": [
-        -6218.26318359375,
-        3480.849365234375
+        -6209.92578125,
+        3509.87744140625
       ],
       "size": [
         75,
         26
       ],
       "flags": {},
-      "order": 121,
+      "order": 108,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 2720
+          "link": 2698
         }
       ],
       "outputs": [
         {
           "name": "",
           "type": "IMAGE",
-          "links": [
-            2723,
-            2724
-          ]
+          "links": []
         }
       ],
       "properties": {
@@ -9415,117 +8204,34 @@
       "bgcolor": "#335"
     },
     {
-      "id": 1073,
-      "type": "Reroute",
+      "id": 279,
+      "type": "SaveImage",
       "pos": [
-        -6217.64794921875,
-        3442.81640625
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 123,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 2717
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "IMAGE",
-          "links": [
-            2721,
-            2722
-          ]
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      },
-      "color": "#223",
-      "bgcolor": "#335"
-    },
-    {
-      "id": 230,
-      "type": "ImageResizeKJv2",
-      "pos": [
-        -9195.54296875,
-        166.54112243652344
+        -9249.798828125,
+        221.67002868652344
       ],
       "size": [
         270,
-        266
+        270.0001220703125
       ],
-      "flags": {
-        "collapsed": false
-      },
-      "order": 133,
-      "mode": 4,
+      "flags": {},
+      "order": 130,
+      "mode": 0,
       "inputs": [
         {
-          "name": "image",
+          "name": "images",
           "type": "IMAGE",
-          "link": 559
-        },
-        {
-          "name": "width",
-          "type": "INT",
-          "widget": {
-            "name": "width"
-          },
-          "link": 1668
-        },
-        {
-          "name": "height",
-          "type": "INT",
-          "widget": {
-            "name": "height"
-          },
-          "link": 1669
+          "link": 617
         }
       ],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            617,
-            621,
-            2725
-          ]
-        },
-        {
-          "name": "width",
-          "type": "INT",
-          "links": []
-        },
-        {
-          "name": "height",
-          "type": "INT",
-          "links": []
-        }
-      ],
+      "outputs": [],
       "properties": {
-        "cnr_id": "comfyui-kjnodes",
-        "ver": "5dcda71011870278c35d92ff77a677ed2e538f2d",
-        "Node name for S&R": "ImageResizeKJv2"
+        "cnr_id": "comfy-core",
+        "ver": "0.3.38",
+        "Node name for S&R": "SaveImage"
       },
       "widgets_values": [
-        512,
-        512,
-        "lanczos",
-        "pad",
-        "255,255,255",
-        "center",
-        16,
-        "cpu"
+        "FEMALE_CHARACTER"
       ],
       "color": "#222",
       "bgcolor": "#000"
@@ -9534,8 +8240,8 @@
       "id": 336,
       "type": "ImageResizeKJv2",
       "pos": [
-        -9195.14453125,
-        1225.31591796875
+        -9205.5390625,
+        1214.2203369140625
       ],
       "size": [
         270,
@@ -9544,8 +8250,8 @@
       "flags": {
         "collapsed": false
       },
-      "order": 134,
-      "mode": 4,
+      "order": 125,
+      "mode": 0,
       "inputs": [
         {
           "name": "image",
@@ -9576,7 +8282,7 @@
           "links": [
             618,
             622,
-            2726
+            2700
           ]
         },
         {
@@ -9620,13 +8326,13 @@
         26
       ],
       "flags": {},
-      "order": 152,
+      "order": 132,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 2725
+          "link": 2699
         }
       ],
       "outputs": [
@@ -9634,7 +8340,9 @@
           "name": "",
           "type": "IMAGE",
           "links": [
-            2727
+            2703,
+            2728,
+            2729
           ]
         }
       ],
@@ -9657,20 +8365,24 @@
         26
       ],
       "flags": {},
-      "order": 155,
+      "order": 129,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 2726
+          "link": 2700
         }
       ],
       "outputs": [
         {
           "name": "",
           "type": "IMAGE",
-          "links": []
+          "links": [
+            2704,
+            2731,
+            2732
+          ]
         }
       ],
       "properties": {
@@ -9684,15 +8396,15 @@
       "id": 982,
       "type": "ImageBatchMulti",
       "pos": [
-        -10429,
-        2634.21484375
+        -10349.4248046875,
+        2620.120361328125
       ],
       "size": [
         270,
         142
       ],
       "flags": {},
-      "order": 168,
+      "order": 135,
       "mode": 0,
       "inputs": [
         {
@@ -9703,12 +8415,12 @@
         {
           "name": "image_2",
           "type": "IMAGE",
-          "link": 2727
+          "link": 2703
         },
         {
           "name": "image_3",
           "type": "IMAGE",
-          "link": 2485
+          "link": 2704
         },
         {
           "name": "image_4",
@@ -9735,6 +8447,1302 @@
       ],
       "color": "#222",
       "bgcolor": "#000"
+    },
+    {
+      "id": 1068,
+      "type": "VHS_VideoInfo",
+      "pos": [
+        -5325.71142578125,
+        3719.928466796875
+      ],
+      "size": [
+        224.12109375,
+        206
+      ],
+      "flags": {
+        "collapsed": false
+      },
+      "order": 192,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "video_info",
+          "type": "VHS_VIDEOINFO",
+          "link": 2681
+        }
+      ],
+      "outputs": [
+        {
+          "name": "source_fps🟨",
+          "type": "FLOAT",
+          "links": [
+            2679
+          ]
+        },
+        {
+          "name": "source_frame_count🟨",
+          "type": "INT",
+          "links": null
+        },
+        {
+          "name": "source_duration🟨",
+          "type": "FLOAT",
+          "links": null
+        },
+        {
+          "name": "source_width🟨",
+          "type": "INT",
+          "links": null
+        },
+        {
+          "name": "source_height🟨",
+          "type": "INT",
+          "links": null
+        },
+        {
+          "name": "loaded_fps🟦",
+          "type": "FLOAT",
+          "links": null
+        },
+        {
+          "name": "loaded_frame_count🟦",
+          "type": "INT",
+          "links": null
+        },
+        {
+          "name": "loaded_duration🟦",
+          "type": "FLOAT",
+          "links": null
+        },
+        {
+          "name": "loaded_width🟦",
+          "type": "INT",
+          "links": null
+        },
+        {
+          "name": "loaded_height🟦",
+          "type": "INT",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-videohelpersuite",
+        "ver": "f7369389620ff244ddd6086cf0fa792a569086f2",
+        "Node name for S&R": "VHS_VideoInfo"
+      },
+      "widgets_values": {},
+      "color": "#233",
+      "bgcolor": "#355"
+    },
+    {
+      "id": 601,
+      "type": "WanVideoEncode",
+      "pos": [
+        -5196.59130859375,
+        2696.0283203125
+      ],
+      "size": [
+        330,
+        242
+      ],
+      "flags": {
+        "collapsed": false
+      },
+      "order": 168,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "vae",
+          "name": "vae",
+          "type": "WANVAE",
+          "link": 1223
+        },
+        {
+          "label": "image",
+          "name": "image",
+          "type": "IMAGE",
+          "link": 2459
+        },
+        {
+          "label": "mask",
+          "name": "mask",
+          "shape": 7,
+          "type": "MASK",
+          "link": 2460
+        }
+      ],
+      "outputs": [
+        {
+          "label": "samples",
+          "name": "samples",
+          "type": "LATENT",
+          "links": [
+            2461
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "ComfyUI-WanVideoWrapper",
+        "ver": "a623f87dcad9cff5a690559fe559566be4045a9a",
+        "Node name for S&R": "WanVideoEncode",
+        "ttNbgOverride": {
+          "color": "#223",
+          "bgcolor": "#335",
+          "groupcolor": "#88A"
+        }
+      },
+      "widgets_values": [
+        false,
+        272,
+        272,
+        144,
+        128,
+        0.003000000000000001,
+        0.5000000000000001
+      ],
+      "color": "#222",
+      "bgcolor": "#000"
+    },
+    {
+      "id": 976,
+      "type": "WanVideoEncode",
+      "pos": [
+        -5203.685546875,
+        2990.91552734375
+      ],
+      "size": [
+        330,
+        242
+      ],
+      "flags": {
+        "collapsed": false
+      },
+      "order": 104,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "vae",
+          "name": "vae",
+          "type": "WANVAE",
+          "link": 2458
+        },
+        {
+          "label": "image",
+          "name": "image",
+          "type": "IMAGE",
+          "link": 2453
+        },
+        {
+          "label": "mask",
+          "name": "mask",
+          "shape": 7,
+          "type": "MASK",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "label": "samples",
+          "name": "samples",
+          "type": "LATENT",
+          "links": [
+            2457
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "ComfyUI-WanVideoWrapper",
+        "ver": "a623f87dcad9cff5a690559fe559566be4045a9a",
+        "Node name for S&R": "WanVideoEncode",
+        "ttNbgOverride": {
+          "color": "#223",
+          "bgcolor": "#335",
+          "groupcolor": "#88A"
+        }
+      },
+      "widgets_values": [
+        false,
+        272,
+        272,
+        144,
+        128,
+        0.003000000000000001,
+        0.5000000000000001
+      ],
+      "color": "#222",
+      "bgcolor": "#000"
+    },
+    {
+      "id": 866,
+      "type": "PreviewImage",
+      "pos": [
+        -7057.3779296875,
+        2841.966796875
+      ],
+      "size": [
+        233.3152618408203,
+        258
+      ],
+      "flags": {
+        "collapsed": false
+      },
+      "order": 101,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 2178
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.38",
+        "Node name for S&R": "PreviewImage"
+      },
+      "widgets_values": [],
+      "color": "#222",
+      "bgcolor": "#000"
+    },
+    {
+      "id": 869,
+      "type": "PreviewImage",
+      "pos": [
+        -6720.35546875,
+        3192.75927734375
+      ],
+      "size": [
+        218.04722595214844,
+        258
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 105,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 2189
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.38",
+        "Node name for S&R": "PreviewImage"
+      },
+      "widgets_values": [],
+      "color": "#222",
+      "bgcolor": "#000"
+    },
+    {
+      "id": 873,
+      "type": "BiRefNetRMBG",
+      "pos": [
+        -7103.919921875,
+        3506.58251953125
+      ],
+      "size": [
+        320,
+        254
+      ],
+      "flags": {
+        "collapsed": false
+      },
+      "order": 161,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 2196
+        },
+        {
+          "name": "background_color",
+          "shape": 7,
+          "type": "COLOR",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            2214,
+            2228,
+            2247,
+            2459
+          ]
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": [
+            2248,
+            2460
+          ]
+        },
+        {
+          "name": "MASK_IMAGE",
+          "type": "IMAGE",
+          "links": [
+            2200
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-rmbg",
+        "ver": "daf0b01deb1c529dfb543093bba2ed586aad7886",
+        "Node name for S&R": "BiRefNetRMBG"
+      },
+      "widgets_values": [
+        "BiRefNet-general",
+        1,
+        0,
+        false,
+        false,
+        "Color"
+      ],
+      "color": "#222",
+      "bgcolor": "#000"
+    },
+    {
+      "id": 981,
+      "type": "WanVideoVRAMManagement",
+      "pos": [
+        -5941.94189453125,
+        2185.407958984375
+      ],
+      "size": [
+        293.6646423339844,
+        58
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 40,
+      "mode": 4,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "vram_management_args",
+          "type": "VRAM_MANAGEMENTARGS",
+          "links": [
+            2465
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "ComfyUI-WanVideoWrapper",
+        "ver": "fa7015315a484c15eb79f41744ef501c728dc9d4",
+        "Node name for S&R": "WanVideoVRAMManagement"
+      },
+      "widgets_values": [
+        0.7000000000000002
+      ],
+      "color": "#222",
+      "bgcolor": "#000"
+    },
+    {
+      "id": 995,
+      "type": "Reroute",
+      "pos": [
+        -6361.2880859375,
+        4045.128662109375
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 117,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "widget": {
+            "name": "value"
+          },
+          "link": 2656
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "STRING",
+          "links": [
+            2706
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      },
+      "color": "#322",
+      "bgcolor": "#533"
+    },
+    {
+      "id": 994,
+      "type": "Reroute",
+      "pos": [
+        -6363.1630859375,
+        3993.87890625
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 118,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "widget": {
+            "name": "value"
+          },
+          "link": 2650
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "STRING",
+          "links": [
+            2707
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      },
+      "color": "#322",
+      "bgcolor": "#533"
+    },
+    {
+      "id": 997,
+      "type": "Reroute",
+      "pos": [
+        -6364.9248046875,
+        3947.508056640625
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 150,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "widget": {
+            "name": "value"
+          },
+          "link": 2515
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "STRING",
+          "links": [
+            2708
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      },
+      "color": "#322",
+      "bgcolor": "#533"
+    },
+    {
+      "id": 1001,
+      "type": "Reroute",
+      "pos": [
+        -6349.77978515625,
+        3237.788330078125
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 156,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 2739
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "IMAGE",
+          "links": [
+            2709
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      },
+      "color": "#322",
+      "bgcolor": "#533"
+    },
+    {
+      "id": 663,
+      "type": "Reroute",
+      "pos": [
+        -6349.91064453125,
+        3281.140625
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 137,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 2729
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "IMAGE",
+          "links": [
+            2710
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      },
+      "color": "#322",
+      "bgcolor": "#533"
+    },
+    {
+      "id": 664,
+      "type": "Reroute",
+      "pos": [
+        -6349.22119140625,
+        3323.6923828125
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 134,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 2732
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "IMAGE",
+          "links": [
+            2711
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      },
+      "color": "#322",
+      "bgcolor": "#533"
+    },
+    {
+      "id": 580,
+      "type": "WanVideoVACEEncode",
+      "pos": [
+        -5596.74853515625,
+        3035.75732421875
+      ],
+      "size": [
+        308.55474853515625,
+        282
+      ],
+      "flags": {
+        "collapsed": false
+      },
+      "order": 174,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "vae",
+          "type": "WANVAE",
+          "link": 1203
+        },
+        {
+          "name": "input_frames",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": 2225
+        },
+        {
+          "name": "ref_images",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": 2268
+        },
+        {
+          "name": "input_masks",
+          "shape": 7,
+          "type": "MASK",
+          "link": null
+        },
+        {
+          "name": "prev_vace_embeds",
+          "shape": 7,
+          "type": "WANVIDIMAGE_EMBEDS",
+          "link": null
+        },
+        {
+          "name": "width",
+          "type": "INT",
+          "widget": {
+            "name": "width"
+          },
+          "link": 1181
+        },
+        {
+          "name": "height",
+          "type": "INT",
+          "widget": {
+            "name": "height"
+          },
+          "link": 1180
+        },
+        {
+          "name": "num_frames",
+          "type": "INT",
+          "widget": {
+            "name": "num_frames"
+          },
+          "link": 1183
+        }
+      ],
+      "outputs": [
+        {
+          "name": "vace_embeds",
+          "type": "WANVIDIMAGE_EMBEDS",
+          "links": [
+            1202
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "ComfyUI-WanVideoWrapper",
+        "ver": "fa7015315a484c15eb79f41744ef501c728dc9d4",
+        "Node name for S&R": "WanVideoVACEEncode"
+      },
+      "widgets_values": [
+        832,
+        480,
+        81,
+        0.7000000000000002,
+        0,
+        0.9000000000000001,
+        false
+      ],
+      "color": "#222",
+      "bgcolor": "#000"
+    },
+    {
+      "id": 867,
+      "type": "BiRefNetRMBG",
+      "pos": [
+        -7067.39794921875,
+        3144.67333984375
+      ],
+      "size": [
+        320,
+        254
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 90,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 2191
+        },
+        {
+          "name": "background_color",
+          "shape": 7,
+          "type": "COLOR",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            2190,
+            2229
+          ]
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null
+        },
+        {
+          "name": "MASK_IMAGE",
+          "type": "IMAGE",
+          "links": [
+            2453
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-rmbg",
+        "ver": "daf0b01deb1c529dfb543093bba2ed586aad7886",
+        "Node name for S&R": "BiRefNetRMBG"
+      },
+      "widgets_values": [
+        "BiRefNet-general",
+        1,
+        0,
+        false,
+        false,
+        "Color"
+      ],
+      "color": "#222",
+      "bgcolor": "#000"
+    },
+    {
+      "id": 863,
+      "type": "BiRefNetRMBG",
+      "pos": [
+        -6742.40771484375,
+        2801.52587890625
+      ],
+      "size": [
+        320,
+        254
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 94,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 2478
+        },
+        {
+          "name": "background_color",
+          "shape": 7,
+          "type": "COLOR",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            2176,
+            2698
+          ]
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": []
+        },
+        {
+          "name": "MASK_IMAGE",
+          "type": "IMAGE",
+          "links": []
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-rmbg",
+        "ver": "daf0b01deb1c529dfb543093bba2ed586aad7886",
+        "Node name for S&R": "BiRefNetRMBG"
+      },
+      "widgets_values": [
+        "BiRefNet-general",
+        1,
+        0,
+        false,
+        false,
+        "Color"
+      ],
+      "color": "#222e40",
+      "bgcolor": "#364254"
+    },
+    {
+      "id": 868,
+      "type": "BiRefNetRMBG",
+      "pos": [
+        -6757.673828125,
+        3154.389404296875
+      ],
+      "size": [
+        320,
+        254
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 91,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 2192
+        },
+        {
+          "name": "background_color",
+          "shape": 7,
+          "type": "COLOR",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            2189,
+            2230
+          ]
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null
+        },
+        {
+          "name": "MASK_IMAGE",
+          "type": "IMAGE",
+          "links": []
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-rmbg",
+        "ver": "daf0b01deb1c529dfb543093bba2ed586aad7886",
+        "Node name for S&R": "BiRefNetRMBG"
+      },
+      "widgets_values": [
+        "BiRefNet-general",
+        1,
+        0,
+        false,
+        false,
+        "Color"
+      ],
+      "color": "#222",
+      "bgcolor": "#000"
+    },
+    {
+      "id": 230,
+      "type": "ImageResizeKJv2",
+      "pos": [
+        -9195.54296875,
+        166.54112243652344
+      ],
+      "size": [
+        270,
+        266
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 126,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 559
+        },
+        {
+          "name": "width",
+          "type": "INT",
+          "widget": {
+            "name": "width"
+          },
+          "link": 1668
+        },
+        {
+          "name": "height",
+          "type": "INT",
+          "widget": {
+            "name": "height"
+          },
+          "link": 1669
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            617,
+            621,
+            2699
+          ]
+        },
+        {
+          "name": "width",
+          "type": "INT",
+          "links": []
+        },
+        {
+          "name": "height",
+          "type": "INT",
+          "links": []
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-kjnodes",
+        "ver": "5dcda71011870278c35d92ff77a677ed2e538f2d",
+        "Node name for S&R": "ImageResizeKJv2"
+      },
+      "widgets_values": [
+        512,
+        512,
+        "lanczos",
+        "pad",
+        "255,255,255",
+        "center",
+        16,
+        "cpu"
+      ],
+      "color": "#222",
+      "bgcolor": "#000"
+    },
+    {
+      "id": 681,
+      "type": "Reroute",
+      "pos": [
+        -6221.8701171875,
+        2457.305908203125
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 73,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 1510
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "IMAGE",
+          "links": [
+            2712
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      },
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 865,
+      "type": "BiRefNetRMBG",
+      "pos": [
+        -7083.9931640625,
+        2806.122802734375
+      ],
+      "size": [
+        320,
+        254
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 89,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 2712
+        },
+        {
+          "name": "background_color",
+          "shape": 7,
+          "type": "COLOR",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            2178,
+            2697
+          ]
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null
+        },
+        {
+          "name": "MASK_IMAGE",
+          "type": "IMAGE",
+          "links": []
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-rmbg",
+        "ver": "daf0b01deb1c529dfb543093bba2ed586aad7886",
+        "Node name for S&R": "BiRefNetRMBG"
+      },
+      "widgets_values": [
+        "BiRefNet-general",
+        1,
+        0,
+        false,
+        false,
+        "Color"
+      ],
+      "color": "#222e40",
+      "bgcolor": "#364254"
+    },
+    {
+      "id": 793,
+      "type": "VHS_LoadVideoPath",
+      "pos": [
+        -5626.85986328125,
+        3428.010498046875
+      ],
+      "size": [
+        236.4912109375,
+        286
+      ],
+      "flags": {},
+      "order": 188,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "meta_batch",
+          "shape": 7,
+          "type": "VHS_BatchManager",
+          "link": null
+        },
+        {
+          "name": "vae",
+          "shape": 7,
+          "type": "VAE",
+          "link": null
+        },
+        {
+          "name": "video",
+          "type": "STRING",
+          "widget": {
+            "name": "video"
+          },
+          "link": 2001
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            2680
+          ]
+        },
+        {
+          "name": "frame_count",
+          "type": "INT",
+          "links": null
+        },
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "links": null
+        },
+        {
+          "name": "video_info",
+          "type": "VHS_VIDEOINFO",
+          "links": [
+            2681
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-videohelpersuite",
+        "ver": "f7369389620ff244ddd6086cf0fa792a569086f2",
+        "Node name for S&R": "VHS_LoadVideoPath"
+      },
+      "widgets_values": {
+        "video": "",
+        "force_rate": 0,
+        "custom_width": 0,
+        "custom_height": 0,
+        "frame_load_cap": 0,
+        "skip_first_frames": 0,
+        "select_every_nth": 1,
+        "format": "Wan",
+        "videopreview": {
+          "hidden": false,
+          "params": {
+            "type": "path",
+            "format": "video/",
+            "filename": "",
+            "force_rate": 0,
+            "custom_width": 0,
+            "custom_height": 0,
+            "frame_load_cap": 0,
+            "select_every_nth": 1,
+            "skip_first_frames": 0
+          },
+          "paused": false
+        }
+      },
+      "color": "#233",
+      "bgcolor": "#355"
+    },
+    {
+      "id": 1066,
+      "type": "SaveVideo",
+      "pos": [
+        -5347.85205078125,
+        3544.6826171875
+      ],
+      "size": [
+        455.1629333496094,
+        620.3163452148438
+      ],
+      "flags": {},
+      "order": 196,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "video",
+          "type": "VIDEO",
+          "link": 2676
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.38",
+        "Node name for S&R": "SaveVideo"
+      },
+      "widgets_values": [
+        "video/Kling_fal_",
+        "auto",
+        "auto"
+      ],
+      "color": "#233",
+      "bgcolor": "#355"
+    },
+    {
+      "id": 1060,
+      "type": "Label (rgthree)",
+      "pos": [
+        -8636.568359375,
+        -377.7355041503906
+      ],
+      "size": [
+        2722.55859375,
+        120
+      ],
+      "flags": {
+        "allow_interaction": true
+      },
+      "order": 41,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "RUN THIS TEMPLATE ON COMFYDEPLOY.COM ",
+      "properties": {
+        "fontSize": 120,
+        "fontFamily": "Arial",
+        "fontColor": "#999999",
+        "textAlign": "left",
+        "backgroundColor": "\n\n\n\n\n\n\n\n#e6ccff",
+        "padding": 0,
+        "borderRadius": 0
+      },
+      "color": "#fff0",
+      "bgcolor": "#fff0"
+    },
+    {
+      "id": 1061,
+      "type": "Label (rgthree)",
+      "pos": [
+        -8591.279296875,
+        -128.62106323242188
+      ],
+      "size": [
+        1849.1015625,
+        120
+      ],
+      "flags": {
+        "allow_interaction": true
+      },
+      "order": 42,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "www.youtube.com/@impactframes",
+      "properties": {
+        "fontSize": 120,
+        "fontFamily": "Arial",
+        "fontColor": "#999999",
+        "textAlign": "left",
+        "backgroundColor": "\n\n\n\n\n\n\n\n#e6ccff",
+        "padding": 0,
+        "borderRadius": 0
+      },
+      "color": "#fff0",
+      "bgcolor": "#fff0"
     }
   ],
   "links": [
@@ -11283,14 +11291,6 @@
       "IMAGE"
     ],
     [
-      2479,
-      682,
-      0,
-      865,
-      0,
-      "IMAGE"
-    ],
-    [
       2481,
       317,
       0,
@@ -11304,14 +11304,6 @@
       0,
       982,
       0,
-      "IMAGE"
-    ],
-    [
-      2485,
-      802,
-      0,
-      982,
-      2,
       "IMAGE"
     ],
     [
@@ -11411,30 +11403,6 @@
       "*"
     ],
     [
-      2524,
-      987,
-      0,
-      991,
-      0,
-      "*"
-    ],
-    [
-      2525,
-      986,
-      0,
-      990,
-      0,
-      "*"
-    ],
-    [
-      2526,
-      988,
-      0,
-      992,
-      0,
-      "*"
-    ],
-    [
       2528,
       993,
       0,
@@ -11449,30 +11417,6 @@
       570,
       1,
       "STRING"
-    ],
-    [
-      2543,
-      574,
-      0,
-      803,
-      0,
-      "*"
-    ],
-    [
-      2544,
-      589,
-      0,
-      801,
-      0,
-      "*"
-    ],
-    [
-      2545,
-      588,
-      0,
-      802,
-      0,
-      "*"
     ],
     [
       2547,
@@ -11731,15 +11675,7 @@
       "COMBO"
     ],
     [
-      2716,
-      447,
-      0,
-      1001,
-      0,
-      "*"
-    ],
-    [
-      2717,
+      2697,
       865,
       0,
       1073,
@@ -11747,7 +11683,7 @@
       "*"
     ],
     [
-      2720,
+      2698,
       863,
       0,
       1074,
@@ -11755,39 +11691,7 @@
       "*"
     ],
     [
-      2721,
-      1073,
-      0,
-      657,
-      1,
-      "IMAGE"
-    ],
-    [
-      2722,
-      1073,
-      0,
-      663,
-      0,
-      "*"
-    ],
-    [
-      2723,
-      1074,
-      0,
-      655,
-      1,
-      "IMAGE"
-    ],
-    [
-      2724,
-      1074,
-      0,
-      664,
-      0,
-      "*"
-    ],
-    [
-      2725,
+      2699,
       230,
       0,
       683,
@@ -11795,7 +11699,7 @@
       "*"
     ],
     [
-      2726,
+      2700,
       336,
       0,
       684,
@@ -11803,12 +11707,116 @@
       "*"
     ],
     [
-      2727,
+      2703,
       683,
       0,
       982,
       1,
       "IMAGE"
+    ],
+    [
+      2704,
+      684,
+      0,
+      982,
+      2,
+      "IMAGE"
+    ],
+    [
+      2706,
+      995,
+      0,
+      991,
+      0,
+      "*"
+    ],
+    [
+      2707,
+      994,
+      0,
+      990,
+      0,
+      "*"
+    ],
+    [
+      2708,
+      997,
+      0,
+      992,
+      0,
+      "*"
+    ],
+    [
+      2709,
+      1001,
+      0,
+      803,
+      0,
+      "*"
+    ],
+    [
+      2710,
+      663,
+      0,
+      801,
+      0,
+      "*"
+    ],
+    [
+      2711,
+      664,
+      0,
+      802,
+      0,
+      "*"
+    ],
+    [
+      2712,
+      681,
+      0,
+      865,
+      0,
+      "IMAGE"
+    ],
+    [
+      2728,
+      683,
+      0,
+      657,
+      1,
+      "IMAGE"
+    ],
+    [
+      2729,
+      683,
+      0,
+      663,
+      0,
+      "*"
+    ],
+    [
+      2731,
+      684,
+      0,
+      655,
+      1,
+      "IMAGE"
+    ],
+    [
+      2732,
+      684,
+      0,
+      664,
+      0,
+      "*"
+    ],
+    [
+      2739,
+      447,
+      0,
+      1001,
+      0,
+      "*"
     ]
   ],
   "groups": [
@@ -12504,8 +12512,8 @@
       "id": 122,
       "title": "Prompt_bridge",
       "bounding": [
-        -6342.4599609375,
-        3668.32275390625,
+        -6235.51171875,
+        3680.614501953125,
         99.62890625,
         232.02804565429688
       ],
@@ -12517,8 +12525,8 @@
       "id": 123,
       "title": "Prompt_RUN",
       "bounding": [
-        -6294.39111328125,
-        3905.536865234375,
+        -6401.7275390625,
+        3904.244873046875,
         99.62890625,
         232.02804565429688
       ],
@@ -12554,10 +12562,10 @@
     },
     {
       "id": 141,
-      "title": "Source",
+      "title": "INPUT",
       "bounding": [
-        -6223.13916015625,
-        3398.726806640625,
+        -6214.8017578125,
+        3427.7548828125,
         96.379638671875,
         116.6786117553711
       ],
@@ -12569,10 +12577,10 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.21435888100000253,
+      "scale": 0.23579476910000108,
       "offset": [
-        13755.749882188853,
-        1047.622006523206
+        13419.034939693573,
+        829.301925422545
       ]
     },
     "frontendVersion": "1.20.6",
